@@ -25,7 +25,7 @@ threading.Thread(target=read,daemon=True).start()
 deadline=time.monotonic()+600
 while not state['ready'] and proc.poll() is None and time.monotonic()<deadline:time.sleep(1)
 try:
-    assert state['ready'],'Server did not reach Done; see build/friends-server-check.log'
+    assert state['ready'],f"Server did not reach Done (exit={proc.poll()}); see build/friends-server-check.log"
     host,port=state['address'].rsplit(':',1)
     with socket.create_connection((host,int(port)),timeout=10):pass
     print('Radmin TCP listener OK; requesting clean shutdown',flush=True)

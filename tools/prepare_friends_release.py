@@ -62,6 +62,9 @@ for p in (SERVER/'kubejs/config').glob('*'):
 java=next((ROOT/'runtime/java21').glob('*/bin/java.exe')).parent.parent
 copy(java,SERVER/'runtime/java21')
 (SERVER/'eula.txt').write_text('eula=true\n',encoding='ascii')
+for filename in ['banned-players.json','banned-ips.json','ops.json','whitelist.json','usercache.json']:
+    if not (SERVER/filename).exists():
+        (SERVER/filename).write_text('[]',encoding='ascii')
 (SERVER/'server.properties').write_text('server-ip=\nserver-port=25565\nonline-mode=true\nenforce-secure-profile=false\nlevel-name=world\ndifficulty=normal\ngamemode=survival\nmax-players=4\nview-distance=10\nsimulation-distance=6\nallow-flight=true\nspawn-protection=0\npvp=true\nwhite-list=false\nenable-rcon=false\nmotd=Arcane Industry 0.2.0\n',encoding='ascii')
 (SERVER/'user_jvm_args.txt').write_text('-Xms2G\n-Xmx8G\n-XX:+UseG1GC\n',encoding='ascii')
 for name in ['Start-Server.cmd','Start-Server.ps1','Configure-Firewall.cmd','Configure-Firewall.ps1','Backup-World.cmd','Backup-World.ps1']:
