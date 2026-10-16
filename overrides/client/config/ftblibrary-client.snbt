@@ -1,0 +1,19 @@
+{
+  sidebar: {
+    enabled: true
+    position: "top_left"
+    buttons: {
+      "ftbquests:quests": { enabled: true, x: 0, y: 0 }
+      "ftbteams:my_team": { enabled: true, x: 1, y: 0 }
+      "ftbchunks:chunks": { enabled: true, x: 2, y: 0 }
+      "ftbteams:team_lives": { enabled: false, x: 0, y: 1 }
+      "ftbchunks:claim_chunks": { enabled: false, x: 1, y: 1 }
+      "ftbultimine:config": { enabled: false, x: 2, y: 1 }
+      "ftblibrary:config": { enabled: false, x: 3, y: 1 }
+      "ftblibrary:toggle/gamemode": { enabled: false, x: 0, y: 2 }
+      "ftblibrary:toggle/day": { enabled: false, x: 1, y: 2 }
+      "ftblibrary:toggle/night": { enabled: false, x: 2, y: 2 }
+      "ftblibrary:toggle/rain": { enabled: false, x: 3, y: 2 }
+    }
+  }
+}

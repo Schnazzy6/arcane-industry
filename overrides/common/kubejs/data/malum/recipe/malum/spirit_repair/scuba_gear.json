@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "scuba_gear"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "item": "minecraft:iron_ingot",
+    "count": 2
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 8
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 8
+    }
+  ],
+  "regex": {
+    "itemIdRegex": "scuba_(helmet|chestplate|leggings|boots)",
+    "modIdRegex": "scuba_gear"
+  },
+  "validItems": []
+}

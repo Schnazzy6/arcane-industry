@@ -1,0 +1,1 @@
+{"type":"minecraft:chest","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:iron_axe","functions":[{"function":"minecraft:set_components","components":{"minecraft:repair_cost":1,"minecraft:enchantments":{"levels":{"minecraft:efficiency":1}}}}]}]}]}

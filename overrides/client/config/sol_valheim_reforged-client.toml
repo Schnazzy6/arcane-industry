@@ -1,0 +1,6 @@
+[food_hud_position_preset]
+hud_preset = "default"
+[food_hud_position_custom]
+hud_x_position = 47.0
+hud_y_position = -39.0
+hud_scale = 0.9

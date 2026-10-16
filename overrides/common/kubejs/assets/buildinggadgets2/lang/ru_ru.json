@@ -1,0 +1,11 @@
+{
+  "block.buildinggadgets2.render_block": "Блок отрисовки (НЕ ИСПОЛЬЗОВАТЬ)",
+  "block.buildinggadgets2.template_manager": "Менеджер шаблонов",
+  "item.buildinggadgets2.gadget_building": "Строительный гаджет",
+  "item.buildinggadgets2.gadget_copy_paste": "Гаджет копирования",
+  "item.buildinggadgets2.gadget_cut_paste": "Гаджет вырезания",
+  "item.buildinggadgets2.gadget_destruction": "Гаджет разрушения",
+  "item.buildinggadgets2.gadget_exchanging": "Гаджет замены",
+  "item.buildinggadgets2.redprint": "Красный чертёж",
+  "item.buildinggadgets2.template": "Шаблон"
+}

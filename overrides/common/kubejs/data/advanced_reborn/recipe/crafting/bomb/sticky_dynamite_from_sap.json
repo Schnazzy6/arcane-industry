@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "advanced_reborn:dynamite"
+    },
+    "B": {
+      "item": "techreborn:sap"
+    }
+  },
+  "result": {
+    "count": 8,
+    "id": "advanced_reborn:sticky_dynamite"
+  }
+}

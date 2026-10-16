@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#arcaneindustry:progression_bosses",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:centipede_head",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:farseer",
+      "required": false
+    }
+  ]
+}

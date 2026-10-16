@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "techreborn:advanced_circuit"
+    },
+    {
+      "item": "techreborn:basic_solar_panel"
+    },
+    {
+      "item": "kubejs:reborn_interface"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "advanced_reborn:ray_solar_panel"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ]
+}

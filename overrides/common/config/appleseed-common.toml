@@ -1,0 +1,10 @@
+[General_Settings]
+ignore_hunger = true
+entrance_visibility = "ftb_compact"
+
+[Effects_Override]
+fruits_ranges = ["71-80:attribute(minecraft:generic.attack_speed,0.05)", "81-100:attribute(minecraft:generic.attack_speed,0.1)"]
+grains_ranges = ["81-100:effect(minecraft:haste,0)"]
+proteins_ranges = ["71-80:attribute(minecraft:generic.attack_damage,0.5)", "81-100:attribute(minecraft:generic.attack_damage,1.0)"]
+vegetables_ranges = ["71-80:attribute(minecraft:generic.armor_toughness,0.5)", "81-100:attribute(minecraft:generic.armor_toughness,1.0)"]
+sugars_ranges = ["61-80:attribute(minecraft:generic.movement_speed,0.003)", "81-100:attribute(minecraft:generic.movement_speed,0.005)"]

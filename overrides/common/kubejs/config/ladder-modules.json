@@ -1,0 +1,18 @@
+{
+	"modules": [
+		"aura_seed_t4",
+		"aura_seed_t5",
+		"aura_seed_t6",
+		"aura_seed_t7",
+		"aura_seed_t8",
+		"dark_essence_t7",
+		"spirit_contract_t5",
+		"tech_module_t10",
+		"tech_module_t11",
+		"tech_module_t4",
+		"tech_module_t5",
+		"tech_module_t6",
+		"tech_module_t8",
+		"tech_module_t9"
+	]
+}

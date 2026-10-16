@@ -1,0 +1,1067 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic1"
+	group: "517E2EE5EE2E76FF"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: false
+	icon: {
+		count: 1
+		id: "ars_nouveau:novice_spell_book"
+	}
+	id: "11150EC1050A5B59"
+	images: [
+		{
+			alpha: 245
+			click_action: ""
+			color: 6443128
+			height: 0.85d
+			hover: [
+				"Ученичество магии (M1)"
+			]
+			id: "2D3BDF38F2FAC0EA"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 24.0d
+			x: 10.0d
+			y: -9.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"697D3FD338F4CF66"
+			]
+			hide_dependency_lines: true
+			id: "485295578C62F58B"
+			rewards: [ ]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5C40948C4AF66DDD"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"485295578C62F58B"
+			]
+			icon: {
+				count: 1
+				id: "ars_nouveau:blue_archwood_log"
+			}
+			id: "609EE55AE2C970B4"
+			rewards: [
+				{
+					id: "6BF01307406E074A"
+					item: {
+						count: 2
+						id: "minecraft:candle"
+					}
+					type: "item"
+				}
+				{
+					id: "111F24AA63FF0598"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7F9426ACA1AE824A"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:logs/archwood)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"609EE55AE2C970B4"
+			]
+			icon: {
+				count: 1
+				id: "ars_nouveau:imbuement_chamber"
+			}
+			id: "17EDEA1EAE9531CC"
+			rewards: [
+				{
+					id: "05AAA9D9FB0ECF1E"
+					item: {
+						count: 2
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "7564639ACD63D5C9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "37D3FF0797751131"
+					item: {
+						count: 1
+						id: "ars_nouveau:imbuement_chamber"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"17EDEA1EAE9531CC"
+			]
+			icon: {
+				count: 1
+				id: "ars_nouveau:source_gem"
+			}
+			id: "4292BC63C8257CDE"
+			rewards: [
+				{
+					id: "05268B6B4D875F18"
+					item: {
+						count: 2
+						id: "minecraft:candle"
+					}
+					type: "item"
+				}
+				{
+					id: "0B0BD7DE4E390EF1"
+					type: "xp"
+					xp: 6
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "0D40B9B2F38B83C2"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4292BC63C8257CDE"
+			]
+			icon: {
+				count: 1
+				id: "ars_nouveau:source_jar"
+			}
+			id: "512C30414304919C"
+			rewards: [
+				{
+					id: "4AFAA424302A2A37"
+					item: {
+						count: 2
+						id: "minecraft:candle"
+					}
+					type: "item"
+				}
+				{
+					id: "5D8A772D5E715324"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "62CA303C2BEEC4AC"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_jar"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"512C30414304919C"
+			]
+			icon: {
+				count: 1
+				id: "ars_nouveau:agronomic_sourcelink"
+			}
+			id: "1F98A68D5ACF48F2"
+			rewards: [
+				{
+					id: "61FC5AB884F3C7A8"
+					item: {
+						count: 2
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "5FF41345CC49FD93"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6F2B47F077C5866D"
+					item: {
+						count: 1
+						id: "ars_nouveau:agronomic_sourcelink"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1F98A68D5ACF48F2"
+			]
+			icon: {
+				count: 1
+				id: "ars_nouveau:sourcestone"
+			}
+			id: "25C79015DB7B7BAE"
+			rewards: [
+				{
+					id: "641E70C323655561"
+					item: {
+						count: 2
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "540C1376F7CD90F5"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "469BAA8919195DA4"
+					item: {
+						count: 1
+						id: "ars_nouveau:sourcestone"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"25C79015DB7B7BAE"
+			]
+			icon: {
+				count: 1
+				id: "ars_nouveau:arcane_core"
+			}
+			id: "23027EB953197AFF"
+			rewards: [
+				{
+					id: "2038DF54EA7526DD"
+					item: {
+						count: 2
+						id: "minecraft:candle"
+					}
+					type: "item"
+				}
+				{
+					id: "666E308CA521D8A8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3868841F3156C1A0"
+					item: {
+						count: 1
+						id: "ars_nouveau:arcane_core"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "72E81F288C0F6509"
+					item: {
+						count: 1
+						id: "ars_nouveau:arcane_pedestal"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"23027EB953197AFF"
+				"7313FB022F399785"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "ars_nouveau:enchanting_apparatus"
+			}
+			id: "674304B63C433DF2"
+			rewards: [
+				{
+					id: "71838D9CA134B4DA"
+					item: {
+						count: 2
+						id: "minecraft:candle"
+					}
+					type: "item"
+				}
+				{
+					id: "7754079C116D196A"
+					item: {
+						count: 8
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "4121B7C106B18CA5"
+					type: "xp"
+					xp: 9
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "3AFE855FE895CD5A"
+					item: {
+						count: 1
+						id: "ars_nouveau:enchanting_apparatus"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"674304B63C433DF2"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:arcane_resin"
+			}
+			id: "6791D4B8B7203240"
+			rewards: [
+				{
+					id: "4B4BEE89A9487379"
+					item: {
+						count: 2
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "1CA641965E6132EB"
+					item: {
+						count: 8
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "596FBF116BDAC403"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "5542A94C174041C9"
+					item: {
+						count: 1
+						id: "kubejs:arcane_resin"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4292BC63C8257CDE"
+			]
+			icon: {
+				count: 1
+				id: "ars_nouveau:novice_spell_book"
+			}
+			id: "1E6E8CECD99FF00F"
+			rewards: [
+				{
+					id: "0449804F617A6396"
+					item: {
+						count: 2
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "6B37346AA6D08091"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "001BCAA2EFDBF70E"
+					item: {
+						count: 1
+						id: "ars_nouveau:novice_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1E6E8CECD99FF00F"
+			]
+			icon: {
+				count: 1
+				id: "ars_nouveau:scribes_table"
+			}
+			id: "1B0F4D53796D5E3C"
+			rewards: [
+				{
+					id: "5AD69F6E8D778080"
+					item: {
+						count: 2
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "2CB2EE34659FB0C6"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1CC17BD7EE62308D"
+					item: {
+						count: 1
+						id: "ars_nouveau:scribes_table"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1B0F4D53796D5E3C"
+			]
+			icon: {
+				count: 1
+				id: "ars_nouveau:glyph_projectile"
+			}
+			id: "0CD6798245CBA02B"
+			rewards: [
+				{
+					id: "0A4FB2A8CD65255D"
+					item: {
+						count: 2
+						id: "minecraft:candle"
+					}
+					type: "item"
+				}
+				{
+					id: "6E07CBACCC011156"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2EBBD39EF0713A71"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_projectile"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3B14FE7AD265931F"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_break"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0FD3325B16CC5CCC"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_light"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0CD6798245CBA02B"
+				"674304B63C433DF2"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "ars_nouveau:magebloom_fiber"
+			}
+			id: "17B9D49EBCFD8BDB"
+			rewards: [
+				{
+					id: "7963940ECF57F733"
+					item: {
+						count: 2
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "77C783183F4C06A1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "25EE013604F4E805"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_fiber"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"17B9D49EBCFD8BDB"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "ars_nouveau:blank_parchment"
+			}
+			id: "106EC5A7937837FD"
+			optional: true
+			rewards: [
+				{
+					id: "1CEDE58EBFA00986"
+					item: {
+						count: 4
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "49AC1E8CE674E0DE"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 2L
+					id: "6B736213757C0E6F"
+					item: {
+						count: 1
+						id: "ars_nouveau:blank_parchment"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"674304B63C433DF2"
+			]
+			icon: {
+				count: 1
+				id: "ars_nouveau:ritual_brazier"
+			}
+			id: "116F6E1938085CD6"
+			optional: true
+			rewards: [
+				{
+					id: "2F1DF343A6A69A85"
+					item: {
+						count: 2
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "064B283A3BB772A2"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4F902D918C668A2E"
+					item: {
+						count: 1
+						id: "ars_nouveau:ritual_brazier"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4292BC63C8257CDE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:ritual_mount"
+			}
+			id: "7313FB022F399785"
+			rewards: [ ]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6E8BB4E272B1837A"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7313FB022F399785"
+			]
+			icon: {
+				count: 1
+				id: "irons_spellbooks:inscription_table"
+			}
+			id: "72F7B137C63A2F19"
+			rewards: [
+				{
+					id: "6472E5CEEB8F7855"
+					item: {
+						count: 4
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "0038E135B9E7734F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1494F0FFD3D1045A"
+					item: {
+						count: 1
+						id: "irons_spellbooks:inscription_table"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"72F7B137C63A2F19"
+			]
+			icon: {
+				count: 1
+				id: "irons_spellbooks:copper_spell_book"
+			}
+			id: "699731993F3733ED"
+			rewards: [
+				{
+					id: "5D2B9F44ABD79726"
+					item: {
+						count: 2
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "33F48F48186BDC46"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "128AE6D68DAE8E2F"
+					item: {
+						count: 1
+						id: "irons_spellbooks:copper_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"699731993F3733ED"
+			]
+			icon: {
+				count: 1
+				id: "irons_spellbooks:arcane_essence"
+			}
+			id: "17AEE328E8359D33"
+			optional: true
+			rewards: [
+				{
+					id: "067BDE25E0C1EEF8"
+					item: {
+						count: 4
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "7B854F1CAFCD813D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "5E082D37DE73AE1C"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7313FB022F399785"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "hexerei:mixing_cauldron"
+			}
+			id: "108CE478EC128B62"
+			rewards: [
+				{
+					id: "4F5B1A7A642E122A"
+					item: {
+						count: 2
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "6AE7BAF852863A7A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "50B250D290A47DA9"
+					item: {
+						count: 1
+						id: "hexerei:mixing_cauldron"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"108CE478EC128B62"
+			]
+			icon: {
+				count: 1
+				id: "hexerei:book_of_shadows"
+			}
+			id: "59CFBD18DFF49DD7"
+			optional: true
+			rewards: [
+				{
+					id: "79082AD5989B33F6"
+					item: {
+						count: 2
+						id: "minecraft:candle"
+					}
+					type: "item"
+				}
+				{
+					id: "1F36D34E584C8506"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6DAB8AA1777BBE07"
+					item: {
+						count: 1
+						id: "hexerei:book_of_shadows"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7313FB022F399785"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "eidolon_repraised:pewter_ingot"
+			}
+			id: "6DFF33CCF4760B2A"
+			rewards: [
+				{
+					id: "6476AAB0E02B21EE"
+					item: {
+						count: 2
+						id: "minecraft:candle"
+					}
+					type: "item"
+				}
+				{
+					id: "50034646B7AE9C1E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "4ACCDA19021AFB9C"
+					item: {
+						count: 1
+						id: "eidolon_repraised:pewter_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6DFF33CCF4760B2A"
+			]
+			icon: {
+				count: 1
+				id: "eidolon_repraised:worktable"
+			}
+			id: "6CA0605F652182CE"
+			rewards: [
+				{
+					id: "22D9B361005FCBDE"
+					item: {
+						count: 2
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3BD60CB6517B9AF0"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0BA7108CB3450289"
+					item: {
+						count: 1
+						id: "eidolon_repraised:worktable"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6CA0605F652182CE"
+			]
+			icon: {
+				count: 1
+				id: "eidolon_repraised:codex"
+			}
+			id: "7406A267F8556968"
+			optional: true
+			rewards: [
+				{
+					id: "08B061CC0E5948E5"
+					item: {
+						count: 2
+						id: "minecraft:candle"
+					}
+					type: "item"
+				}
+				{
+					id: "161872D3E31318BF"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1031E95440C3620A"
+					item: {
+						count: 1
+						id: "eidolon_repraised:codex"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6791D4B8B7203240"
+				"699731993F3733ED"
+				"6CA0605F652182CE"
+			]
+			hide_dependency_lines: true
+			id: "7CB8BDCE34A85564"
+			rewards: [
+				{
+					id: "552C3E5AEE7F3CF7"
+					item: {
+						count: 2
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "446A275451D43CE5"
+					item: {
+						count: 8
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "66D4503F792A8F20"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "18DE2FABCE863CCD"
+					table_id: 8676077394364095534L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4440EEEFD4DACC2E"
+					type: "checkmark"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+	]
+}

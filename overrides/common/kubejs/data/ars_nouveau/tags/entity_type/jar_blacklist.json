@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#arcaneindustry:progression_bosses",
+      "required": false
+    },
+    {
+      "id": "#ars_nouveau:familiar",
+      "required": false
+    },
+    {
+      "id": "#c:capturing_not_supported",
+      "required": false
+    },
+    {
+      "id": "#twilightforest:bosses",
+      "required": false
+    }
+  ]
+}

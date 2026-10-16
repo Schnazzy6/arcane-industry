@@ -1,0 +1,1901 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "advanced_ae:adv_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:adv_pattern_provider_part",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:adv_pattern_provider_upgrade",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:flight_card",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:hp_buffer_card",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_storage_component",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_structure",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_unit",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_upgrade_base",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:reaction_chamber",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:regeneration_card",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:small_adv_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:small_adv_pattern_provider_part",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:strength_card",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:canning_machine",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:centrifugal_extractor",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:charge_pad",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:charge_pad_2",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:charge_pad_3",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:charge_pad_4",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:charge_pad_final",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:enchantment_extractor",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:farming_machine",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:freq_trans",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:induction_furnace",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:logging_machine",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_10",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_2",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_3",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_4",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_5",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_6",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_7",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_8",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_9",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_solar_panel",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_solar_panel_2",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_solar_panel_3",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_solar_panel_4",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:renaming_machine",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:rotary_grinder",
+      "required": false
+    },
+    {
+      "id": "ae2:64k_crafting_storage",
+      "required": false
+    },
+    {
+      "id": "ae2:annihilation_core",
+      "required": false
+    },
+    {
+      "id": "ae2:cable_interface",
+      "required": false
+    },
+    {
+      "id": "ae2:cable_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "ae2:calculation_processor",
+      "required": false
+    },
+    {
+      "id": "ae2:cell_component_16k",
+      "required": false
+    },
+    {
+      "id": "ae2:cell_component_256k",
+      "required": false
+    },
+    {
+      "id": "ae2:chest",
+      "required": false
+    },
+    {
+      "id": "ae2:controller",
+      "required": false
+    },
+    {
+      "id": "ae2:crafting_unit",
+      "required": false
+    },
+    {
+      "id": "ae2:creative_energy_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:creative_storage_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:drive",
+      "required": false
+    },
+    {
+      "id": "ae2:engineering_processor",
+      "required": false
+    },
+    {
+      "id": "ae2:formation_core",
+      "required": false
+    },
+    {
+      "id": "ae2:interface",
+      "required": false
+    },
+    {
+      "id": "ae2:logic_processor",
+      "required": false
+    },
+    {
+      "id": "ae2:molecular_assembler",
+      "required": false
+    },
+    {
+      "id": "ae2:pattern_provider",
+      "required": false
+    },
+    {
+      "id": "ae2:quantum_link",
+      "required": false
+    },
+    {
+      "id": "ae2:quantum_ring",
+      "required": false
+    },
+    {
+      "id": "ae2:spatial_io_port",
+      "required": false
+    },
+    {
+      "id": "ae2:spatial_pylon",
+      "required": false
+    },
+    {
+      "id": "ae2:wireless_access_point",
+      "required": false
+    },
+    {
+      "id": "ae2:wireless_crafting_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2peat:pattern_encoding_access_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2wtlib:quantum_bridge_card",
+      "required": false
+    },
+    {
+      "id": "ae2wtlib:wireless_pattern_access_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2wtlib:wireless_pattern_encoding_terminal",
+      "required": false
+    },
+    {
+      "id": "apotheosis:ascent_spawner_upgrade_rune",
+      "required": false
+    },
+    {
+      "id": "apotheosis:augmenting_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:frontier_spawner_upgrade_rune",
+      "required": false
+    },
+    {
+      "id": "apotheosis:gem_cutting_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:ignore_players_spawner_rune",
+      "required": false
+    },
+    {
+      "id": "apotheosis:no_ai_spawner_rune",
+      "required": false
+    },
+    {
+      "id": "apotheosis:pinnacle_spawner_upgrade_rune",
+      "required": false
+    },
+    {
+      "id": "apotheosis:reforging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:salvaging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_enhancement",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_rebirth",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_socketing",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_withdrawal",
+      "required": false
+    },
+    {
+      "id": "apotheosis:simple_reforging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:summit_spawner_upgrade_rune",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:apothic_enchanting_table",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:blazing_hellshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:crystal_seashelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:draconic_endshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:echoing_deepshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:endshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:geode_shelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:glowing_hellshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:heart_seashelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:hellshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:library",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:pearl_endshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:seashelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:soul_touched_deepshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:treasure_shelf",
+      "required": false
+    },
+    {
+      "id": "appflux:core_16k",
+      "required": false
+    },
+    {
+      "id": "appflux:core_16m",
+      "required": false
+    },
+    {
+      "id": "appflux:core_1k",
+      "required": false
+    },
+    {
+      "id": "appflux:core_256k",
+      "required": false
+    },
+    {
+      "id": "appflux:core_64m",
+      "required": false
+    },
+    {
+      "id": "appflux:flux_accessor",
+      "required": false
+    },
+    {
+      "id": "appflux:induction_card",
+      "required": false
+    },
+    {
+      "id": "appflux:part_flux_accessor",
+      "required": false
+    },
+    {
+      "id": "ars_additions:advanced_dominion_wand",
+      "required": false
+    },
+    {
+      "id": "ars_additions:handy_haversack",
+      "required": false
+    },
+    {
+      "id": "ars_additions:wayfinder",
+      "required": false
+    },
+    {
+      "id": "ars_additions:xp_jar",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:advanced_prism",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:ritual_tesla_coil",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:alchemical_sourcelink",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:apprentice_spell_book",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:archmage_spell_book",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:basic_spell_turret",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:creative_source_jar",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:creative_spell_book",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:drygmy_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:enchanting_apparatus",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:mob_jar",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:mycelial_sourcelink",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:relay",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:repository_controller",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:ritual_brazier",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:ritual_conjure_island_desert",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:ritual_conjure_island_plains",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:ritual_containment",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:ritual_disintegration",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:ritual_flight",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:rotating_spell_turret",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:spell_prism",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:starbuncle_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:vitalic_sourcelink",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:void_prism",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:volcanic_sourcelink",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:whirlisprig_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:wixie_charm",
+      "required": false
+    },
+    {
+      "id": "ars_ocultas:altar",
+      "required": false
+    },
+    {
+      "id": "arseng:cable_source_acceptor",
+      "required": false
+    },
+    {
+      "id": "arseng:source_acceptor",
+      "required": false
+    },
+    {
+      "id": "avaritia:crystal_matrix_ingot",
+      "required": false
+    },
+    {
+      "id": "avaritia:extreme_crafting_table",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_axe",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_boots",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_bow",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_catalyst",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_chestplate",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_crossbow",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_helmet",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_hoe",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_ingot",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_pants",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_pickaxe",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_shovel",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_sword",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_totem",
+      "required": false
+    },
+    {
+      "id": "avaritia:neutron_collector",
+      "required": false
+    },
+    {
+      "id": "avaritia:neutron_compressor",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:brazier",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:crucible",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:lesser_soul_gem",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:necrotic_focus",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:research_table",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:scriptorium",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:soul_enchanter",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:wooden_altar",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:worktable",
+      "required": false
+    },
+    {
+      "id": "evilcraft:blood_chest",
+      "required": false
+    },
+    {
+      "id": "evilcraft:blood_infuser",
+      "required": false
+    },
+    {
+      "id": "evilcraft:colossal_blood_chest",
+      "required": false
+    },
+    {
+      "id": "evilcraft:creative_blood_drop",
+      "required": false
+    },
+    {
+      "id": "evilcraft:exalted_crafter",
+      "required": false
+    },
+    {
+      "id": "evilcraft:promise_tier_1",
+      "required": false
+    },
+    {
+      "id": "evilcraft:promise_tier_2",
+      "required": false
+    },
+    {
+      "id": "evilcraft:promise_tier_3",
+      "required": false
+    },
+    {
+      "id": "evilcraft:purifier",
+      "required": false
+    },
+    {
+      "id": "evilcraft:sanguinary_environmental_accumulator",
+      "required": false
+    },
+    {
+      "id": "evilcraft:sanguinary_pedestal_0",
+      "required": false
+    },
+    {
+      "id": "evilcraft:spirit_furnace",
+      "required": false
+    },
+    {
+      "id": "evilcraft:spirit_reanimator",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_beacon",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_brewery",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_chainsaw",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_composter",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_farmer",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_honey_extractor",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_mining_drill",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:ev_tesla_receiver_hatch",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:hv_solar_panel",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:hv_tesla_receiver_hatch",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:large_electric_furnace",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:large_electric_macerator",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:lethal_tesla_coil",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:lv_tesla_receiver_hatch",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:machine_chainer_relay",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:mv_tesla_receiver_hatch",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:processing_array",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:steam_chainsaw",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:steam_farmer",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:superconductor_tesla_receiver_hatch",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:tesla_coil",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:tesla_handheld_receiver",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:tesla_receiver",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:tesla_tower",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:ultimate_laser_drill",
+      "required": false
+    },
+    {
+      "id": "extendedae:assembler_matrix_frame",
+      "required": false
+    },
+    {
+      "id": "extendedae:assembler_matrix_glass",
+      "required": false
+    },
+    {
+      "id": "extendedae:assembler_matrix_wall",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_interface",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_interface_part",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_pattern_provider_part",
+      "required": false
+    },
+    {
+      "id": "extendedae:interface_upgrade",
+      "required": false
+    },
+    {
+      "id": "extendedae:machine_frame",
+      "required": false
+    },
+    {
+      "id": "extendedae:pattern_provider_upgrade",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:boss_catcher",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:clibano_core",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:eternal_stella",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:mundabitur_dust",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:quantum_catcher",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:quantum_core",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:quantum_injector",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:sea_prism",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:soul_binding_crystal",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:terrastomp_prism",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:whirlwind_prism",
+      "required": false
+    },
+    {
+      "id": "goety:animator",
+      "required": false
+    },
+    {
+      "id": "goety:arca",
+      "required": false
+    },
+    {
+      "id": "goety:blackguard_focus",
+      "required": false
+    },
+    {
+      "id": "goety:blizzard_focus",
+      "required": false
+    },
+    {
+      "id": "goety:dark_altar",
+      "required": false
+    },
+    {
+      "id": "goety:nether_staff",
+      "required": false
+    },
+    {
+      "id": "goety:sonic_boom_focus",
+      "required": false
+    },
+    {
+      "id": "goety:soul_absorber",
+      "required": false
+    },
+    {
+      "id": "goety:soul_healer",
+      "required": false
+    },
+    {
+      "id": "goety:soul_mender",
+      "required": false
+    },
+    {
+      "id": "goety:thunderstorm_focus",
+      "required": false
+    },
+    {
+      "id": "goety:vanguard_focus",
+      "required": false
+    },
+    {
+      "id": "goety:vexing_focus",
+      "required": false
+    },
+    {
+      "id": "goety:void_flash_focus",
+      "required": false
+    },
+    {
+      "id": "goety:void_staff",
+      "required": false
+    },
+    {
+      "id": "goety:wither_skull_focus",
+      "required": false
+    },
+    {
+      "id": "hexerei:book_of_shadows_altar",
+      "required": false
+    },
+    {
+      "id": "hexerei:creative_waxing_kit",
+      "required": false
+    },
+    {
+      "id": "hexerei:mixing_cauldron",
+      "required": false
+    },
+    {
+      "id": "hexerei:willow_altar",
+      "required": false
+    },
+    {
+      "id": "hexerei:witch_hazel_altar",
+      "required": false
+    },
+    {
+      "id": "industrialization_overdrive:multi_processing_array",
+      "required": false
+    },
+    {
+      "id": "industrialization_overdrive:pyrolyse_oven",
+      "required": false
+    },
+    {
+      "id": "industrialization_overdrive:terminal",
+      "required": false
+    },
+    {
+      "id": "industrialization_overdrive:upgrade_stacker",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:affinity_ring",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:arcane_anvil",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cast_time_ring",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:concentration_amulet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cooldown_ring",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:copper_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cursed_doll_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:diamond_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:dragonskin_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:druidic_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:gold_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_conjurers_talisman",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ice_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:inscription_table",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:iron_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:lesser_spell_slot_upgrade",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mana_ring",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:scroll_forge",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shriving_stone",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "kubejs:alchemical_catalyst",
+      "required": false
+    },
+    {
+      "id": "kubejs:arcane_resin",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t1",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t2",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t3",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t4",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t5",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t6",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t7",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t8",
+      "required": false
+    },
+    {
+      "id": "kubejs:boss_seal",
+      "required": false
+    },
+    {
+      "id": "kubejs:convergence_core",
+      "required": false
+    },
+    {
+      "id": "kubejs:electrical_focus",
+      "required": false
+    },
+    {
+      "id": "kubejs:elemental_insulator",
+      "required": false
+    },
+    {
+      "id": "kubejs:enchantment_lattice",
+      "required": false
+    },
+    {
+      "id": "kubejs:engineering_matrix",
+      "required": false
+    },
+    {
+      "id": "kubejs:expedition_emblem",
+      "required": false
+    },
+    {
+      "id": "kubejs:industrial_focus",
+      "required": false
+    },
+    {
+      "id": "kubejs:infinity_stabilizer",
+      "required": false
+    },
+    {
+      "id": "kubejs:provision_bundle",
+      "required": false
+    },
+    {
+      "id": "kubejs:quantum_quarry_drill",
+      "required": false
+    },
+    {
+      "id": "kubejs:reborn_interface",
+      "required": false
+    },
+    {
+      "id": "kubejs:relic_research",
+      "required": false
+    },
+    {
+      "id": "kubejs:ritual_frame",
+      "required": false
+    },
+    {
+      "id": "kubejs:ritual_mount",
+      "required": false
+    },
+    {
+      "id": "kubejs:seal_elements",
+      "required": false
+    },
+    {
+      "id": "kubejs:seal_life",
+      "required": false
+    },
+    {
+      "id": "kubejs:seal_mind",
+      "required": false
+    },
+    {
+      "id": "kubejs:seal_soul",
+      "required": false
+    },
+    {
+      "id": "kubejs:soul_stabilizer",
+      "required": false
+    },
+    {
+      "id": "malum:spirit_altar",
+      "required": false
+    },
+    {
+      "id": "malum:spirit_catalyzer",
+      "required": false
+    },
+    {
+      "id": "malum:spirit_crucible",
+      "required": false
+    },
+    {
+      "id": "megacells:cable_mega_interface",
+      "required": false
+    },
+    {
+      "id": "megacells:cable_mega_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "megacells:cell_component_16m",
+      "required": false
+    },
+    {
+      "id": "megacells:cell_component_1m",
+      "required": false
+    },
+    {
+      "id": "megacells:cell_component_64m",
+      "required": false
+    },
+    {
+      "id": "megacells:mega_crafting_unit",
+      "required": false
+    },
+    {
+      "id": "megacells:mega_energy_cell",
+      "required": false
+    },
+    {
+      "id": "megacells:mega_interface",
+      "required": false
+    },
+    {
+      "id": "megacells:mega_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:absorption_hopper",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:entity_spawner",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:fan",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:gm_chicken_feed_cursed",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:nutritious_chicken_feed",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:saw",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:analog_circuit_board",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:creative_barrel",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:creative_storage_unit",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:creative_tank",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:digital_circuit_board",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:processing_unit_board",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:quantum_circuit_board",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:quantum_sword",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:quantum_upgrade",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:replicator",
+      "required": false
+    },
+    {
+      "id": "modularrouters:activator_module",
+      "required": false
+    },
+    {
+      "id": "modularrouters:creative_module",
+      "required": false
+    },
+    {
+      "id": "modularrouters:modular_router",
+      "required": false
+    },
+    {
+      "id": "modularrouters:player_module",
+      "required": false
+    },
+    {
+      "id": "naturesaura:animal_generator",
+      "required": false
+    },
+    {
+      "id": "naturesaura:animal_spawner",
+      "required": false
+    },
+    {
+      "id": "naturesaura:auto_crafter",
+      "required": false
+    },
+    {
+      "id": "naturesaura:chunk_loader",
+      "required": false
+    },
+    {
+      "id": "naturesaura:ender_access",
+      "required": false
+    },
+    {
+      "id": "naturesaura:flower_generator",
+      "required": false
+    },
+    {
+      "id": "naturesaura:generator_limit_remover",
+      "required": false
+    },
+    {
+      "id": "naturesaura:item_distributor",
+      "required": false
+    },
+    {
+      "id": "naturesaura:nature_altar",
+      "required": false
+    },
+    {
+      "id": "naturesaura:oak_generator",
+      "required": false
+    },
+    {
+      "id": "naturesaura:offering_table",
+      "required": false
+    },
+    {
+      "id": "naturesaura:placer",
+      "required": false
+    },
+    {
+      "id": "naturesaura:potion_generator",
+      "required": false
+    },
+    {
+      "id": "naturesaura:powder_placer",
+      "required": false
+    },
+    {
+      "id": "naturesaura:rf_converter",
+      "required": false
+    },
+    {
+      "id": "naturesaura:time_changer",
+      "required": false
+    },
+    {
+      "id": "naturesaura:weather_changer",
+      "required": false
+    },
+    {
+      "id": "occultism:book_of_calling_djinni_manage_machine",
+      "required": false
+    },
+    {
+      "id": "occultism:book_of_calling_foliot_cleaner",
+      "required": false
+    },
+    {
+      "id": "occultism:book_of_calling_foliot_farmer",
+      "required": false
+    },
+    {
+      "id": "occultism:book_of_calling_foliot_lumberjack",
+      "required": false
+    },
+    {
+      "id": "occultism:book_of_calling_foliot_transport_items",
+      "required": false
+    },
+    {
+      "id": "occultism:dark_golden_sacrificial_bowl",
+      "required": false
+    },
+    {
+      "id": "occultism:golden_sacrificial_bowl",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_controller",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_controller_dark",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_stabilizer_tier0",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_stabilizer_tier0_dark",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_stabilizer_tier1",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_stabilizer_tier2",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_stabilizer_tier3",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_forge",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:compacting_drawers_3",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:compacting_half_drawers_3",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:controller",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:controller_io",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:creative_storage_upgrade",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:creative_vending_upgrade",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:diamond_storage_upgrade",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:emerald_storage_upgrade",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:netherite_storage_upgrade",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:remote_group_upgrade",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:remote_upgrade",
+      "required": false
+    },
+    {
+      "id": "techreborn:adjustable_su",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_alloy_ingot",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_alloy_plate",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_circuit",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_machine_casing",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_machine_frame",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_solar_panel",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_storage_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_tank_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:assembly_machine",
+      "required": false
+    },
+    {
+      "id": "techreborn:basic_machine_casing",
+      "required": false
+    },
+    {
+      "id": "techreborn:basic_machine_frame",
+      "required": false
+    },
+    {
+      "id": "techreborn:basic_solar_panel",
+      "required": false
+    },
+    {
+      "id": "techreborn:basic_storage_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:basic_tank_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:charge_o_mat",
+      "required": false
+    },
+    {
+      "id": "techreborn:chemical_reactor",
+      "required": false
+    },
+    {
+      "id": "techreborn:compressor",
+      "required": false
+    },
+    {
+      "id": "techreborn:creative_solar_panel",
+      "required": false
+    },
+    {
+      "id": "techreborn:creative_storage_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:creative_tank_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:crude_storage_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:data_storage_chip",
+      "required": false
+    },
+    {
+      "id": "techreborn:diesel_generator",
+      "required": false
+    },
+    {
+      "id": "techreborn:distillation_tower",
+      "required": false
+    },
+    {
+      "id": "techreborn:electric_furnace",
+      "required": false
+    },
+    {
+      "id": "techreborn:electronic_circuit",
+      "required": false
+    },
+    {
+      "id": "techreborn:extractor",
+      "required": false
+    },
+    {
+      "id": "techreborn:grinder",
+      "required": false
+    },
+    {
+      "id": "techreborn:high_voltage_su",
+      "required": false
+    },
+    {
+      "id": "techreborn:hv_transformer",
+      "required": false
+    },
+    {
+      "id": "techreborn:implosion_compressor",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_blast_furnace",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_centrifuge",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_circuit",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_electrolyzer",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_grinder",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_machine_casing",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_machine_frame",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_sawmill",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_solar_panel",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_storage_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_tank_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:interdimensional_su",
+      "required": false
+    },
+    {
+      "id": "techreborn:iridium_alloy_ingot",
+      "required": false
+    },
+    {
+      "id": "techreborn:iridium_alloy_plate",
+      "required": false
+    },
+    {
+      "id": "techreborn:iron_alloy_furnace",
+      "required": false
+    },
+    {
+      "id": "techreborn:iron_furnace",
+      "required": false
+    },
+    {
+      "id": "techreborn:lapotronic_su",
+      "required": false
+    },
+    {
+      "id": "techreborn:low_voltage_su",
+      "required": false
+    },
+    {
+      "id": "techreborn:lv_transformer",
+      "required": false
+    },
+    {
+      "id": "techreborn:matter_fabricator",
+      "required": false
+    },
+    {
+      "id": "techreborn:medium_voltage_su",
+      "required": false
+    },
+    {
+      "id": "techreborn:mv_transformer",
+      "required": false
+    },
+    {
+      "id": "techreborn:plasma_generator",
+      "required": false
+    },
+    {
+      "id": "techreborn:pump",
+      "required": false
+    },
+    {
+      "id": "techreborn:quantum_solar_panel",
+      "required": false
+    },
+    {
+      "id": "techreborn:quantum_storage_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:quantum_tank_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:recycler",
+      "required": false
+    },
+    {
+      "id": "techreborn:rolling_machine",
+      "required": false
+    },
+    {
+      "id": "techreborn:scrapboxinator",
+      "required": false
+    },
+    {
+      "id": "techreborn:semi_fluid_generator",
+      "required": false
+    },
+    {
+      "id": "techreborn:solid_canning_machine",
+      "required": false
+    },
+    {
+      "id": "techreborn:solid_fuel_generator",
+      "required": false
+    },
+    {
+      "id": "techreborn:thermal_generator",
+      "required": false
+    },
+    {
+      "id": "techreborn:ultimate_solar_panel",
+      "required": false
+    },
+    {
+      "id": "techreborn:vacuum_freezer",
+      "required": false
+    },
+    {
+      "id": "techreborn:water_mill",
+      "required": false
+    },
+    {
+      "id": "techreborn:wind_mill",
+      "required": false
+    },
+    {
+      "id": "techreborn:wire_mill",
+      "required": false
+    },
+    {
+      "id": "theurgy:calcination_oven",
+      "required": false
+    },
+    {
+      "id": "theurgy:digestion_vat",
+      "required": false
+    },
+    {
+      "id": "theurgy:distiller",
+      "required": false
+    },
+    {
+      "id": "theurgy:fermentation_vat",
+      "required": false
+    },
+    {
+      "id": "theurgy:incubator",
+      "required": false
+    },
+    {
+      "id": "theurgy:incubator_mercury_vessel",
+      "required": false
+    },
+    {
+      "id": "theurgy:incubator_salt_vessel",
+      "required": false
+    },
+    {
+      "id": "theurgy:incubator_sulfur_vessel",
+      "required": false
+    },
+    {
+      "id": "theurgy:liquefaction_cauldron",
+      "required": false
+    },
+    {
+      "id": "theurgy:mercurial_wand",
+      "required": false
+    },
+    {
+      "id": "theurgy:mercury_catalyst",
+      "required": false
+    },
+    {
+      "id": "theurgy:reformation_result_pedestal",
+      "required": false
+    },
+    {
+      "id": "theurgy:reformation_source_pedestal",
+      "required": false
+    },
+    {
+      "id": "theurgy:reformation_target_pedestal",
+      "required": false
+    },
+    {
+      "id": "theurgy:sulfuric_flux_emitter",
+      "required": false
+    },
+    {
+      "id": "twilightforest:uncrafting_table",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:arboreous_greenhouse",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:cryogenic_precipitator",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:dragon_egg_energy_siphon",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:flight_pylon",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:nuclear_rod_irradiator",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:pulse_detonation_generator",
+      "required": false
+    }
+  ]
+}

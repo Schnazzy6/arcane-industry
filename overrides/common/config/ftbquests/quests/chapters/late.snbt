@@ -1,0 +1,755 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "late"
+	group: "2DCF10F76EBF2A74"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: false
+	icon: {
+		count: 1
+		id: "kubejs:seal_elements"
+	}
+	id: "0435C13FC28AF65D"
+	images: [
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"Глава 4. Поздний MI и печати"
+			]
+			id: "36E1DD9B1318ED58"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 18.0d
+			x: 7.0d
+			y: -6.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5810219F217602A2"
+			]
+			hide_dependency_lines: true
+			id: "35B2BE9265FE57A5"
+			rewards: [ ]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "48C34C4EC4B1A211"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"35B2BE9265FE57A5"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:kanthal_coil"
+			}
+			id: "12A32B0F94C59D17"
+			rewards: [
+				{
+					id: "6F7C5E98298E9382"
+					item: {
+						count: 8
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "7BEE80FE3B7D7DE0"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "124E203408A31E90"
+					item: {
+						count: 1
+						id: "modern_industrialization:kanthal_coil"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"12A32B0F94C59D17"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:titanium_ingot"
+			}
+			id: "0D7A59E1868330F6"
+			rewards: [
+				{
+					id: "0DC150956B655451"
+					item: {
+						count: 8
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "606EBCB003E2AD0D"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "6D7AB595771A886C"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 32L
+					id: "4095C404186F456E"
+					item: {
+						count: 1
+						id: "modern_industrialization:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0D7A59E1868330F6"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:ritual_frame"
+			}
+			id: "5BA5CC90C705E102"
+			rewards: [
+				{
+					id: "54C6F701F3A805E7"
+					item: {
+						count: 4
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "41F201579C2D73F1"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "1A9B6EAF876C1D76"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "6D3D81858157094A"
+					item: {
+						count: 1
+						id: "kubejs:ritual_frame"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"35B2BE9265FE57A5"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:end_crafting_table"
+			}
+			id: "0F7829A149D3DD08"
+			rewards: [ ]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "072B43528CE44D78"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0F7829A149D3DD08"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:extreme_crafting_table"
+			}
+			id: "756EB66A698BB4B1"
+			rewards: [
+				{
+					id: "53DD786CD910C963"
+					item: {
+						count: 4
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "21F5441D33C83F53"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "40EB6AD6C29ED1A8"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "1A36E9639F4C4380"
+					item: {
+						count: 1
+						id: "avaritia:extreme_crafting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"756EB66A698BB4B1"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:enchantment_lattice"
+			}
+			id: "7CA20377F667AA59"
+			rewards: [
+				{
+					id: "78613185C5400DFD"
+					item: {
+						count: 8
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "7E4130666DE61068"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "4E246556E08B50E4"
+					item: {
+						count: 1
+						id: "kubejs:enchantment_lattice"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"756EB66A698BB4B1"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:relic_research"
+			}
+			id: "74272453BE10C5B3"
+			rewards: [
+				{
+					id: "29A4C3A961C44784"
+					item: {
+						count: 8
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "49A106E36192CBA6"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "47CC976BC984CDD0"
+					item: {
+						count: 1
+						id: "kubejs:relic_research"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"74272453BE10C5B3"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:expedition_emblem"
+			}
+			id: "2BF8E9FE00253999"
+			rewards: [
+				{
+					id: "71EEF2306165971A"
+					item: {
+						count: 4
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1944892EDDF12F3C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "07095FD0D6417358"
+					item: {
+						count: 1
+						id: "kubejs:expedition_emblem"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"35B2BE9265FE57A5"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:provision_bundle"
+			}
+			id: "0C8F1DA1A65D041B"
+			optional: true
+			rewards: [
+				{
+					id: "76686F700438C219"
+					item: {
+						count: 8
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4A66C595EB5EF834"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "1660E92F80612A4E"
+					item: {
+						count: 1
+						id: "kubejs:provision_bundle"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"35B2BE9265FE57A5"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:elemental_insulator"
+			}
+			id: "42270F1BAA6B5F50"
+			optional: true
+			rewards: [
+				{
+					id: "0ADF7676F4CFC3EF"
+					item: {
+						count: 4
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "3248ADCFB43AB605"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "6E368FBD62D2BF5B"
+					item: {
+						count: 1
+						id: "kubejs:elemental_insulator"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5BA5CC90C705E102"
+				"7CA20377F667AA59"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:seal_life"
+			}
+			id: "4A227BCFAF12A8C7"
+			rewards: [
+				{
+					id: "49C54A30638EF961"
+					item: {
+						count: 4
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "216231624C2681C7"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "6DA479139CC7E112"
+					item: {
+						count: 1
+						id: "kubejs:seal_life"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5BA5CC90C705E102"
+				"7CA20377F667AA59"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:seal_mind"
+			}
+			id: "45F58F3BA0C45906"
+			rewards: [
+				{
+					id: "67D60A175E1DCCF9"
+					item: {
+						count: 4
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "66E640EBD9C84DD5"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "634B28F877079CE2"
+					item: {
+						count: 1
+						id: "kubejs:seal_mind"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5BA5CC90C705E102"
+				"7CA20377F667AA59"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:seal_soul"
+			}
+			id: "59E70A66C67D714D"
+			rewards: [
+				{
+					id: "56C54CB3CAFEB0D2"
+					item: {
+						count: 4
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "71F7E15ABBEF7398"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "49EF2A79D2A5D8CC"
+					item: {
+						count: 1
+						id: "kubejs:seal_soul"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5BA5CC90C705E102"
+				"7CA20377F667AA59"
+				"42270F1BAA6B5F50"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:seal_elements"
+			}
+			id: "31EA8399EEC24AE3"
+			rewards: [
+				{
+					id: "28FF57DE622871CE"
+					item: {
+						count: 4
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "6BD56FC5BF1FA085"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "21223276F6E229C4"
+					item: {
+						count: 1
+						id: "kubejs:seal_elements"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4A227BCFAF12A8C7"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:quantum_circuit"
+			}
+			id: "2AD9E35CFCE6401A"
+			rewards: [
+				{
+					id: "0599040B17557D58"
+					item: {
+						count: 4
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "16FB9CB2770925FA"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "029042869D6A3B7E"
+					type: "xp"
+					xp: 18
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "5C1F2F7E38FC8EB1"
+					item: {
+						count: 1
+						id: "modern_industrialization:quantum_circuit"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"45F58F3BA0C45906"
+				"59E70A66C67D714D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:engineering_matrix"
+			}
+			id: "007FFAEA04C11D66"
+			rewards: [
+				{
+					id: "56A2D1762ABDBA8D"
+					item: {
+						count: 8
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "10EB66B307D5BC97"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "51E710186B6B2142"
+					item: {
+						count: 1
+						id: "kubejs:engineering_matrix"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2AD9E35CFCE6401A"
+				"007FFAEA04C11D66"
+				"31EA8399EEC24AE3"
+			]
+			hide_dependency_lines: true
+			id: "716CC754872648BD"
+			rewards: [
+				{
+					id: "26FCAF78941D8B39"
+					item: {
+						count: 8
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "7727FAA668F67AB7"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "2022423BE6BE8D08"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5B0FBA66861CD18A"
+					table_id: 5486897342498159202L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6E6B1123FF3ACC7A"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+}

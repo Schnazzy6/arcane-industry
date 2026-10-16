@@ -1,0 +1,30 @@
+{
+	hide_tooltip: false
+	id: "10DB2A496E8DE772"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				count: 4
+				id: "minecraft:gold_ingot"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 16
+				id: "minecraft:redstone"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 16
+				id: "minecraft:glass"
+			}
+			weight: 1.0d
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,7 @@
+{
+  "type": "apotheosis:affix_loot",
+  "conditions": [],
+  "entries": [
+    {"chance": 0.0, "pattern": {"path_regex": ".*"}}
+  ]
+}

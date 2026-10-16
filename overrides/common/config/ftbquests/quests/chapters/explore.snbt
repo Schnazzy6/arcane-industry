@@ -1,0 +1,849 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "explore"
+	group: "6B6FDD4F9A66BB50"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: false
+	icon: {
+		count: 1
+		id: "twilightforest:magic_map_focus"
+	}
+	id: "409E2F2CFC4C4323"
+	images: [
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"Исследование миров"
+			]
+			id: "61A1B06C05140B09"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 16.0d
+			x: 6.0d
+			y: -6.0d
+		}
+	]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5D661F1F7A01F868"
+			]
+			hide_dependency_lines: true
+			id: "2ED348D90BE96528"
+			rewards: [ ]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2E99FB4897D186F3"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2ED348D90BE96528"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+			id: "0076DB948A329333"
+			rewards: [
+				{
+					id: "76FF7ACB083B5427"
+					item: {
+						count: 4
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "76BB284B86FD2804"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "53797931F2AECD51"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0076DB948A329333"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+			id: "49DD2307092A0EEB"
+			optional: true
+			rewards: [
+				{
+					id: "68385D59AEE8412E"
+					item: {
+						count: 4
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "0BFF3435FFB20222"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "393918A455F25C53"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"49DD2307092A0EEB"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			id: "11224FB70ACBDF2A"
+			rewards: [
+				{
+					id: "19AC83C8D3CBFC88"
+					item: {
+						count: 4
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "7FBD0CD6CF51E046"
+					type: "xp"
+					xp: 18
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "43C0204C593D762A"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2ED348D90BE96528"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:magic_map_focus"
+			}
+			id: "353B13B23B9506F3"
+			rewards: [
+				{
+					id: "2D596B56873E0087"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "3B256132265ADCB9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4DFA53BBE11D04A1"
+					item: {
+						count: 1
+						id: "twilightforest:magic_map_focus"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"353B13B23B9506F3"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:naga_scale"
+			}
+			id: "71DD5BF0B99C927C"
+			rewards: [
+				{
+					id: "762C50DA1EEF7B22"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "48832147E429D619"
+					type: "xp"
+					xp: 9
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "777EF7EA4B848CDF"
+					item: {
+						count: 1
+						id: "twilightforest:naga_scale"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"71DD5BF0B99C927C"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:lich_trophy"
+			}
+			id: "04E5553C62F0F2D1"
+			rewards: [
+				{
+					id: "2B0F1B7B7B18495E"
+					item: {
+						count: 16
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "7C4883C966AEAB71"
+					type: "xp"
+					xp: 12
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2EAAB483E8AD3252"
+					item: {
+						count: 1
+						id: "twilightforest:lich_trophy"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"04E5553C62F0F2D1"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:minoshroom_trophy"
+			}
+			id: "057509F061524A44"
+			rewards: [
+				{
+					id: "4D3B3EF652F09816"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "4E03BADC3759F06B"
+					type: "xp"
+					xp: 12
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5A52FE583A949D21"
+					item: {
+						count: 1
+						id: "twilightforest:minoshroom_trophy"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"057509F061524A44"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:hydra_trophy"
+			}
+			id: "02125F49D5C51B0C"
+			rewards: [
+				{
+					id: "3CA369BB12DFBDAC"
+					item: {
+						count: 16
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "694C0E7B999130B4"
+					type: "xp"
+					xp: 18
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "76BC8040495DBCDC"
+					item: {
+						count: 1
+						id: "twilightforest:hydra_trophy"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"02125F49D5C51B0C"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:fiery_ingot"
+			}
+			id: "5ED78FC3183DB2A1"
+			rewards: [
+				{
+					id: "6895FB00F0FA2106"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "5DC3653FE044F257"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "12713BB584064B5E"
+					item: {
+						count: 1
+						id: "twilightforest:fiery_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"04E5553C62F0F2D1"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "twilightforest:knight_phantom_trophy"
+			}
+			id: "3A3542CEA4552E34"
+			optional: true
+			rewards: [
+				{
+					id: "031E41BE3916A04F"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "430B36467894F2A3"
+					type: "xp"
+					xp: 18
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7ACEE070FD3560FB"
+					item: {
+						count: 1
+						id: "twilightforest:knight_phantom_trophy"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3A3542CEA4552E34"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:ur_ghast_trophy"
+			}
+			id: "729135E6B4FFE4BC"
+			optional: true
+			rewards: [
+				{
+					id: "269B25E92E519ACF"
+					item: {
+						count: 4
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "22F8B3DEEC9AC024"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6CAC8ED57473FF60"
+					item: {
+						count: 1
+						id: "twilightforest:ur_ghast_trophy"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2ED348D90BE96528"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "eternal_starlight:thioquartz_shard"
+			}
+			id: "03EB113B6E887622"
+			rewards: [
+				{
+					id: "5981E251F058B9F4"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "706CC4B767863B80"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "728A31FA29A9C688"
+					item: {
+						count: 1
+						id: "eternal_starlight:thioquartz_shard"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"03EB113B6E887622"
+			]
+			icon: {
+				count: 1
+				id: "eternal_starlight:deepsilver_ingot"
+			}
+			id: "78A9FE8676FAF9A1"
+			rewards: [
+				{
+					id: "2D77B2A8DB93C450"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "0627C82983E4F980"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5BCBA1D38FCCB6D6"
+					item: {
+						count: 1
+						id: "eternal_starlight:deepsilver_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"78A9FE8676FAF9A1"
+			]
+			icon: {
+				count: 1
+				id: "eternal_starlight:amaramber_ingot"
+			}
+			id: "0D8D5A0ECCA8FC4B"
+			rewards: [
+				{
+					id: "79F7B4681A18FF36"
+					item: {
+						count: 16
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "56467F2B27B6696F"
+					type: "xp"
+					xp: 12
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "196E5F7CF51D7825"
+					item: {
+						count: 1
+						id: "eternal_starlight:amaramber_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2ED348D90BE96528"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
+			id: "1470A06833AB2FF5"
+			rewards: [
+				{
+					id: "59FBDEE5A0FCEC2F"
+					item: {
+						count: 16
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "267A53A0EEAA9589"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7E69771EDF148F9B"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1470A06833AB2FF5"
+			]
+			icon: {
+				count: 1
+				id: "mowziesmobs:naga_fang"
+			}
+			id: "63C4782869E7B280"
+			rewards: [
+				{
+					id: "4FF5E3D8A54E6FD4"
+					item: {
+						count: 16
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "7967C3055A804619"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7F91F37BA620128F"
+					item: {
+						count: 1
+						id: "mowziesmobs:naga_fang"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0D8D5A0ECCA8FC4B"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "392453AA22E6573C"
+			rewards: [
+				{
+					id: "6BC351370E6F6118"
+					item: {
+						count: 16
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "4B4DA15238F538CC"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7162A0077C2A0E73"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2ED348D90BE96528"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "endrem:old_eye"
+			}
+			id: "3A4C3B9A2E23730C"
+			rewards: [
+				{
+					id: "2BBD36CD69415CE9"
+					item: {
+						count: 16
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "2FD98C021225FE60"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "38C65445F9C780E7"
+					item: {
+						count: 1
+						id: "endrem:old_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2C0BCE0E3EAB6645"
+					item: {
+						count: 1
+						id: "endrem:nether_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0E70837E6FCB867B"
+					item: {
+						count: 1
+						id: "endrem:cold_eye"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3A4C3B9A2E23730C"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:dragon_egg"
+			}
+			id: "654B6D2A6290DFBF"
+			rewards: [
+				{
+					id: "7B52D4E5F83DCA71"
+					item: {
+						count: 4
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "5DF4C3CCD8DF2A47"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "56744D886B300E25"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"654B6D2A6290DFBF"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:elytra"
+			}
+			id: "07CC15E62D8734DB"
+			optional: true
+			rewards: [
+				{
+					id: "75087900F4845F76"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "3B37C5A560991D4C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "728206FDB0393581"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+	]
+}

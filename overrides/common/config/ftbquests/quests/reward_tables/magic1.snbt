@@ -1,0 +1,30 @@
+{
+	hide_tooltip: false
+	id: "418045CB0338AAE0"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				count: 12
+				id: "minecraft:lapis_lazuli"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 24
+				id: "minecraft:paper"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 4
+				id: "minecraft:gold_ingot"
+			}
+			weight: 1.0d
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,11 @@
+{
+  "block.buildinggadgets2.render_block": "Блок рендеринга (НЕ ИСПОЛЬЗОВАТЬ)",
+  "block.buildinggadgets2.template_manager": "Менеджер шаблонов",
+  "item.buildinggadgets2.gadget_building": "Строительный гаджет",
+  "item.buildinggadgets2.gadget_copy_paste": "Копировать и вставить гаджет",
+  "item.buildinggadgets2.gadget_cut_paste": "Гаджет «Вырезать и вставить»",
+  "item.buildinggadgets2.gadget_destruction": "Гаджет разрушения",
+  "item.buildinggadgets2.gadget_exchanging": "Обмен гаджета",
+  "item.buildinggadgets2.redprint": "Редпринт",
+  "item.buildinggadgets2.template": "Шаблон"
+}

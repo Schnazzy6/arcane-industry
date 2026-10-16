@@ -1,0 +1,14 @@
+{
+  "icon": "minecraft:wheat",
+  "color": "#d4a017",
+  "order": 0,
+  "default_value": 0.5,
+  "gain_multiplier": 1.0,
+  "decay_multiplier": 1.0,
+  "beneficial": true,
+  "ignore_saturation": false,
+  "translation_key": "diet.group.grains",
+  "effects": [
+    "81-100:effect(minecraft:haste,0)"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "item.apotheosis.god_fused_pearl": "Божественно сплавленная жемчужина",
+  "item.apotheosis.spawner_chain": "Цепь спавнера",
+  "item.apotheosis.spawner_rune": "Руна спавнера",
+  "item.apotheosis.infused_spawner_rune": "Наполненная руна спавнера",
+  "item.apotheosis.frontier_spawner_upgrade_rune": "Руна улучшения спавнера: Пограничье",
+  "item.apotheosis.ascent_spawner_upgrade_rune": "Руна улучшения спавнера: Восхождение",
+  "item.apotheosis.summit_spawner_upgrade_rune": "Руна улучшения спавнера: Вершина",
+  "item.apotheosis.pinnacle_spawner_upgrade_rune": "Руна улучшения спавнера: Пик",
+  "item.apotheosis.spawn_range_spawner_rune": "Руна радиуса появления",
+  "item.apotheosis.redstone_control_spawner_rune": "Руна управления",
+  "item.apotheosis.ignore_light_spawner_rune": "Руна вечных сумерек",
+  "item.apotheosis.initial_health_spawner_rune": "Руна ослабления",
+  "item.apotheosis.silent_spawner_rune": "Руна тишины",
+  "item.apotheosis.youthful_spawner_rune": "Руна юности",
+  "item.apotheosis.burning_spawner_rune": "Руна сожжения",
+  "item.apotheosis.no_ai_spawner_rune": "Руна оцепенения",
+  "item.apotheosis.ignore_conditions_spawner_rune": "Руна неповиновения",
+  "item.apotheosis.ignore_players_spawner_rune": "Руна одиночества",
+  "item.apotheosis.echoing_spawner_rune": "Руна эха"
+}

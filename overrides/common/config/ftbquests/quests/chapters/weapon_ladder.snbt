@@ -1,0 +1,4149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapon_ladder"
+	group: "6B6FDD4F9A66BB50"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: false
+	icon: {
+		count: 1
+		id: "minecraft:iron_sword"
+	}
+	id: "0CC208B3D5412D87"
+	images: [
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"Лестница оружия и инструментов"
+			]
+			id: "5A3FCD29473BADB4"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 40.0d
+			x: 15.0d
+			y: -3.0d
+		}
+	]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:golden_sword"
+			}
+			id: "14E07CEA66A9DA69"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7833032B9053343F"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"14E07CEA66A9DA69"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:golden_sword"
+			}
+			id: "61360BBD6290A78D"
+			optional: true
+			rewards: [
+				{
+					id: "2497403F014BC94F"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "2ABD2C899BC50074"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6E1698CF3CB38FBC"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(knavesneeds:betternether/cincinnasite_diamond/spear)item(minecraft:golden_sword)item(minecraft:wooden_sword)item(simplymore:gold_backhand_blade)item(simplymore:gold_deer_horns)item(simplymore:gold_khopesh)item(simplymore:gold_quarterstaff)item(simplymore:the_pan)item(simplyswords:gold_katana)item(simplyswords:gold_longsword)item(simplyswords:gold_spear))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"61360BBD6290A78D"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:stone_sword"
+			}
+			id: "7C4CAE4DACC8B3E7"
+			optional: true
+			rewards: [
+				{
+					id: "4EE83C7DC69F4E97"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "68B08E6150948146"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "50D328F6B6C1D329"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(born_in_chaos_v1:birch_branches)item(born_in_chaos_v1:spiritual_sword)item(born_in_chaos_v1:staff_of_magic_arrows)item(eidolon_repraised:sapping_sword)item(eternal_starlight:aurora_deer_antler)item(eternal_starlight:candlash)item(eternal_starlight:malarite_spear)item(eternal_starlight:rage_of_stars)item(eternal_starlight:tentacle_spike)item(evilcraft:vein_sword)item(forbidden_arcanus:reinforced_deorum_sword)item(goety:stormlander)item(knavesneeds:betterend/thallasium/katana)item(knavesneeds:betterend/thallasium/longsword)item(knavesneeds:betterend/thallasium/spear)item(knavesneeds:betternether/cincinnasite_diamond/katana)item(knavesneeds:betternether/cincinnasite_diamond/longsword)item(knavesneeds:twilightforest/ironwood/katana)item(knavesneeds:twilightforest/ironwood/longsword)item(knavesneeds:twilightforest/ironwood/spear)item(malum:mnemonic_hex_staff)item(malum:tyrving)item(malum:unwinding_chaos)item(minecraft:stone_sword)item(mob_grinding_utils:null_sword)item(mutantmonsters:creeper_shard)item(samurai_dynasty:kabutowari)item(samurai_dynasty:masakari)item(simplymore:gold_pernach)item(simplymore:iron_backhand_blade)item(simplymore:iron_khopesh)item(simplymore:iron_quarterstaff)item(simplymore:jester_penetrate)item(simplymore:vipers_call)item(simplyswords:iron_spear)item(supplementaries:wrench))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7C4CAE4DACC8B3E7"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "59485D4EABAB02AF"
+			optional: true
+			rewards: [
+				{
+					id: "234984AE10381009"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "5FE9148EEB58F952"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "024A23D2C690E9F3"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ae2:certus_quartz_sword)item(ae2:fluix_sword)item(ae2:nether_quartz_sword)item(betterend:thallasium_sword)item(born_in_chaos_v1:frostbitten_blade)item(born_in_chaos_v1:icy_sweetness)item(born_in_chaos_v1:pumpkinstaffa)item(born_in_chaos_v1:spider_bite_sword)item(eidolon_repraised:silver_sword)item(eternal_starlight:amaramber_sword)item(eternal_starlight:coldsnap)item(eternal_starlight:deepsilver_sword)item(eternal_starlight:energy_boomerang)item(eternal_starlight:glistering_sword)item(eternal_starlight:malarite_sword)item(eternal_starlight:pungency_fruit_spear)item(eternal_starlight:shattered_sword)item(eternal_starlight:thermal_springstone_sword)item(farmersdelight:skillet)item(knavesneeds:betternether/cincinnasite/katana)item(knavesneeds:betternether/cincinnasite/longsword)item(knavesneeds:betternether/cincinnasite/spear)item(malum:erosion_scepter)item(minecraft:iron_sword)item(mutantmonsters:endersoul_hand)item(naturesaura:infused_iron_sword)item(samurai_dynasty:naginata)item(samurai_dynasty:tonbukiri)item(simplymore:iron_deer_horns)item(simplymore:iron_pernach)item(simplyswords:iron_longsword)item(twilightforest:ironwood_sword))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"59485D4EABAB02AF"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:bronze_sword"
+			}
+			id: "63EF8B85C483ADC0"
+			optional: true
+			rewards: [
+				{
+					id: "6DCB4A888B5292DA"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "6D4D532031B657C1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "32EF111E3B03ECD0"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betternether:cincinnasite_sword)item(born_in_chaos_v1:carrot_sword)item(born_in_chaos_v1:sweet_sword)item(cataclysm:black_steel_sword)item(eternal_starlight:flowglaze_sword)item(eternal_starlight:glacite_sword)item(eternal_starlight:starfire_sword)item(knavesneeds:betterend/terminite/katana)item(knavesneeds:betterend/terminite/longsword)item(knavesneeds:betterend/terminite/spear)item(knavesneeds:betternether/nether_ruby/katana)item(knavesneeds:betternether/nether_ruby/longsword)item(knavesneeds:betternether/nether_ruby/spear)item(knavesneeds:twilightforest/fiery/katana)item(knavesneeds:twilightforest/fiery/longsword)item(knavesneeds:twilightforest/fiery/spear)item(knavesneeds:twilightforest/knightmetal/katana)item(knavesneeds:twilightforest/knightmetal/longsword)item(knavesneeds:twilightforest/knightmetal/spear)item(knavesneeds:twilightforest/steeleaf/katana)item(knavesneeds:twilightforest/steeleaf/longsword)item(knavesneeds:twilightforest/steeleaf/spear)item(malum:edge_of_deliverance)item(samurai_dynasty:nagamaki)item(simplymore:diamond_backhand_blade)item(simplymore:diamond_deer_horns)item(simplymore:diamond_khopesh)item(simplymore:diamond_quarterstaff)item(simplymore:perforiscus)item(simplyswords:diamond_spear)item(simplyswords:iron_katana)item(techreborn:bronze_sword)item(techreborn:peridot_sword)item(techreborn:ruby_sword)item(techreborn:sapphire_sword)item(twilightforest:giant_sword))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"63EF8B85C483ADC0"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:blaze_sword"
+			}
+			id: "3A71937E9D0F883E"
+			optional: true
+			rewards: [
+				{
+					id: "4AD373FD38D2A98F"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "725EC2863BF784A2"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "793E43664257A780"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:enchanters_sword)item(avaritia:blaze_sword)item(avaritia:crystal_sword)item(betterend:terminite_sword)item(betternether:flaming_ruby_sword)item(betternether:nether_ruby_sword)item(born_in_chaos_v1:darkwarblade)item(born_in_chaos_v1:sharpened_dark_metal_sword)item(born_in_chaos_v1:soulbane)item(born_in_chaos_v1:trident_hayfork)item(eternal_starlight:bonemore)item(eternal_starlight:crescent_spear)item(eternal_starlight:crystal_greatsword)item(eternal_starlight:energy_sword)item(eternal_starlight:glistering_greatsword)item(eternal_starlight:glistering_morning_star)item(eternal_starlight:moonring_greatsword)item(eternal_starlight:starlit_diamond_sword)item(eternal_starlight:unrealium_sword)item(goety:blade_of_ender)item(goety:dark_sword)item(goety:fell_blade)item(goety:frozen_blade)item(irons_spellbooks:boreal_blade)item(irons_spellbooks:hellrazor)item(irons_spellbooks:keeper_flamberge)item(irons_spellbooks:legionnaire_flamberge)item(irons_spellbooks:magehunter)item(irons_spellbooks:misery)item(irons_spellbooks:spellbreaker)item(irons_spellbooks:twilight_gale)item(minecraft:diamond_sword)item(minecraft:trident)item(naturesaura:depth_sword)item(naturesaura:sky_sword)item(samurai_dynasty:kabutowari_netherite)item(samurai_dynasty:katana)item(samurai_dynasty:masakari_netherite)item(samurai_dynasty:nagamaki_netherite)item(samurai_dynasty:naginata_netherite)item(samurai_dynasty:odachi)item(samurai_dynasty:tetsubo)item(samurai_dynasty:tonbukiri_netherite)item(samurai_dynasty:wakizashi)item(simplymore:diamond_pernach)item(simplymore:earthshatter)item(simplymore:glimmerstep)item(simplymore:moundshifter)item(simplymore:netherite_backhand_blade)item(simplymore:netherite_quarterstaff)item(simplymore:serpentine_valour)item(simplymore:the_vessel_breach)item(simplyswords:diamond_longsword)item(simplyswords:netherite_spear)item(twilightforest:fiery_sword)item(twilightforest:glass_sword)item(twilightforest:ice_sword)item(twilightforest:knightmetal_sword)item(twilightforest:steeleaf_sword))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A71937E9D0F883E"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:netherite_sword"
+			}
+			id: "4E8A9D8C07DB2746"
+			optional: true
+			rewards: [
+				{
+					id: "34509DDE6F5AD1F3"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "1BDBD629D2222CED"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "253DA0CB86BD55F7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betternether:cincinnasite_sword_diamond)item(knavesneeds:betterend/aeternium/katana)item(knavesneeds:betterend/aeternium/longsword)item(knavesneeds:betterend/aeternium/spear)item(minecraft:netherite_sword)item(samurai_dynasty:wakizashi_netherite)item(simplymore:deaths_eyrie)item(simplymore:netherite_deer_horns)item(simplymore:netherite_khopesh)item(simplymore:netherite_pernach)item(simplymore:runic_backhand_blade)item(simplymore:runic_quarterstaff)item(simplymore:smouldering_ruin)item(simplymore:soulfracture)item(simplymore:the_blood_harvester)item(simplyswords:diamond_katana)item(simplyswords:netherite_longsword)item(simplyswords:runic_spear))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E8A9D8C07DB2746"
+			]
+			icon: {
+				count: 1
+				id: "betterend:aeternium_sword"
+			}
+			id: "66DB00DCD2E3E7AD"
+			optional: true
+			rewards: [
+				{
+					id: "4F2802A28B1362D7"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "507BB832E242A4B3"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6E4CE1082794DB4C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:aeternium_sword)item(eternal_starlight:golem_steel_greatsword)item(knavesneeds:forbidden_arcanus/draco_arcanus/katana)item(knavesneeds:forbidden_arcanus/draco_arcanus/longsword)item(knavesneeds:forbidden_arcanus/draco_arcanus/spear)item(samurai_dynasty:katana_netherite)item(samurai_dynasty:odachi_netherite)item(samurai_dynasty:tetsubo_netherite)item(simplymore:culterex)item(simplymore:lustrous_moxie)item(simplymore:matterbane)item(simplymore:mimicry_quarterstaff)item(simplymore:mimicry_spear)item(simplymore:myrmedge)item(simplymore:revvengine)item(simplymore:runic_deer_horns)item(simplymore:runic_khopesh)item(simplymore:runic_pernach)item(simplymore:ruptured_idol)item(simplymore:stasis)item(simplymore:timekeeper)item(simplyswords:netherite_katana)item(simplyswords:runic_longsword))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"66DB00DCD2E3E7AD"
+			]
+			icon: {
+				count: 1
+				id: "forbidden_arcanus:draco_arcanus_sword"
+			}
+			id: "4FC7726EE87A3E81"
+			optional: true
+			rewards: [
+				{
+					id: "00A03086A4A8328D"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "068FE17CA19AFC85"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5E0003FEFE7C9B42"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:draco_arcanus_sword)item(malum:soul_stained_steel_sword)item(simplymore:black_pearl)item(simplymore:blade_of_the_grotesque)item(simplymore:cindergorge)item(simplymore:grandfrost)item(simplymore:magmaseep)item(simplymore:mimicry_backhand_blade)item(simplymore:mimicry_deer_horns)item(simplymore:mimicry_khopesh)item(simplymore:mimicry_longsword)item(simplymore:mimicry_pernach)item(simplymore:ruyi_jingu_bang)item(simplymore:tidebreaker)item(simplyswords:awakened_lichblade)item(simplyswords:bloodwake)item(simplyswords:caelestis)item(simplyswords:chompolotl)item(simplyswords:dawnquiver)item(simplyswords:decaying_relic)item(simplyswords:dormant_relic)item(simplyswords:dreadwhisper)item(simplyswords:emberblade)item(simplyswords:emberlash)item(simplyswords:enigma)item(simplyswords:flamewind)item(simplyswords:harbinger)item(simplyswords:hearthflame)item(simplyswords:hiveheart)item(simplyswords:ionbound_stormscale)item(simplyswords:magiblade)item(simplyswords:magispear)item(simplyswords:mjolnir)item(simplyswords:riftmane)item(simplyswords:righteous_relic)item(simplyswords:runic_katana)item(simplyswords:shadowsting)item(simplyswords:slumbering_lichblade)item(simplyswords:soulpyre)item(simplyswords:soulrender)item(simplyswords:soulstalker)item(simplyswords:soulstealer)item(simplyswords:stars_edge)item(simplyswords:stormbringer)item(simplyswords:storms_edge)item(simplyswords:stormscale)item(simplyswords:sunfire)item(simplyswords:sword_on_a_stick)item(simplyswords:tainted_relic)item(simplyswords:tempest)item(simplyswords:the_devourer)item(simplyswords:toxic_longsword)item(simplyswords:twisted_blade)item(simplyswords:waking_lichblade)item(simplyswords:waxweaver)item(simplyswords:whisperwind)item(simplyswords:wraithmaw))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4FC7726EE87A3E81"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:nanosaber"
+			}
+			id: "0A8B112CE128AEDE"
+			optional: true
+			rewards: [
+				{
+					id: "1EF2900BB850E11E"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "0CD7945186A67ABA"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6170E988CD5B7F23"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cataclysm:ancient_spear)item(cataclysm:coral_bardiche)item(cataclysm:coral_spear)item(cataclysm:khopesh)item(simplymore:mimicry_katana)item(simplyswords:arcanethyst)item(simplyswords:bramblethorn)item(simplyswords:frostfall)item(simplyswords:gloampiercer)item(simplyswords:icewhisper)item(simplyswords:livyatan)item(simplyswords:molten_edge)item(simplyswords:soulkeeper)item(simplyswords:thunderbrand)item(simplyswords:wickpiercer)item(techreborn:nanosaber))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0A8B112CE128AEDE"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:quantum_sword"
+			}
+			id: "5795F968BDC37E85"
+			optional: true
+			rewards: [
+				{
+					id: "7F31FBDC11A5617A"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "6825781F911C1C10"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7A90675575474C11"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(modern_industrialization:quantum_sword)item(simplymore:brassturn))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5795F968BDC37E85"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:infinity_sword"
+			}
+			id: "725DEFD74FB213C1"
+			optional: true
+			rewards: [
+				{
+					id: "2CEB47C8AB4A4EED"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "5551A49EE7069D27"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5F30F596E0165A2C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:infinity_sword)item(avaritia:infinity_trident))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "knavesneeds:betternether/cincinnasite_diamond/glaive"
+			}
+			id: "14EAC431015BDCC7"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6B39905DD0970345"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"14EAC431015BDCC7"
+			]
+			icon: {
+				count: 1
+				id: "knavesneeds:betternether/cincinnasite_diamond/glaive"
+			}
+			id: "21E29E9726E6772B"
+			optional: true
+			rewards: [
+				{
+					id: "4F8ADE23EF16FFDD"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "3E5CD084A6201639"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7707681EEE7E698E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(knavesneeds:betternether/cincinnasite_diamond/glaive)item(simplymore:gold_lance)item(simplyswords:gold_glaive)item(simplyswords:gold_warglaive))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"21E29E9726E6772B"
+			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:nut_hammer"
+			}
+			id: "757C1DE42FAFEC1B"
+			optional: true
+			rewards: [
+				{
+					id: "0BE1CB8269A1F654"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "748F43FA76F9EBAB"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "61C40828AF071391"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(born_in_chaos_v1:nut_hammer)item(goety:bonehead_hammer)item(goety:dark_metal_scythe)item(goety:dark_scythe)item(goety:death_scythe)item(goety:great_hammer)item(hexerei:warhammer)item(knavesneeds:betterend/thallasium/claymore)item(knavesneeds:betterend/thallasium/glaive)item(knavesneeds:betterend/thallasium/greataxe)item(knavesneeds:betterend/thallasium/greathammer)item(knavesneeds:betterend/thallasium/halberd)item(knavesneeds:betterend/thallasium/scythe)item(knavesneeds:betterend/thallasium/warglaive)item(knavesneeds:betternether/cincinnasite_diamond/scythe)item(knavesneeds:betternether/cincinnasite_diamond/warglaive)item(knavesneeds:twilightforest/ironwood/claymore)item(knavesneeds:twilightforest/ironwood/glaive)item(knavesneeds:twilightforest/ironwood/greataxe)item(knavesneeds:twilightforest/ironwood/greathammer)item(knavesneeds:twilightforest/ironwood/scythe)item(knavesneeds:twilightforest/ironwood/warglaive)item(malum:crude_scythe)item(simplymore:gold_grandsword)item(simplymore:gold_great_katana)item(simplymore:gold_great_spear)item(simplymore:iron_lance)item(simplyswords:gold_claymore)item(simplyswords:gold_greataxe)item(simplyswords:gold_scythe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"757C1DE42FAFEC1B"
+			]
+			icon: {
+				count: 1
+				id: "eternal_starlight:thermal_springstone_scythe"
+			}
+			id: "58F5E68DB177042C"
+			optional: true
+			rewards: [
+				{
+					id: "6CEEDF5DF4BA2A15"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "6F8922408826BBDE"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6401EC76AD143D5C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(eternal_starlight:thermal_springstone_scythe)item(knavesneeds:betternether/cincinnasite/claymore)item(knavesneeds:betternether/cincinnasite/glaive)item(knavesneeds:betternether/cincinnasite/greataxe)item(knavesneeds:betternether/cincinnasite/greathammer)item(knavesneeds:betternether/cincinnasite/halberd)item(knavesneeds:betternether/cincinnasite/scythe)item(knavesneeds:betternether/cincinnasite/warglaive)item(knavesneeds:betternether/cincinnasite_diamond/claymore)item(knavesneeds:betternether/cincinnasite_diamond/greataxe)item(knavesneeds:betternether/cincinnasite_diamond/greathammer)item(knavesneeds:twilightforest/ironwood/halberd)item(simplyswords:gold_greathammer)item(simplyswords:gold_halberd)item(simplyswords:iron_glaive)item(simplyswords:iron_scythe)item(simplyswords:iron_warglaive))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"58F5E68DB177042C"
+			]
+			icon: {
+				count: 1
+				id: "eidolon_repraised:reaper_scythe"
+			}
+			id: "151DCCF738319FD5"
+			optional: true
+			rewards: [
+				{
+					id: "4599FCAE0B3E19C7"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "6E7679EA38709458"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "031E0BCBBA319E0A"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(eidolon_repraised:reaper_scythe)item(eternal_starlight:flowglaze_scythe)item(eternal_starlight:glacite_scythe)item(eternal_starlight:starfire_scythe)item(eternal_starlight:thermal_springstone_hammer)item(knavesneeds:betterend/terminite/claymore)item(knavesneeds:betterend/terminite/glaive)item(knavesneeds:betterend/terminite/greataxe)item(knavesneeds:betterend/terminite/greathammer)item(knavesneeds:betterend/terminite/halberd)item(knavesneeds:betterend/terminite/scythe)item(knavesneeds:betterend/terminite/warglaive)item(knavesneeds:betternether/cincinnasite_diamond/halberd)item(knavesneeds:betternether/nether_ruby/claymore)item(knavesneeds:betternether/nether_ruby/glaive)item(knavesneeds:betternether/nether_ruby/greataxe)item(knavesneeds:betternether/nether_ruby/greathammer)item(knavesneeds:betternether/nether_ruby/halberd)item(knavesneeds:betternether/nether_ruby/scythe)item(knavesneeds:betternether/nether_ruby/warglaive)item(knavesneeds:twilightforest/fiery/claymore)item(knavesneeds:twilightforest/fiery/glaive)item(knavesneeds:twilightforest/fiery/greataxe)item(knavesneeds:twilightforest/fiery/greathammer)item(knavesneeds:twilightforest/fiery/halberd)item(knavesneeds:twilightforest/fiery/scythe)item(knavesneeds:twilightforest/fiery/warglaive)item(knavesneeds:twilightforest/knightmetal/claymore)item(knavesneeds:twilightforest/knightmetal/glaive)item(knavesneeds:twilightforest/knightmetal/greataxe)item(knavesneeds:twilightforest/knightmetal/greathammer)item(knavesneeds:twilightforest/knightmetal/halberd)item(knavesneeds:twilightforest/knightmetal/scythe)item(knavesneeds:twilightforest/knightmetal/warglaive)item(knavesneeds:twilightforest/steeleaf/claymore)item(knavesneeds:twilightforest/steeleaf/glaive)item(knavesneeds:twilightforest/steeleaf/greataxe)item(knavesneeds:twilightforest/steeleaf/greathammer)item(knavesneeds:twilightforest/steeleaf/halberd)item(knavesneeds:twilightforest/steeleaf/scythe)item(knavesneeds:twilightforest/steeleaf/warglaive)item(simplymore:diamond_lance)item(simplymore:iron_grandsword)item(simplymore:iron_great_katana)item(simplymore:iron_great_spear)item(simplyswords:diamond_glaive)item(simplyswords:iron_claymore)item(simplyswords:iron_greataxe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"151DCCF738319FD5"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:mace"
+			}
+			id: "40D2F7B2572EBD6F"
+			optional: true
+			rewards: [
+				{
+					id: "0994944970318745"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "5FAC1DB9604CDDD9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "02EB73A801300B53"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(born_in_chaos_v1:nightmare_scythe)item(born_in_chaos_v1:shell_mace)item(born_in_chaos_v1:skullbreaker_hammer)item(eidolon_repraised:deathbringer_scythe)item(eternal_starlight:petal_scythe)item(eternal_starlight:starfire_hammer)item(goety:philosophers_mace)item(irons_spellbooks:claymore)item(irons_spellbooks:decrepit_scythe)item(minecraft:mace)item(mutantmonsters:hulk_hammer)item(simplymore:diamond_great_katana)item(simplymore:netherite_lance)item(simplyswords:diamond_scythe)item(simplyswords:diamond_warglaive)item(simplyswords:iron_greathammer)item(simplyswords:iron_halberd)item(simplyswords:netherite_glaive))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"40D2F7B2572EBD6F"
+			]
+			icon: {
+				count: 1
+				id: "knavesneeds:betterend/aeternium/claymore"
+			}
+			id: "5689902D04BFEF96"
+			optional: true
+			rewards: [
+				{
+					id: "6EACABC216B51E10"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "2AAAAEBA25C0A291"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7647922F4FAF0ACC"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(knavesneeds:betterend/aeternium/claymore)item(knavesneeds:betterend/aeternium/glaive)item(knavesneeds:betterend/aeternium/greataxe)item(knavesneeds:betterend/aeternium/greathammer)item(knavesneeds:betterend/aeternium/halberd)item(knavesneeds:betterend/aeternium/scythe)item(knavesneeds:betterend/aeternium/warglaive)item(simplymore:diamond_grandsword)item(simplymore:diamond_great_spear)item(simplymore:mimicry_lance)item(simplymore:netherite_great_katana)item(simplymore:runic_lance)item(simplyswords:diamond_claymore)item(simplyswords:diamond_greataxe)item(simplyswords:diamond_greathammer)item(simplyswords:netherite_greataxe)item(simplyswords:netherite_greathammer)item(simplyswords:netherite_scythe)item(simplyswords:netherite_warglaive)item(simplyswords:runic_glaive))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5689902D04BFEF96"
+			]
+			icon: {
+				count: 1
+				id: "knavesneeds:forbidden_arcanus/draco_arcanus/claymore"
+			}
+			id: "31F3B94E8E0C28A6"
+			optional: true
+			rewards: [
+				{
+					id: "150B0D370AD67DC2"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "7E1D8F5D053939B2"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4B9AD262639E73A4"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(knavesneeds:forbidden_arcanus/draco_arcanus/claymore)item(knavesneeds:forbidden_arcanus/draco_arcanus/glaive)item(knavesneeds:forbidden_arcanus/draco_arcanus/greataxe)item(knavesneeds:forbidden_arcanus/draco_arcanus/greathammer)item(knavesneeds:forbidden_arcanus/draco_arcanus/scythe)item(knavesneeds:forbidden_arcanus/draco_arcanus/warglaive)item(simplymore:mimicry_glaive)item(simplymore:netherite_grandsword)item(simplymore:netherite_great_spear)item(simplymore:runic_grandsword)item(simplymore:runic_great_katana)item(simplymore:runic_great_spear)item(simplyswords:diamond_halberd)item(simplyswords:netherite_claymore)item(simplyswords:runic_greataxe)item(simplyswords:runic_greathammer)item(simplyswords:runic_scythe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"31F3B94E8E0C28A6"
+			]
+			icon: {
+				count: 1
+				id: "knavesneeds:forbidden_arcanus/draco_arcanus/halberd"
+			}
+			id: "3E82D65E36101CE8"
+			optional: true
+			rewards: [
+				{
+					id: "6355A0600A2A2657"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "6AC019244CF3D653"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "17B90A528A763196"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(knavesneeds:forbidden_arcanus/draco_arcanus/halberd)item(malum:soul_stained_steel_scythe)item(simplymore:great_slither)item(simplymore:mimicry_claymore)item(simplymore:mimicry_grandsword)item(simplymore:mimicry_great_katana)item(simplymore:mimicry_great_spear)item(simplymore:mimicry_greataxe)item(simplymore:mimicry_greathammer)item(simplymore:mimicry_scythe)item(simplyswords:brimstone_claymore)item(simplyswords:magiscythe)item(simplyswords:netherite_halberd)item(simplyswords:ribboncleaver)item(simplyswords:runic_claymore)item(simplyswords:runic_halberd)item(simplyswords:runic_warglaive)item(simplyswords:watcher_claymore)item(simplyswords:watching_warglaive))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3E82D65E36101CE8"
+			]
+			icon: {
+				count: 1
+				id: "simplymore:mimicry_halberd"
+			}
+			id: "30FA8181C03CFD5D"
+			optional: true
+			rewards: [
+				{
+					id: "126DAE8D9DBB305B"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "37E4922945D9F72B"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7439DE0913C34EF4"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(simplymore:mimicry_halberd)item(simplymore:mimicry_warglaive))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "knavesneeds:betternether/cincinnasite_diamond/chakram"
+			}
+			id: "3ED1624B5B265A31"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "46236BE7C334DD91"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3ED1624B5B265A31"
+			]
+			icon: {
+				count: 1
+				id: "knavesneeds:betternether/cincinnasite_diamond/chakram"
+			}
+			id: "684D9379C07FE6A4"
+			optional: true
+			rewards: [
+				{
+					id: "094C4D93FD8BBF88"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "6FBE33EC22D4C93B"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "0F94075CB3D408FA"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(knavesneeds:betternether/cincinnasite_diamond/chakram)item(knavesneeds:betternether/cincinnasite_diamond/rapier)item(knavesneeds:betternether/cincinnasite_diamond/sai)item(simplymore:gold_dagger)item(simplyswords:gold_chakram)item(simplyswords:gold_cutlass)item(simplyswords:gold_rapier)item(simplyswords:gold_sai)item(simplyswords:gold_twinblade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"684D9379C07FE6A4"
+			]
+			icon: {
+				count: 1
+				id: "eidolon_repraised:athame"
+			}
+			id: "72E9AD3EC96C64E4"
+			optional: true
+			rewards: [
+				{
+					id: "623BB368820385A2"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "6F08B8186E9965CD"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5DB71C2D76114475"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(eidolon_repraised:athame)item(eternal_starlight:amaramber_sickle)item(eternal_starlight:deepsilver_sickle)item(eternal_starlight:malarite_sickle)item(goety:fanged_dagger)item(goety:hungry_dagger)item(goety:wicked_boline)item(knavesneeds:betterend/thallasium/chakram)item(knavesneeds:betterend/thallasium/cutlass)item(knavesneeds:betterend/thallasium/rapier)item(knavesneeds:betterend/thallasium/sai)item(knavesneeds:betterend/thallasium/twinblade)item(knavesneeds:betternether/cincinnasite_diamond/cutlass)item(knavesneeds:betternether/cincinnasite_diamond/twinblade)item(knavesneeds:twilightforest/ironwood/chakram)item(knavesneeds:twilightforest/ironwood/cutlass)item(knavesneeds:twilightforest/ironwood/rapier)item(knavesneeds:twilightforest/ironwood/sai)item(knavesneeds:twilightforest/ironwood/twinblade)item(samurai_dynasty:kama)item(samurai_dynasty:kunai)item(samurai_dynasty:sai)item(samurai_dynasty:shuko)item(simplymore:iron_dagger)item(simplyswords:iron_chakram)item(simplyswords:iron_sai))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"72E9AD3EC96C64E4"
+			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:soul_cutlass"
+			}
+			id: "3C44CF9D25E8D9F3"
+			optional: true
+			rewards: [
+				{
+					id: "5FD56B638C1AE89C"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "39F2ACD34D336D32"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5C5184487347BE37"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(born_in_chaos_v1:soul_cutlass)item(evilcraft:spikey_claws)item(knavesneeds:betternether/cincinnasite/chakram)item(knavesneeds:betternether/cincinnasite/cutlass)item(knavesneeds:betternether/cincinnasite/rapier)item(knavesneeds:betternether/cincinnasite/sai)item(knavesneeds:betternether/cincinnasite/twinblade)item(occultism:butcher_knife)item(simplyswords:iron_rapier))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3C44CF9D25E8D9F3"
+			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:dark_ritual_dagger"
+			}
+			id: "65B70993CD4E70A6"
+			optional: true
+			rewards: [
+				{
+					id: "70F856AE9AEDA76A"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "3C7C6A41E267112E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "59528B88B6B2C2A2"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(born_in_chaos_v1:dark_ritual_dagger)item(born_in_chaos_v1:intoxicating_dagger)item(eternal_starlight:dagger_of_hunger)item(knavesneeds:betterend/terminite/chakram)item(knavesneeds:betterend/terminite/cutlass)item(knavesneeds:betterend/terminite/rapier)item(knavesneeds:betterend/terminite/sai)item(knavesneeds:betterend/terminite/twinblade)item(knavesneeds:betternether/nether_ruby/chakram)item(knavesneeds:betternether/nether_ruby/cutlass)item(knavesneeds:betternether/nether_ruby/rapier)item(knavesneeds:betternether/nether_ruby/sai)item(knavesneeds:betternether/nether_ruby/twinblade)item(knavesneeds:twilightforest/fiery/chakram)item(knavesneeds:twilightforest/fiery/cutlass)item(knavesneeds:twilightforest/fiery/rapier)item(knavesneeds:twilightforest/fiery/sai)item(knavesneeds:twilightforest/fiery/twinblade)item(knavesneeds:twilightforest/knightmetal/chakram)item(knavesneeds:twilightforest/knightmetal/cutlass)item(knavesneeds:twilightforest/knightmetal/rapier)item(knavesneeds:twilightforest/knightmetal/sai)item(knavesneeds:twilightforest/knightmetal/twinblade)item(knavesneeds:twilightforest/steeleaf/chakram)item(knavesneeds:twilightforest/steeleaf/cutlass)item(knavesneeds:twilightforest/steeleaf/rapier)item(knavesneeds:twilightforest/steeleaf/sai)item(knavesneeds:twilightforest/steeleaf/twinblade)item(samurai_dynasty:kamayari)item(simplymore:diamond_dagger)item(simplyswords:diamond_chakram)item(simplyswords:diamond_sai)item(simplyswords:iron_cutlass)item(simplyswords:iron_twinblade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"65B70993CD4E70A6"
+			]
+			icon: {
+				count: 1
+				id: "eternal_starlight:doomeden_rapier"
+			}
+			id: "55F5131384865022"
+			optional: true
+			rewards: [
+				{
+					id: "5E033D5D9E566E28"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "647747149190F99F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "2EC9A3C34583362C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(eternal_starlight:doomeden_rapier)item(eternal_starlight:unrealium_sickle)item(irons_spellbooks:amethyst_rapier)item(occultism:iesnium_butcher_knife)item(samurai_dynasty:kama_netherite)item(samurai_dynasty:kamayari_netherite)item(samurai_dynasty:kunai_netherite)item(samurai_dynasty:sai_netherite)item(samurai_dynasty:shuko_netherite)item(simplymore:boas_fang)item(simplymore:mimicry_chakram)item(simplymore:netherite_dagger)item(simplyswords:diamond_rapier)item(simplyswords:netherite_chakram)item(simplyswords:netherite_sai))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"55F5131384865022"
+			]
+			icon: {
+				count: 1
+				id: "knavesneeds:betterend/aeternium/chakram"
+			}
+			id: "0ECAE65BCB754893"
+			optional: true
+			rewards: [
+				{
+					id: "1910E6928053C18E"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "3D38EE8E08DEC231"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1B1DC59B737547F2"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(knavesneeds:betterend/aeternium/chakram)item(knavesneeds:betterend/aeternium/cutlass)item(knavesneeds:betterend/aeternium/rapier)item(knavesneeds:betterend/aeternium/sai)item(knavesneeds:betterend/aeternium/twinblade)item(simplymore:runic_dagger)item(simplyswords:diamond_cutlass)item(simplyswords:diamond_twinblade)item(simplyswords:netherite_rapier)item(simplyswords:runic_chakram)item(simplyswords:runic_sai))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0ECAE65BCB754893"
+			]
+			icon: {
+				count: 1
+				id: "knavesneeds:forbidden_arcanus/draco_arcanus/chakram"
+			}
+			id: "3039FAA02F8E7907"
+			optional: true
+			rewards: [
+				{
+					id: "5AAED32FB7939C34"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "154F4B74310723B7"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "23664A26611B9B8F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(knavesneeds:forbidden_arcanus/draco_arcanus/chakram)item(knavesneeds:forbidden_arcanus/draco_arcanus/cutlass)item(knavesneeds:forbidden_arcanus/draco_arcanus/rapier)item(knavesneeds:forbidden_arcanus/draco_arcanus/sai)item(knavesneeds:forbidden_arcanus/draco_arcanus/twinblade)item(simplymore:mimicry_dagger)item(simplymore:mimicry_sai)item(simplyswords:netherite_cutlass)item(simplyswords:netherite_twinblade)item(simplyswords:runic_rapier))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3039FAA02F8E7907"
+			]
+			icon: {
+				count: 1
+				id: "simplyswords:runic_cutlass"
+			}
+			id: "1C0DC7CD060102D8"
+			optional: true
+			rewards: [
+				{
+					id: "4D37C8F6C8B89890"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "65D507A2B5EC665B"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "25A0780ABFA30BA7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(simplyswords:runic_cutlass)item(simplyswords:runic_twinblade)item(simplyswords:wraithfang))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1C0DC7CD060102D8"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:athame"
+			}
+			id: "4EE01E708F784D3B"
+			optional: true
+			rewards: [
+				{
+					id: "59C8125FD6CC15D7"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "428C0ABAA2107CF8"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4DE413508706FD0D"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cataclysm:athame)item(simplymore:mimicry_cutlass)item(simplymore:mimicry_rapier)item(simplymore:mimicry_twinblade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:wooden_pickaxe"
+			}
+			id: "5672C12C98B7D4C5"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "44680FAD8227A5AF"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5672C12C98B7D4C5"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:wooden_pickaxe"
+			}
+			id: "728D35272FA18CC8"
+			optional: true
+			rewards: [
+				{
+					id: "7B9AA915E1B2FBA5"
+					item: {
+						count: 4
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "6AC0B6B466990EB3"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "570D777B654CE9A9"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:wooden_pickaxe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"728D35272FA18CC8"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:golden_pickaxe"
+			}
+			id: "1014C678AB4D960A"
+			optional: true
+			rewards: [
+				{
+					id: "16EA0CFE5DFF2070"
+					item: {
+						count: 4
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3471AF94AA3C509C"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1320E9A39885BA8E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:golden_hammer)item(ends_delight:end_stone_knife)item(ends_delight:purpur_knife)item(farmersdelight:flint_knife)item(farmersdelight:golden_knife)item(forbidden_arcanus:golden_blacksmith_gavel)item(forbidden_arcanus:stone_blacksmith_gavel)item(forbidden_arcanus:wooden_blacksmith_gavel)item(minecraft:golden_pickaxe)item(minecraft:stone_pickaxe)item(mowziesmobs:earthrend_gauntlet)item(mowziesmobs:naga_fang_dagger)item(mowziesmobs:sculptor_staff)item(mowziesmobs:spear)item(twilightforest:giant_pickaxe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"1014C678AB4D960A"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_pickaxe"
+			}
+			id: "78BAA40A84BF8A3B"
+			optional: true
+			rewards: [
+				{
+					id: "4CBA1B72E5D52548"
+					item: {
+						count: 4
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3088B6EAFC3D26DA"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "27D4C59899B92C52"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ae2:certus_quartz_pickaxe)item(ae2:nether_quartz_pickaxe)item(betterend:iron_hammer)item(betternether:cincinnasite_pickaxe)item(eidolon_repraised:silver_pickaxe)item(ends_delight:dragon_egg_shell_knife)item(eternal_starlight:amaramber_pickaxe)item(eternal_starlight:malarite_pickaxe)item(farmersdelight:iron_knife)item(forbidden_arcanus:iron_blacksmith_gavel)item(goety:dark_pickaxe)item(malum:spellweaving_pickaxe)item(minecraft:iron_pickaxe)item(naturesaura:infused_iron_pickaxe)item(occultism:infused_pickaxe)item(techreborn:basic_drill)item(techreborn:ruby_pickaxe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"78BAA40A84BF8A3B"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:bronze_pickaxe"
+			}
+			id: "4A9BF327170E4534"
+			optional: true
+			rewards: [
+				{
+					id: "48CCF985B3BA947C"
+					item: {
+						count: 4
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "221DD121374E76C2"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6A2EECDAF92D7232"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ae2:fluix_pickaxe)item(betterend:thallasium_hammer)item(betterend:thallasium_pickaxe)item(betternether:nether_ruby_pickaxe)item(eidolon_repraised:reversal_pick)item(eternal_starlight:glacite_pickaxe)item(eternal_starlight:thermal_springstone_pickaxe)item(techreborn:bronze_pickaxe)item(techreborn:peridot_pickaxe)item(techreborn:sapphire_pickaxe)item(twilightforest:ironwood_pickaxe)item(twilightforest:steeleaf_pickaxe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"4A9BF327170E4534"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:blaze_pickaxe"
+			}
+			id: "7DEAAE834E3FA43D"
+			optional: true
+			rewards: [
+				{
+					id: "2E34DFC69712DD4B"
+					item: {
+						count: 4
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "08338C61CA37D351"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "21B5ED720AE4C123"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:blaze_pickaxe)item(avaritia:crystal_pickaxe)item(betterend:diamond_hammer)item(betternether:cincinnasite_pickaxe_diamond)item(betternether:flaming_ruby_pickaxe)item(cataclysm:black_steel_pickaxe)item(ends_delight:dragon_tooth_knife)item(eternal_starlight:deepsilver_pickaxe)item(eternal_starlight:flowglaze_pickaxe)item(eternal_starlight:gravity_pickaxe)item(eternal_starlight:starfire_pickaxe)item(eternal_starlight:underminer)item(eternal_starlight:unrealium_pickaxe)item(evilcraft:vengeance_pickaxe)item(farmersdelight:diamond_knife)item(forbidden_arcanus:diamond_blacksmith_gavel)item(forbidden_arcanus:reinforced_deorum_blacksmith_gavel)item(forbidden_arcanus:reinforced_deorum_pickaxe)item(goety:eerie_pickaxe)item(minecraft:diamond_pickaxe)item(naturesaura:depth_pickaxe)item(naturesaura:sky_pickaxe)item(occultism:iesnium_pickaxe)item(techreborn:advanced_drill)item(techreborn:basic_jackhammer)item(techreborn:rock_cutter)item(twilightforest:fiery_pickaxe)item(twilightforest:knightmetal_pickaxe)item(twilightforest:mazebreaker_pickaxe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"7DEAAE834E3FA43D"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:netherite_pickaxe"
+			}
+			id: "2B5A0FEACB580E77"
+			optional: true
+			rewards: [
+				{
+					id: "36EBE83385F2D6F2"
+					item: {
+						count: 4
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "08C93DE1291DACC0"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "60DE6C3F8A075A3F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:netherite_hammer)item(betterend:terminite_hammer)item(betterend:terminite_pickaxe)item(eternal_starlight:starlit_diamond_pickaxe)item(farmersdelight:netherite_knife)item(forbidden_arcanus:netherite_blacksmith_gavel)item(minecraft:netherite_pickaxe)item(techreborn:advanced_jackhammer)item(techreborn:industrial_drill)item(techreborn:industrial_jackhammer))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2B5A0FEACB580E77"
+			]
+			icon: {
+				count: 1
+				id: "betterend:aeternium_hammer"
+			}
+			id: "75F96A86191E0C40"
+			optional: true
+			rewards: [
+				{
+					id: "4385066504C2B318"
+					item: {
+						count: 4
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "330EFC618F63B124"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5B4A1599FD38DAD3"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:aeternium_hammer)item(betterend:aeternium_pickaxe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"75F96A86191E0C40"
+			]
+			icon: {
+				count: 1
+				id: "forbidden_arcanus:draco_arcanus_pickaxe"
+			}
+			id: "21481240384C783A"
+			optional: true
+			rewards: [
+				{
+					id: "4D27CF9718C1F1FA"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "37413004B348FAAA"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "13018B3FC4C141A9"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:draco_arcanus_pickaxe)item(malum:soul_stained_steel_knife)item(malum:soul_stained_steel_pickaxe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"21481240384C783A"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:omni_tool"
+			}
+			id: "3DC3341927587D3A"
+			optional: true
+			rewards: [
+				{
+					id: "61997F190B26D898"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "61820722F927F57B"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "0DDCC2403677D704"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cataclysm:brontes)item(cataclysm:infernal_forge)item(cataclysm:void_forge)item(techreborn:omni_tool))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3DC3341927587D3A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:infinity_pickaxe"
+			}
+			id: "151E34FB86E5358C"
+			optional: true
+			rewards: [
+				{
+					id: "58D84FBA4BAB0E83"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "59DDFEA4E9A3B120"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "3CCB2338E4C68F08"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:infinity_pickaxe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:wooden_axe"
+			}
+			id: "1B18866E2D43F736"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5721ECB788AC10BB"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"1B18866E2D43F736"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:wooden_axe"
+			}
+			id: "363EED7170EBFF2C"
+			optional: true
+			rewards: [
+				{
+					id: "1220FDD26BB88A23"
+					item: {
+						count: 4
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "34EE8EA16100D2C5"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4202BAF1DA4C32F9"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:wooden_axe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"363EED7170EBFF2C"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:golden_axe"
+			}
+			id: "420F7FCB0004FC1C"
+			optional: true
+			rewards: [
+				{
+					id: "7BECA7D451542EDA"
+					item: {
+						count: 4
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "0422E2D67A6B2762"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "269DE2F3C865AEF2"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:golden_axe)item(minecraft:stone_axe)item(twilightforest:gold_minotaur_axe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"420F7FCB0004FC1C"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_axe"
+			}
+			id: "122AC4566D49DBCA"
+			optional: true
+			rewards: [
+				{
+					id: "07EF26B0AE8E30A8"
+					item: {
+						count: 4
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "092731AC55E57A9F"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "71BB16764877FF83"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ae2:certus_quartz_axe)item(ae2:nether_quartz_axe)item(eternal_starlight:amaramber_axe)item(goety:iron_ice_axe)item(goety:reinforced_ice_axe)item(malum:spellweaving_axe)item(minecraft:iron_axe)item(naturesaura:infused_iron_axe)item(techreborn:basic_chainsaw))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"122AC4566D49DBCA"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:bronze_axe"
+			}
+			id: "41416D027F1F6ADA"
+			optional: true
+			rewards: [
+				{
+					id: "6360A6EE61C37BE5"
+					item: {
+						count: 4
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "0FFFF2699C1C056D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7ECDDA024C40BA75"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ae2:fluix_axe)item(betterend:thallasium_axe)item(eidolon_repraised:cleaving_axe)item(eternal_starlight:malarite_axe)item(eternal_starlight:thermal_springstone_axe)item(goety:dark_axe)item(techreborn:bronze_axe)item(techreborn:peridot_axe)item(techreborn:ruby_axe)item(techreborn:sapphire_axe)item(twilightforest:ironwood_axe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"41416D027F1F6ADA"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:blaze_axe"
+			}
+			id: "4A1D5C4F382A5AC3"
+			optional: true
+			rewards: [
+				{
+					id: "6AE8AECB0BB6CBF3"
+					item: {
+						count: 4
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "613091ADF6749219"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6DEE1DB6EE2D049E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:blaze_axe)item(avaritia:crystal_axe)item(betternether:cincinnasite_axe)item(betternether:flaming_ruby_axe)item(betternether:nether_ruby_axe)item(born_in_chaos_v1:great_reaper_axe)item(born_in_chaos_v1:supreme_measure)item(born_in_chaos_v1:sweet_axe)item(born_in_chaos_v1:wood_splitter_axe)item(cataclysm:black_steel_axe)item(eidolon_repraised:silver_axe)item(eternal_starlight:deepsilver_axe)item(eternal_starlight:flesh_grinder)item(eternal_starlight:flowglaze_axe)item(eternal_starlight:glacite_axe)item(eternal_starlight:pungency_fruit_axe)item(eternal_starlight:starfire_axe)item(eternal_starlight:unrealium_axe)item(forbidden_arcanus:reinforced_deorum_axe)item(goety:diamond_ice_axe)item(goety:rampaging_axe)item(malum:weight_of_worlds)item(minecraft:diamond_axe)item(mowziesmobs:wrought_axe)item(naturesaura:depth_axe)item(naturesaura:sky_axe)item(techreborn:advanced_chainsaw)item(twilightforest:diamond_minotaur_axe)item(twilightforest:knightmetal_axe)item(twilightforest:steeleaf_axe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"4A1D5C4F382A5AC3"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:netherite_axe"
+			}
+			id: "09243F0386CE2B9F"
+			optional: true
+			rewards: [
+				{
+					id: "4DCF798D20559A7F"
+					item: {
+						count: 4
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "4CE93F7F38E9383F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5C59741E4D4245AB"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:terminite_axe)item(betternether:cincinnasite_axe_diamond)item(eternal_starlight:starlit_diamond_axe)item(minecraft:netherite_axe)item(techreborn:industrial_chainsaw))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"09243F0386CE2B9F"
+			]
+			icon: {
+				count: 1
+				id: "betterend:aeternium_axe"
+			}
+			id: "4CB8D7C69C750C8E"
+			optional: true
+			rewards: [
+				{
+					id: "4D72638EE0EC8D16"
+					item: {
+						count: 4
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "05F3468E5086413E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4EF8D4A48D489901"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:aeternium_axe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"4CB8D7C69C750C8E"
+			]
+			icon: {
+				count: 1
+				id: "forbidden_arcanus:draco_arcanus_axe"
+			}
+			id: "37F3BC310262C6B4"
+			optional: true
+			rewards: [
+				{
+					id: "36013BDFE2020B9F"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "6D8A25F6D9E259A1"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4619E03C9CDC7A3C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:draco_arcanus_axe)item(malum:soul_stained_steel_axe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"37F3BC310262C6B4"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:infinity_axe"
+			}
+			id: "0246FD40714F72D7"
+			optional: true
+			rewards: [
+				{
+					id: "6B5F7E485AF773B2"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "023C99F6F95920B3"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5BF2B6DA39E10D82"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:infinity_axe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:wooden_shovel"
+			}
+			id: "5D512B78E72E1737"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "549EDBB8EB1282D8"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"5D512B78E72E1737"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:wooden_shovel"
+			}
+			id: "6378D17658E2C688"
+			optional: true
+			rewards: [
+				{
+					id: "2E43DE0CFE73EE15"
+					item: {
+						count: 8
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					id: "5E6266CCAE90DF55"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7254861A988980E9"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:wooden_shovel))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"6378D17658E2C688"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:golden_shovel"
+			}
+			id: "30AD08CDA46F523A"
+			optional: true
+			rewards: [
+				{
+					id: "10799B0E478F2A2E"
+					item: {
+						count: 8
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					id: "3AECAA51B9178AC0"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1AB6BF66D9BFFA48"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:golden_shovel)item(minecraft:stone_shovel))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"30AD08CDA46F523A"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_shovel"
+			}
+			id: "6A73AB97BC830371"
+			optional: true
+			rewards: [
+				{
+					id: "28F85A0A59E36AA4"
+					item: {
+						count: 8
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					id: "407D52DF738F6CFD"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "3D8550E9624169D4"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ae2:certus_quartz_shovel)item(ae2:nether_quartz_shovel)item(betternether:cincinnasite_shovel)item(eidolon_repraised:silver_shovel)item(eternal_starlight:amaramber_shovel)item(eternal_starlight:malarite_shovel)item(goety:dark_shovel)item(minecraft:iron_shovel)item(naturesaura:infused_iron_shovel)item(techreborn:ruby_spade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"6A73AB97BC830371"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:bronze_spade"
+			}
+			id: "3EE6FD6161554C62"
+			optional: true
+			rewards: [
+				{
+					id: "712AA9B4BB05113E"
+					item: {
+						count: 8
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					id: "17563FD39844C4F1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "2FD9820CA8FE94CF"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ae2:fluix_shovel)item(betterend:thallasium_shovel)item(betternether:nether_ruby_shovel)item(eternal_starlight:glacite_shovel)item(eternal_starlight:thermal_springstone_shovel)item(techreborn:bronze_spade)item(techreborn:peridot_spade)item(techreborn:sapphire_spade)item(twilightforest:ironwood_shovel)item(twilightforest:steeleaf_shovel))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"3EE6FD6161554C62"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:blaze_shovel"
+			}
+			id: "711E0E05A6789C87"
+			optional: true
+			rewards: [
+				{
+					id: "3CEF7693D2647EE5"
+					item: {
+						count: 8
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					id: "25F2BBD496AE7C0D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4634A4CCEA0EADFA"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:blaze_shovel)item(avaritia:crystal_shovel)item(betternether:cincinnasite_shovel_diamond)item(betternether:flaming_ruby_shovel)item(cataclysm:black_steel_shovel)item(eternal_starlight:deepsilver_shovel)item(eternal_starlight:flowglaze_shovel)item(eternal_starlight:starfire_shovel)item(eternal_starlight:unrealium_shovel)item(forbidden_arcanus:reinforced_deorum_shovel)item(goety:graverobber_shovel)item(minecraft:diamond_shovel)item(naturesaura:depth_shovel)item(naturesaura:sky_shovel))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"711E0E05A6789C87"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:netherite_shovel"
+			}
+			id: "25358AE89D62D9D0"
+			optional: true
+			rewards: [
+				{
+					id: "398E8F6548A9EF47"
+					item: {
+						count: 8
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					id: "5E3A94F51197D44E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5DCFB063A48F2522"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:terminite_shovel)item(eternal_starlight:starlit_diamond_shovel)item(minecraft:netherite_shovel))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"25358AE89D62D9D0"
+			]
+			icon: {
+				count: 1
+				id: "betterend:aeternium_shovel"
+			}
+			id: "43770958E1798A52"
+			optional: true
+			rewards: [
+				{
+					id: "1473A2A5CE52FF02"
+					item: {
+						count: 8
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					id: "116DC60EAFF9688B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "30A00AC1D6671526"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:aeternium_shovel))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"43770958E1798A52"
+			]
+			icon: {
+				count: 1
+				id: "forbidden_arcanus:draco_arcanus_shovel"
+			}
+			id: "56F143E3071A844C"
+			optional: true
+			rewards: [
+				{
+					id: "08CAEFAE40DBF04B"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "03E6EB248FDA6FE0"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "16E851DF0C9CE01F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:draco_arcanus_shovel)item(malum:soul_stained_steel_shovel))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"56F143E3071A844C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:infinity_shovel"
+			}
+			id: "6563031F6FC04A14"
+			optional: true
+			rewards: [
+				{
+					id: "347FAB044DB70B0E"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "6ECE4046535D727B"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "64D84A043CF815D6"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:infinity_shovel))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:wooden_hoe"
+			}
+			id: "7F3E8DCD677899ED"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "070AC6C0B2749990"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"7F3E8DCD677899ED"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:wooden_hoe"
+			}
+			id: "7A6CBA86630B4038"
+			optional: true
+			rewards: [
+				{
+					id: "2C36740FF793BF87"
+					item: {
+						count: 4
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "6A967A4CA0CC4717"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "51224A7A1AE5343F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:wooden_hoe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"7A6CBA86630B4038"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:golden_hoe"
+			}
+			id: "31178A8B892388C0"
+			optional: true
+			rewards: [
+				{
+					id: "599749AA9C1E99C9"
+					item: {
+						count: 4
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "79A0D7C387DB97D5"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1A16E5374CA83564"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:golden_hoe)item(minecraft:stone_hoe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"31178A8B892388C0"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_hoe"
+			}
+			id: "180BFAF673E67EC6"
+			optional: true
+			rewards: [
+				{
+					id: "7F5189055055C1F9"
+					item: {
+						count: 4
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "3F6CE53F366867CF"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "62FE90C9E6FF1E90"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ae2:certus_quartz_hoe)item(ae2:nether_quartz_hoe)item(betternether:cincinnasite_hoe)item(eidolon_repraised:silver_hoe)item(eternal_starlight:amaramber_hoe)item(eternal_starlight:malarite_hoe)item(goety:dark_hoe)item(minecraft:iron_hoe)item(naturesaura:infused_iron_hoe)item(techreborn:ruby_hoe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"180BFAF673E67EC6"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:bronze_hoe"
+			}
+			id: "1D14B67416FDD8E4"
+			optional: true
+			rewards: [
+				{
+					id: "37FB8C259607D05F"
+					item: {
+						count: 4
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "48820D5ABC9805E7"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7652B85397544EE3"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ae2:fluix_hoe)item(betterend:thallasium_hoe)item(betternether:nether_ruby_hoe)item(eternal_starlight:glacite_hoe)item(eternal_starlight:thermal_springstone_hoe)item(techreborn:bronze_hoe)item(techreborn:peridot_hoe)item(techreborn:sapphire_hoe)item(twilightforest:ironwood_hoe)item(twilightforest:steeleaf_hoe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"1D14B67416FDD8E4"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:blaze_hoe"
+			}
+			id: "6416766A585109BC"
+			optional: true
+			rewards: [
+				{
+					id: "63BA0851EF96D068"
+					item: {
+						count: 4
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "478F5EC1ED66EE4A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6B4CB7B167DCC4B5"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:blaze_hoe)item(avaritia:crystal_hoe)item(betternether:cincinnasite_hoe_diamond)item(betternether:flaming_ruby_hoe)item(cataclysm:black_steel_hoe)item(eternal_starlight:deepsilver_hoe)item(eternal_starlight:flowglaze_hoe)item(eternal_starlight:starfire_hoe)item(eternal_starlight:unrealium_hoe)item(forbidden_arcanus:reinforced_deorum_hoe)item(minecraft:diamond_hoe)item(naturesaura:depth_hoe)item(naturesaura:sky_hoe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"6416766A585109BC"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:netherite_hoe"
+			}
+			id: "06F4FF496B4A18D7"
+			optional: true
+			rewards: [
+				{
+					id: "56A313904AC3943E"
+					item: {
+						count: 4
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "75055CE6C8DA79C4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "0A45723CF9C372E7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:terminite_hoe)item(eternal_starlight:starlit_diamond_hoe)item(minecraft:netherite_hoe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"06F4FF496B4A18D7"
+			]
+			icon: {
+				count: 1
+				id: "betterend:aeternium_hoe"
+			}
+			id: "0D51968C6607006D"
+			optional: true
+			rewards: [
+				{
+					id: "13C68B95C7C6C4C5"
+					item: {
+						count: 4
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "74431EF56B669019"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6CAE93A7D5117FC7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:aeternium_hoe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"0D51968C6607006D"
+			]
+			icon: {
+				count: 1
+				id: "forbidden_arcanus:draco_arcanus_hoe"
+			}
+			id: "6BFD4F73CFA1C2EA"
+			optional: true
+			rewards: [
+				{
+					id: "711EBFB1FE92BAD1"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "50B419E0A5275754"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "577D406A5889E014"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:draco_arcanus_hoe)item(malum:soul_stained_steel_hoe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"6BFD4F73CFA1C2EA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:infinity_hoe"
+			}
+			id: "117C1420A92291FA"
+			optional: true
+			rewards: [
+				{
+					id: "5F45D577105D8D4A"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "1FEC7D1DA5BAB0CF"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "20FD8A63CAA4FE01"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:infinity_hoe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:bow"
+			}
+			id: "21626CA20E83072E"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "495D04C1470FC497"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"21626CA20E83072E"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:bow"
+			}
+			id: "5507801217CC2695"
+			optional: true
+			rewards: [
+				{
+					id: "4FC767C45199C16C"
+					item: {
+						count: 16
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "0DC055D840716085"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4892725B9882E998"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:bow))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"5507801217CC2695"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:blaze_bow"
+			}
+			id: "50C1213FBB680FE4"
+			optional: true
+			rewards: [
+				{
+					id: "2ADA4D55E5F062E6"
+					item: {
+						count: 16
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "36804CCBEF3A4F65"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "58CA90B14B4296B9"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:spell_bow)item(avaritia:blaze_bow)item(avaritia:crystal_bow)item(eternal_starlight:bow_of_blood)item(eternal_starlight:flowglaze_bow)item(eternal_starlight:glistering_bow)item(eternal_starlight:moonring_bow)item(eternal_starlight:seeds_launcher)item(eternal_starlight:starfall_longbow)item(goety:hunters_bow)item(mowziesmobs:blowgun)item(samurai_dynasty:yumi)item(supplementaries:slingshot)item(twilightforest:ender_bow)item(twilightforest:ice_bow)item(twilightforest:seeker_bow)item(twilightforest:triple_bow))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"50C1213FBB680FE4"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "cataclysm:cursed_bow"
+			}
+			id: "4C5F8B6C850A4631"
+			optional: true
+			rewards: [
+				{
+					id: "05272952F2138D70"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "27838A581AA82480"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6B7ACE969B08D64C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cataclysm:cursed_bow))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"4C5F8B6C850A4631"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:infinity_bow"
+			}
+			id: "1816B625A6F20A65"
+			optional: true
+			rewards: [
+				{
+					id: "442D6414D9069179"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "1D458FB36085C239"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6A460EED0BEDC43F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:infinity_bow))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:crossbow"
+			}
+			id: "78D7F5B213AAB6C4"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "60FD77C6FE827549"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"78D7F5B213AAB6C4"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:crossbow"
+			}
+			id: "6659FC3083FB7202"
+			optional: true
+			rewards: [
+				{
+					id: "01031B5C064696F6"
+					item: {
+						count: 16
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "1CCA6AB285C57955"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "35308D9C124028D6"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:crossbow))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"6659FC3083FB7202"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "ars_nouveau:spell_crossbow"
+			}
+			id: "61A49B0C5D2635A5"
+			optional: true
+			rewards: [
+				{
+					id: "78A694CA43987AC3"
+					item: {
+						count: 16
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "288FCCC2EABE023D"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "49AD74CEDA24CE71"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:spell_crossbow)item(eternal_starlight:crystal_crossbow)item(eternal_starlight:mechanical_crossbow)item(eternal_starlight:starfire_crossbow)item(eternal_starlight:unrealium_crossbow)item(eternal_starlight:wilted_crossbow)item(irons_spellbooks:autoloader_crossbow))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"61A49B0C5D2635A5"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:infinity_crossbow"
+			}
+			id: "22E05748164141AF"
+			optional: true
+			rewards: [
+				{
+					id: "2FA298F7F6B39230"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "171EA88577302151"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6D12D64CADD32EA0"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:infinity_crossbow))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:shield"
+			}
+			id: "0BCF6BC01C0E0F82"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "75D64400A7320C66"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 36.0d
+		}
+		{
+			dependencies: [
+				"0BCF6BC01C0E0F82"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:shield"
+			}
+			id: "25D5A190E30F9265"
+			optional: true
+			rewards: [
+				{
+					id: "3F1B64ECE55B4C7D"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "5D6880E997F31A2D"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4940568D4EF93605"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:shield))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 36.0d
+		}
+		{
+			dependencies: [
+				"25D5A190E30F9265"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "ars_nouveau:enchanters_shield"
+			}
+			id: "7C0DCD04365DC8B7"
+			optional: true
+			rewards: [
+				{
+					id: "03DD67DCF61A7A0B"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "32D9D84B11ADAC81"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6D745C7DB3E4D37E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:enchanters_shield)item(eternal_starlight:flowglaze_shield)item(eternal_starlight:glacite_shield)item(twilightforest:knightmetal_shield))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 36.0d
+		}
+		{
+			dependencies: [
+				"7C0DCD04365DC8B7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "cataclysm:black_steel_targe"
+			}
+			id: "3EDB71AFACD01FCF"
+			optional: true
+			rewards: [
+				{
+					id: "7738DC9AF49A88F6"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "6A928237CCEF35B7"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "23C5C77F69846BA0"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cataclysm:black_steel_targe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 36.0d
+		}
+		{
+			dependencies: [
+				"3EDB71AFACD01FCF"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "cataclysm:azure_sea_shield"
+			}
+			id: "109EBEA25AA234E6"
+			optional: true
+			rewards: [
+				{
+					id: "16A2E4EFF0EF5E1F"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "47BAE1AB01B16BA2"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "01443D3C9FBC9122"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cataclysm:azure_sea_shield))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 36.0d
+		}
+		{
+			dependencies: [
+				"67113F5A59FC9B63"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:tech_module_t4"
+			}
+			id: "297F24C17BC3C070"
+			optional: true
+			rewards: [
+				{
+					id: "7331ED5EB180427A"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5F03CE3E269456F0"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "39D7E046553E4F4B"
+					item: {
+						count: 1
+						id: "kubejs:tech_module_t4"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 44.0d
+		}
+		{
+			dependencies: [
+				"297F24C17BC3C070"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:tech_module_t5"
+			}
+			id: "6D08ADBE2607E89A"
+			optional: true
+			rewards: [
+				{
+					id: "15C6907C7B1C9BAF"
+					item: {
+						count: 4
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "6DBFD449836C4E32"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "168D66ADD9033EE0"
+					item: {
+						count: 1
+						id: "kubejs:tech_module_t5"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 44.0d
+		}
+		{
+			dependencies: [
+				"6D08ADBE2607E89A"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:tech_module_t6"
+			}
+			id: "578AA97262A85889"
+			optional: true
+			rewards: [
+				{
+					id: "511A65883382431C"
+					item: {
+						count: 4
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3B13FCCF388CB438"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6E82FAFFD0471BAF"
+					item: {
+						count: 1
+						id: "kubejs:tech_module_t6"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 44.0d
+		}
+		{
+			dependencies: [
+				"578AA97262A85889"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:tech_module_t8"
+			}
+			id: "7E7F15439BA5E667"
+			optional: true
+			rewards: [
+				{
+					id: "024317957660AA0D"
+					item: {
+						count: 4
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "6CDC7C4CA254F8C6"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "16C5908CA8A4EE69"
+					item: {
+						count: 1
+						id: "kubejs:tech_module_t8"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 44.0d
+		}
+		{
+			dependencies: [
+				"7E7F15439BA5E667"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:tech_module_t9"
+			}
+			id: "061C8173280D9432"
+			optional: true
+			rewards: [
+				{
+					id: "36F20468439B8C68"
+					item: {
+						count: 4
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "39A3CC5621D7691D"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "05C056490D35A7D8"
+					item: {
+						count: 1
+						id: "kubejs:tech_module_t9"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 44.0d
+		}
+		{
+			dependencies: [
+				"061C8173280D9432"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:tech_module_t10"
+			}
+			id: "7370BAC9F66D61A5"
+			optional: true
+			rewards: [
+				{
+					id: "73F1ADDC7082A3B9"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2775D6BAB314F6A6"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "46CF8C416A639BAE"
+					item: {
+						count: 1
+						id: "kubejs:tech_module_t10"
+					}
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 44.0d
+		}
+		{
+			dependencies: [
+				"7370BAC9F66D61A5"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:tech_module_t11"
+			}
+			id: "3C897DC3A8C97763"
+			optional: true
+			rewards: [
+				{
+					id: "44C7FBC4F60429EB"
+					item: {
+						count: 4
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "09475A6F3BAB43AF"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "17E4A8B0325785A2"
+					item: {
+						count: 1
+						id: "kubejs:tech_module_t11"
+					}
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: 44.0d
+		}
+		{
+			dependencies: [
+				"67113F5A59FC9B63"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:aura_seed_t4"
+			}
+			id: "42E9F7828C51CF42"
+			optional: true
+			rewards: [
+				{
+					id: "0AB87DC4A5C3FF5D"
+					item: {
+						count: 4
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "0D86AA952BC57106"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "02243BC43984B02A"
+					item: {
+						count: 1
+						id: "kubejs:aura_seed_t4"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 48.0d
+		}
+		{
+			dependencies: [
+				"42E9F7828C51CF42"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:aura_seed_t5"
+			}
+			id: "1C52A44F11CCE74A"
+			optional: true
+			rewards: [
+				{
+					id: "6531D372F7290BAA"
+					item: {
+						count: 4
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "08F8023CE7829654"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "35CA60B9979F492F"
+					item: {
+						count: 1
+						id: "kubejs:aura_seed_t5"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 48.0d
+		}
+		{
+			dependencies: [
+				"1C52A44F11CCE74A"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:aura_seed_t6"
+			}
+			id: "75517DD9CB32A37B"
+			optional: true
+			rewards: [
+				{
+					id: "4CE5A0B63F64105D"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "595424073BA7B701"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1B52363E42F7BBF3"
+					item: {
+						count: 1
+						id: "kubejs:aura_seed_t6"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 48.0d
+		}
+		{
+			dependencies: [
+				"75517DD9CB32A37B"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:aura_seed_t7"
+			}
+			id: "40E74B7754052271"
+			optional: true
+			rewards: [
+				{
+					id: "7F030CB5726A05DD"
+					item: {
+						count: 4
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "747DFD2A599B93BB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "2E31A85E55BC70A1"
+					item: {
+						count: 1
+						id: "kubejs:aura_seed_t7"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 48.0d
+		}
+		{
+			dependencies: [
+				"40E74B7754052271"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:aura_seed_t8"
+			}
+			id: "107642B452168467"
+			optional: true
+			rewards: [
+				{
+					id: "09EFD35B4ACAFBB7"
+					item: {
+						count: 4
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "026F52673A8987D0"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "38CBD5E7F0ABD38B"
+					item: {
+						count: 1
+						id: "kubejs:aura_seed_t8"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 48.0d
+		}
+		{
+			dependencies: [
+				"67113F5A59FC9B63"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:dark_essence_t7"
+			}
+			id: "4ED9BB4F5221FB37"
+			optional: true
+			rewards: [
+				{
+					id: "094C8914A27FB68E"
+					item: {
+						count: 4
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "22DD56CF7680B93E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7310B33CB7383B0C"
+					item: {
+						count: 1
+						id: "kubejs:dark_essence_t7"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 52.0d
+		}
+		{
+			dependencies: [
+				"67113F5A59FC9B63"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:spirit_contract_t5"
+			}
+			id: "763F7D4C8B4B8432"
+			optional: true
+			rewards: [
+				{
+					id: "7B1DCB8A71FBEEC0"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "118AFBB337DCB5E9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4384FDD10D027648"
+					item: {
+						count: 1
+						id: "kubejs:spirit_contract_t5"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 56.0d
+		}
+	]
+}

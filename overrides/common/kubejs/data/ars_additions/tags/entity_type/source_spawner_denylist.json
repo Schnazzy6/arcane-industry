@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#arcaneindustry:progression_bosses",
+      "required": false
+    },
+    {
+      "id": "#ars_nouveau:jar_release_blacklist",
+      "required": false
+    },
+    {
+      "id": "#c:bosses",
+      "required": false
+    }
+  ]
+}

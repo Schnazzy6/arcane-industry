@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "value": {
+        "tag": "neoforge:ingots/osmium",
+        "type": "neoforge:tag_empty"
+      },
+      "type": "neoforge:not"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "itemIdRegex": "osmium_.+",
+  "modIdRegex": ".+",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "tag": "neoforge:ingots/osmium",
+    "count": 2
+  },
+  "spirits": [
+    {
+      "type": "earthen",
+      "count": 16
+    },
+    {
+      "type": "aqueous",
+      "count": 8
+    }
+  ],
+  "validItems": []
+}

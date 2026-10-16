@@ -1,0 +1,30 @@
+{
+	hide_tooltip: false
+	id: "2967526CE6993EFC"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			item: {
+				count: 8
+				id: "minecraft:cooked_beef"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 32
+				id: "minecraft:arrow"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 16
+				id: "minecraft:torch"
+			}
+			weight: 1.0d
+		}
+	]
+	use_title: true
+}

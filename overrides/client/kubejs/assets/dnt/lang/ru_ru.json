@@ -1,0 +1,20 @@
+{
+  "enchantment.dnt.power": "Мощь",
+  "enchantment.dnt.power.desc": "Аналог «Силы» для арбалетов.",
+  "enchantment.dnt.piercing": "Пробитие",
+  "enchantment.dnt.piercing.desc": "Аналог «Пронзания» для луков.",
+  "enchantment.dnt.multishot": "Тройной выстрел",
+  "enchantment.dnt.multishot.desc": "Аналог «Тройного выстрела» для луков.",
+  "item.dnt.ominous_swamp_village_key": "Зловещий ключ от святилища",
+  "item.dnt.blindness_lingering_potion": "Длительное зелье слепоты",
+  "item.dnt.levitation_arrow": "Стрела левитации",
+  "item.dnt.levitation_lingering_potion": "Затяжное зелье левитации",
+  "item.dnt.levitation_splash_potion": "Брызговое зелье левитации",
+  "item.dnt.levitation_potion": "Зелье левитации",
+  "item.dnt.nausea_arrow": "Стрела головокружения",
+  "item.dnt.nausea_lingering_potion": "Затяжное зелье головокружения",
+  "item.dnt.wither_arrow": "Стрела разложения",
+  "item.dnt.wither_lingering_potion": "Затяжное зелье разложения",
+  "item.dnt.wither_splash_potion": "Брызговое зелье разложения",
+  "item.dnt.wither_potion": "Зелье разложения"
+}

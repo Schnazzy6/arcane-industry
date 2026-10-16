@@ -1,0 +1,405 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gear"
+	group: "6B6FDD4F9A66BB50"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: false
+	icon: {
+		count: 1
+		id: "kubejs:armor_core_t1"
+	}
+	id: "0A0695D07C9B8A34"
+	images: [
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"Снаряжение: справочник и станции"
+			]
+			id: "4A9C208EF9A87444"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 22.0d
+			x: 9.0d
+			y: -7.0d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7F9609DF3CE4F878"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:iron_chestplate"
+			}
+			id: "739E89AB6C116A3B"
+			rewards: [ ]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "40E9F1F271573D41"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			id: "1CF8C36D7BF314FD"
+			rewards: [ ]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "506A242B150F6439"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1CF8C36D7BF314FD"
+			]
+			id: "54E0A6473C087A32"
+			rewards: [ ]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7AA34F2803C9E6E5"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"54E0A6473C087A32"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:nether_crafting_table"
+			}
+			id: "640EEC682B7B253E"
+			rewards: [
+				{
+					id: "38D4B60D9C701F47"
+					item: {
+						count: 4
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "2A4A77B2DDD94965"
+					type: "xp"
+					xp: 8
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "248BED826534CD58"
+					item: {
+						count: 1
+						id: "avaritia:nether_crafting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"640EEC682B7B253E"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:end_crafting_table"
+			}
+			id: "22896C56D476A4B9"
+			rewards: [
+				{
+					id: "46B829B00DFCE166"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "6D4519A4F4BC3777"
+					type: "xp"
+					xp: 8
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6C4382E77EBF33D5"
+					item: {
+						count: 1
+						id: "avaritia:end_crafting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"22896C56D476A4B9"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:extreme_crafting_table"
+			}
+			id: "1A7935A4FD73CF39"
+			rewards: [ ]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6ACA23E8500DB70C"
+					type: "checkmark"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1A7935A4FD73CF39"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:armor_core_t7"
+			}
+			id: "279C059EC8AD1E7B"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "243D164851398707"
+					type: "checkmark"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			id: "0048B9B64B852E0D"
+			rewards: [ ]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6D2C5D707AEB81BB"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0048B9B64B852E0D"
+			]
+			id: "67113F5A59FC9B63"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "02454FBCE6DDEBED"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"67113F5A59FC9B63"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:nanosaber"
+			}
+			id: "053E6E3BE7543B08"
+			optional: true
+			rewards: [
+				{
+					id: "20E08DCFC59EE73D"
+					item: {
+						count: 4
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "42174B01FF4EA849"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "161460B8B037E177"
+					item: {
+						count: 1
+						id: "techreborn:nanosaber"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			id: "12B935DF020A6D24"
+			rewards: [ ]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2CF145034BBDC63F"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"12B935DF020A6D24"
+			]
+			id: "528B9637DA295B58"
+			rewards: [ ]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "05B42A432473BF8E"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"528B9637DA295B58"
+			]
+			icon: {
+				count: 1
+				id: "apotheosis:reforging_table"
+			}
+			id: "0EAC7B3905E0995A"
+			optional: true
+			rewards: [
+				{
+					id: "4E5EE7449A09E163"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "6AE35D2807BA7175"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "2F75648FCCFF8448"
+					item: {
+						count: 1
+						id: "apotheosis:reforging_table"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "6685D87ACB7C3E95"
+					item: {
+						count: 1
+						id: "apotheosis:salvaging_table"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0EAC7B3905E0995A"
+			]
+			icon: {
+				count: 1
+				id: "apotheosis:gem_cutting_table"
+			}
+			id: "3B1E3E16AB304169"
+			optional: true
+			rewards: [
+				{
+					id: "459D2278D7FB2413"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "0048CD2F22EF37E5"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "026752C933EFA757"
+					item: {
+						count: 1
+						id: "apotheosis:gem_cutting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -4.0d
+		}
+	]
+}

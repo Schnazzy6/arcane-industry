@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "advanced_reborn:ray_solar_panel"
+    },
+    "B": {
+      "item": "techreborn:lv_transformer"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "advanced_reborn:ray_solar_panel_2"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ]
+}

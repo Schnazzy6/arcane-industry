@@ -1,0 +1,563 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "reborn"
+	group: "2DCF10F76EBF2A74"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: false
+	icon: {
+		count: 1
+		id: "techreborn:matter_fabricator"
+	}
+	id: "6A8910F796EE0843"
+	images: [
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"Глава 5. Tech Reborn"
+			]
+			id: "05B4D9508B4B217E"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 16.0d
+			x: 6.0d
+			y: -7.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"716CC754872648BD"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:reborn_interface"
+			}
+			id: "49A31FCD3F980244"
+			rewards: [
+				{
+					id: "14C88F2A43F833E2"
+					item: {
+						count: 8
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "402DF8001595757C"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "2923EAB90D295A0F"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "07E00AF65F9A00F4"
+					item: {
+						count: 1
+						id: "kubejs:reborn_interface"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"49A31FCD3F980244"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "techreborn:electronic_circuit"
+			}
+			id: "1B95E38E277A80D4"
+			rewards: [
+				{
+					id: "0D7919FC901C32C6"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "6C74EBC72B6AFA3C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "56D0B268172B6996"
+					item: {
+						count: 1
+						id: "techreborn:electronic_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2DCF5D9BAC409F7B"
+					item: {
+						count: 1
+						id: "techreborn:advanced_circuit"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1B95E38E277A80D4"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:industrial_circuit"
+			}
+			id: "3BF025587459E94D"
+			rewards: [
+				{
+					id: "5E0053F0FDA8D1B7"
+					item: {
+						count: 8
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "7F5632A1D10F7D50"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "0DD1EED038F51ECB"
+					item: {
+						count: 1
+						id: "techreborn:industrial_circuit"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"49A31FCD3F980244"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "techreborn:iridium_plate"
+			}
+			id: "61E05E74F5A1F9E5"
+			rewards: [
+				{
+					id: "0EB4C46CEF62C598"
+					item: {
+						count: 8
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "0D75EC3ECE257F9E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "58D2847025935358"
+					item: {
+						count: 1
+						id: "techreborn:iridium_plate"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2432C6B01B88FAF6"
+					item: {
+						count: 1
+						id: "techreborn:iridium_alloy_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"61E05E74F5A1F9E5"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:data_storage_chip"
+			}
+			id: "5ECE6F941AA19DDE"
+			rewards: [
+				{
+					id: "4C21CB70B3870A4D"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "1D4BE5EC15B82891"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "2598371AF60D4926"
+					item: {
+						count: 1
+						id: "techreborn:data_storage_chip"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3BF025587459E94D"
+				"5ECE6F941AA19DDE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "techreborn:matter_fabricator"
+			}
+			id: "117D85900FA1ABB6"
+			rewards: [
+				{
+					id: "7ACD992B7CF89862"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "72799E54D4EC4568"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "1A8588AC82E6D975"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "489FA35E94D20CC7"
+					item: {
+						count: 1
+						id: "techreborn:matter_fabricator"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"117D85900FA1ABB6"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:uu_matter"
+			}
+			id: "3C8391056AE6FA64"
+			rewards: [
+				{
+					id: "06E21CD2C3B998DC"
+					item: {
+						count: 4
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "7E87BD080C9FD46C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3625C8739E02FBA5"
+					item: {
+						count: 1
+						id: "techreborn:uu_matter"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"49A31FCD3F980244"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:boss_seal"
+			}
+			id: "0576E5CE77C43592"
+			rewards: [
+				{
+					id: "076D1E28E7998E4F"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "05BEE1C29597C1A5"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "0247D1958912D824"
+					item: {
+						count: 1
+						id: "kubejs:boss_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"49A31FCD3F980244"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "techreborn:nano_chestplate"
+			}
+			id: "7058173573E55FAE"
+			optional: true
+			rewards: [
+				{
+					id: "65683F7EEF85E10E"
+					item: {
+						count: 4
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "630FF0902E0B1CFB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "125C17ECD92B1360"
+					item: {
+						count: 1
+						id: "techreborn:nano_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3C8391056AE6FA64"
+				"0576E5CE77C43592"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:convergence_core"
+			}
+			id: "0F4F105C0342A92F"
+			rewards: [
+				{
+					id: "5CB77DACB36919A3"
+					item: {
+						count: 8
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "7F8CA2D383CFCFD2"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "52FCBD3E8BB5D37E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "0C7F57FF22AEEB8F"
+					item: {
+						count: 1
+						id: "kubejs:convergence_core"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F4F105C0342A92F"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:quantum_chestplate"
+			}
+			id: "22DC64F8BD3C8DB4"
+			optional: true
+			rewards: [
+				{
+					id: "1AF81E5C40302998"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "292419D3DA25BF1E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "37D43D01A5029964"
+					item: {
+						count: 1
+						id: "techreborn:quantum_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0F4F105C0342A92F"
+			]
+			id: "76BE02281D4CF6B8"
+			rewards: [
+				{
+					id: "486320E8B7927751"
+					item: {
+						count: 8
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "24244CA7AFFEFEE9"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "362E6543B49C6430"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "66F3B9E320E0749B"
+					table_id: 3824231141426039569L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "62BAA4D5B16B9B69"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

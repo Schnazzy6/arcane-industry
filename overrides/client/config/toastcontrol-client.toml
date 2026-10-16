@@ -1,0 +1,12 @@
+[client.blocked_toasts]
+advancements = true
+recipes = false
+system = false
+tutorial = true
+global_vanilla = false
+global_modded = false
+global = false
+blocked_classes = []
+[client.visual_options]
+translucent = false
+

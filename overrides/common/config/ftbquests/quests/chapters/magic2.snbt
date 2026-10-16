@@ -1,0 +1,965 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic2"
+	group: "517E2EE5EE2E76FF"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: false
+	icon: {
+		count: 1
+		id: "theurgy:calcination_oven"
+	}
+	id: "3229ACB2F3D3E3A1"
+	images: [
+		{
+			alpha: 245
+			click_action: ""
+			color: 6443128
+			height: 0.85d
+			hover: [
+				"Алхимические школы (M2)"
+			]
+			id: "54F62057EEFC5B6C"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.0d
+			x: 8.0d
+			y: -8.0d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2C8661F504703B4B"
+			]
+			hide_dependency_lines: true
+			id: "45FF79912124FB24"
+			rewards: [ ]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0CBA24747514D390"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"45FF79912124FB24"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "theurgy:pyromantic_brazier"
+			}
+			id: "54D338B4E65CDAF9"
+			rewards: [
+				{
+					id: "5DFA00ECCEEF40E3"
+					item: {
+						count: 4
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "14B08A963E0DD0CB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "79583C869841821B"
+					item: {
+						count: 1
+						id: "theurgy:pyromantic_brazier"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"54D338B4E65CDAF9"
+			]
+			icon: {
+				count: 1
+				id: "theurgy:calcination_oven"
+			}
+			id: "6B7D7628E85763B9"
+			rewards: [
+				{
+					id: "11906F3ADC3B53A3"
+					item: {
+						count: 4
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "141E4AFD81AB1F9B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "34C9948FA7CD5451"
+					item: {
+						count: 1
+						id: "theurgy:calcination_oven"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6B7D7628E85763B9"
+			]
+			icon: {
+				count: 1
+				id: "theurgy:liquefaction_cauldron"
+			}
+			id: "3F5836CE5685C575"
+			rewards: [
+				{
+					id: "42F9EA61EAC76770"
+					item: {
+						count: 8
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "75483ADB7C873161"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "147DB47D3A798BAC"
+					item: {
+						count: 1
+						id: "theurgy:liquefaction_cauldron"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3F5836CE5685C575"
+			]
+			icon: {
+				count: 1
+				id: "theurgy:mercury_shard"
+			}
+			id: "4FDC37474B4AA731"
+			rewards: [
+				{
+					id: "0227EBF903155AD8"
+					item: {
+						count: 2
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "176A59F587C5F161"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "426FFE5850FACB02"
+					item: {
+						count: 1
+						id: "theurgy:mercury_shard"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4FDC37474B4AA731"
+			]
+			icon: {
+				count: 1
+				id: "theurgy:divination_rod_t1"
+			}
+			id: "279D5F17536CD3EF"
+			optional: true
+			rewards: [
+				{
+					id: "4D493D0B0BA1BBAF"
+					item: {
+						count: 8
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "23A62937334B0652"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "50736FD14FBBAD72"
+					item: {
+						count: 1
+						id: "theurgy:divination_rod_t1"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"45FF79912124FB24"
+			]
+			icon: {
+				count: 1
+				id: "occultism:datura"
+			}
+			id: "15CE2F5DAB6FFB9E"
+			rewards: [
+				{
+					id: "76FBE9FBD28A07C6"
+					item: {
+						count: 4
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "2AFBCB2E693798AC"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3FBC5361ABAFA0AB"
+					item: {
+						count: 1
+						id: "occultism:datura"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"15CE2F5DAB6FFB9E"
+			]
+			icon: {
+				count: 1
+				id: "occultism:datura"
+			}
+			id: "0487A113E0C435C8"
+			rewards: [
+				{
+					id: "445477F2A5F710D0"
+					item: {
+						count: 8
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "15DD34D04AC3F19F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "588C04DBC79335BC"
+					item: {
+						count: 1
+						id: "occultism:spirit_fire"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0487A113E0C435C8"
+			]
+			icon: {
+				count: 1
+				id: "occultism:spirit_attuned_gem"
+			}
+			id: "6EF223D0D79EE8CA"
+			rewards: [
+				{
+					id: "0DE50E28B04D3706"
+					item: {
+						count: 4
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3EA63E100F9FD28B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7EAC355CA1D953D2"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_gem"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6EF223D0D79EE8CA"
+			]
+			icon: {
+				count: 1
+				id: "occultism:chalk_white"
+			}
+			id: "16A4D98EB2A9B24F"
+			rewards: [
+				{
+					id: "242D1A253EADEAF0"
+					item: {
+						count: 2
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "6E4B028E5BDEE2D1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "74496B2F8A98ABFB"
+					item: {
+						count: 1
+						id: "occultism:chalk_white"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"16A4D98EB2A9B24F"
+			]
+			icon: {
+				count: 1
+				id: "occultism:sacrificial_bowl"
+			}
+			id: "0E7F2DA36DC88FA3"
+			rewards: [
+				{
+					id: "5FD1343DACCE0E3F"
+					item: {
+						count: 4
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "560E31671012985F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "545CBFD5188AFBBE"
+					item: {
+						count: 1
+						id: "occultism:sacrificial_bowl"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "52A2B8EC28155E87"
+					item: {
+						count: 1
+						id: "occultism:golden_sacrificial_bowl"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"15CE2F5DAB6FFB9E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "09F6F0E6B4D83495"
+			optional: true
+			rewards: [
+				{
+					id: "76E791E7752D3EB9"
+					item: {
+						count: 4
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "2C98B7E35DA74E8B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1D19070486CB9099"
+					item: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0E7F2DA36DC88FA3"
+			]
+			icon: {
+				count: 1
+				id: "occultism:book_of_binding_foliot"
+			}
+			id: "236720F73469BFAA"
+			optional: true
+			rewards: [
+				{
+					id: "28EEE04162B151F2"
+					item: {
+						count: 2
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "284A920E5FFC6727"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "2E0D8DAE054515C0"
+					item: {
+						count: 1
+						id: "occultism:book_of_binding_foliot"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"45FF79912124FB24"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "naturesaura:gold_fiber"
+			}
+			id: "0A1E3AD07E3BCEE7"
+			rewards: [
+				{
+					id: "3BB3374BEEED5855"
+					item: {
+						count: 4
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "34B99E1A56E9FCFE"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6EC4185F5E3BCFCB"
+					item: {
+						count: 1
+						id: "naturesaura:gold_fiber"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0A1E3AD07E3BCEE7"
+			]
+			icon: {
+				count: 1
+				id: "naturesaura:gold_leaf"
+			}
+			id: "6A00A27DA8B6635E"
+			rewards: [
+				{
+					id: "57BC8CF5C50A837F"
+					item: {
+						count: 4
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "6DE6A4D4CEFFCD34"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "449B577E1EBFF846"
+					item: {
+						count: 1
+						id: "naturesaura:gold_leaf"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6A00A27DA8B6635E"
+			]
+			icon: {
+				count: 1
+				id: "naturesaura:wood_stand"
+			}
+			id: "6BADB3A7CF9D0E3F"
+			rewards: [
+				{
+					id: "16850EA27FCF618C"
+					item: {
+						count: 8
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "4BE727925D0683C9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "5C50C35A1ADA444E"
+					item: {
+						count: 1
+						id: "naturesaura:wood_stand"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6BADB3A7CF9D0E3F"
+			]
+			icon: {
+				count: 1
+				id: "naturesaura:ancient_sapling"
+			}
+			id: "657385DD8866561C"
+			rewards: [
+				{
+					id: "2432E24F28C8EDD9"
+					item: {
+						count: 8
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "3001CED484BD6ACD"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6718568B8A2F4614"
+					item: {
+						count: 1
+						id: "naturesaura:ancient_sapling"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"657385DD8866561C"
+			]
+			icon: {
+				count: 1
+				id: "naturesaura:nature_altar"
+			}
+			id: "2B1BCC486CB6D85D"
+			rewards: [
+				{
+					id: "6D191C9CFAAFEE62"
+					item: {
+						count: 8
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "59F1F7596F36E611"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0CDA9007F6C6406E"
+					item: {
+						count: 1
+						id: "naturesaura:nature_altar"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2B1BCC486CB6D85D"
+			]
+			icon: {
+				count: 1
+				id: "naturesaura:infused_iron"
+			}
+			id: "21BB4AAA6E8EE1DC"
+			rewards: [
+				{
+					id: "63982E64938559C5"
+					item: {
+						count: 4
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "2F5D0807822D724C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "462D62136742AB77"
+					item: {
+						count: 1
+						id: "naturesaura:infused_iron"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"45FF79912124FB24"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "ars_nouveau:apprentice_spell_book"
+			}
+			id: "12F1BDBCECB69501"
+			rewards: [
+				{
+					id: "491A7992B78EDE98"
+					item: {
+						count: 4
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "666EE5017497A919"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "78238248615A38D3"
+					item: {
+						count: 1
+						id: "ars_nouveau:apprentice_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"12F1BDBCECB69501"
+			]
+			icon: {
+				count: 1
+				id: "irons_spellbooks:iron_spell_book"
+			}
+			id: "70BC81ADB9D16A30"
+			rewards: [
+				{
+					id: "2FEF81143412F92A"
+					item: {
+						count: 4
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "45E490891C31E65E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "38274B4931836E0B"
+					item: {
+						count: 1
+						id: "irons_spellbooks:iron_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"70BC81ADB9D16A30"
+			]
+			icon: {
+				count: 1
+				id: "irons_spellbooks:alchemist_cauldron"
+			}
+			id: "2B28526D94CBEDD2"
+			optional: true
+			rewards: [
+				{
+					id: "77A629C46461C4C0"
+					item: {
+						count: 4
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "012DD51413764A7E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "38DD0676B499056B"
+					item: {
+						count: 1
+						id: "irons_spellbooks:alchemist_cauldron"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4FDC37474B4AA731"
+				"6EF223D0D79EE8CA"
+				"21BB4AAA6E8EE1DC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:alchemical_catalyst"
+			}
+			id: "6B9D42D2EFA70637"
+			rewards: [
+				{
+					id: "5B95FA8DDD719951"
+					item: {
+						count: 4
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "168DDF7E9AA3BF3E"
+					item: {
+						count: 8
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "2B874788D6208EDC"
+					type: "xp"
+					xp: 18
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "1B94D07B7ABB1980"
+					item: {
+						count: 1
+						id: "kubejs:alchemical_catalyst"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6B9D42D2EFA70637"
+			]
+			hide_dependency_lines: true
+			id: "176AFB39430F2FC6"
+			rewards: [
+				{
+					id: "04F812B563386A60"
+					item: {
+						count: 16
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "21DF3DAA3263A6C3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7C07F5F1C03695D2"
+					table_id: 4719849147719002848L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "140BB6306F9A020B"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+}

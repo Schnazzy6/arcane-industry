@@ -1,0 +1,31 @@
+// Исследование: Незер (y = -3), Сумеречный лес (y = 0), Eternal Starlight и боссы (y = 3), Край (y = 6).
+module.exports = {
+  k: 'explore', order: 21, group: 'side', icon: 'twilightforest:magic_map_focus',
+  t: 'Исследование миров', s: 'Незер, Сумеречный лес, Eternal Starlight, боссы и Край',
+  links: [{k: 'iron', at: [-2, 0]}],
+  quests: [
+    {k: 'x_intro', at: [0, 0], main: true, task: 'check', dep: ['iron'], t: 'Зачем путешествовать', xp: 1, d: [
+      'Трофеи миров нужны прогрессии: &eзнак исследователя&r (глава 4) требует чешую наги, глубинное серебро, тиокварц, тёмный металл и клык наги, а &eпечать покорителя&r (глава 5) — игнитиум Cataclysm, огненный слиток Сумеречного леса и амарамбер.',
+      '',
+      'Один трофей открывает повторяемое производство — не нужно убивать босса для каждой машины.']},
+    {k: 'nether', at: [2, -3], task: ['minecraft:blaze_rod', 8], dep: ['x_intro'], t: 'Незер', d: ['Портал из обсидиана. Незер расширен BetterNether. Огненные стержни нужны для книги ученика Ars, зелий и машин.']},
+    {k: 'debris', at: [4, -3], opt: true, task: ['minecraft:netherite_scrap', 4], dep: ['nether'], t: 'Незерит', d: ['Древние обломки → незеритовый лом. В сборке незерит — тир брони/оружия ступени лестницы, а не финал.']},
+    {k: 'wither', at: [6, -3], task: ['minecraft:nether_star', 1], dep: ['debris'], t: 'Иссушитель', xp: 6, box: 'explore', d: ['3 черепа визер-скелета на песке душ в форме T. Звёзды Незера нужны стабилизатору бесконечности (2 шт.).']},
+    {k: 'tf_portal', at: [2, 0], task: ['twilightforest:magic_map_focus', 1], dep: ['x_intro'], t: 'Сумеречный лес', d: ['Портал: озерцо воды 2×2, обложенное цветами по краю; бросьте в воду алмаз. Боссы Сумеречного леса проходятся &eпо порядку&r — пока не побеждён предыдущий, следующий регион закрыт проклятием.', '', 'Стол разбора Сумеречного леса в сборке отключён.']},
+    {k: 'naga', at: [4, 0], task: ['twilightforest:naga_scale', 6], dep: ['tf_portal'], t: 'Нага', xp: 3, d: ['Первый босс: огороженный двор в лесу. Чешуя наги — в знак исследователя.']},
+    {k: 'lich', at: [6, 0], task: ['twilightforest:lich_trophy', 1], dep: ['naga'], t: 'Лич', xp: 4, d: ['Башня Лича. Бейте отражённые снаряды обратно в щит.']},
+    {k: 'minoshroom', at: [8, 0], task: ['twilightforest:minoshroom_trophy', 1], dep: ['lich'], t: 'Минотавр-гриб', xp: 4, d: ['Лабиринт в болотах.']},
+    {k: 'hydra', at: [10, 0], task: ['twilightforest:hydra_trophy', 1], dep: ['minoshroom'], t: 'Гидра', xp: 6, d: ['Огненное болото. Огненная кровь Гидры → &eогненный слиток&r для печати покорителя.']},
+    {k: 'fiery', at: [12, 0], task: ['twilightforest:fiery_ingot', 2], dep: ['hydra'], t: 'Огненный слиток', d: ['Огненная кровь + железо. Нужен для печати покорителя.']},
+    {k: 'phantom', at: [10, -2], opt: true, task: ['twilightforest:knight_phantom_trophy', 1], dep: ['lich'], hideLines: true, t: 'Рыцари-призраки', xp: 6, d: ['Крепость рыцарей-призраков в тёмном лесу. Открывается после Лича.']},
+    {k: 'urghast', at: [12, -2], opt: true, task: ['twilightforest:ur_ghast_trophy', 1], dep: ['phantom'], t: 'Ур-гаст', xp: 8},
+    {k: 'es_portal', at: [2, 3], task: ['eternal_starlight:thioquartz_shard', 4], dep: ['x_intro'], t: 'Eternal Starlight', d: ['Отдельное измерение под звёздным небом. Портал описан в его справочнике (сфера пророчества). Тиокварц и глубинное серебро — в знак исследователя.']},
+    {k: 'deepsilver', at: [4, 3], task: ['eternal_starlight:deepsilver_ingot', 4], dep: ['es_portal'], t: 'Глубинное серебро'},
+    {k: 'amaramber', at: [6, 3], task: ['eternal_starlight:amaramber_ingot', 2], dep: ['deepsilver'], t: 'Амарамбер', xp: 4, d: ['Нужен для печати покорителя.']},
+    {k: 'dark_metal', at: [2, 5], task: ['born_in_chaos_v1:dark_metal_ingot', 2], dep: ['x_intro'], hideLines: true, t: 'Тёмный металл', d: ['Born in Chaos: падает с мобов хаоса, которые выходят по ночам. Нужен знаку исследователя.']},
+    {k: 'naga_fang', at: [4, 5], task: ['mowziesmobs:naga_fang', 2], dep: ['dark_metal'], t: 'Клык наги (Mowzie\'s Mobs)', d: ['Летающие наги живут в прибрежных пещерах. Клык — в знак исследователя и кинжал.']},
+    {k: 'ignitium', at: [8, 3], task: ['cataclysm:ignitium_ingot', 2], dep: ['amaramber'], t: 'Игнитиум', xp: 8, box: 'explore', d: ['Cataclysm: падает с &eИгниса&r в Пылающей кузне Незера. Тяжёлый бой — приходите в броне тира VI+.']},
+    {k: 'end_eyes', at: [2, 8], task: [['endrem:old_eye', 1], ['endrem:nether_eye', 1], ['endrem:cold_eye', 1]], dep: ['x_intro'], hideLines: true, t: 'Глаза End Remastered', d: ['Портал Края в сборке открывается не глазами Эндера, а &eособыми глазами&r End Remastered: их находят в разных сооружениях мира, получают за боссов и т.д. Нужно 12 разных глаз — их список в JEI.', '', 'Квест — за первые три.']},
+    {k: 'dragon', at: [4, 8], task: ['minecraft:dragon_egg', 1], dep: ['end_eyes'], t: 'Дракон Края', xp: 10, box: 'explore', d: ['Яйцо дракона — трофей победы. Край расширен BetterEnd.']},
+    {k: 'elytra', at: [6, 8], opt: true, task: ['minecraft:elytra', 1], dep: ['dragon'], t: 'Элитры', d: ['Корабли Края во внешних островах.']},
+  ]};

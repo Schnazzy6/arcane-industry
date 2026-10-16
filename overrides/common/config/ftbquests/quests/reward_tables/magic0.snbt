@@ -1,0 +1,30 @@
+{
+	hide_tooltip: false
+	id: "78679E6C1EDE5C2E"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				count: 8
+				id: "minecraft:lapis_lazuli"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 16
+				id: "minecraft:paper"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 8
+				id: "minecraft:amethyst_shard"
+			}
+			weight: 1.0d
+		}
+	]
+	use_title: true
+}

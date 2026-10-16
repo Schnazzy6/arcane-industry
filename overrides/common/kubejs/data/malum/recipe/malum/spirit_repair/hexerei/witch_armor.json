@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hexerei"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "count": 4,
+    "item": "hexerei:infused_fabric"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:wicked",
+      "count": 8
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 8
+    }
+  ],
+  "regex": {
+    "itemIdRegex": "witch_.+",
+    "modIdRegex": "hexerei"
+  },
+  "validItems": []
+}

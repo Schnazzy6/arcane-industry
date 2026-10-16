@@ -1,0 +1,21 @@
+{
+  "block.ftbquests.aux_task_screen": "Экран задач",
+  "block.ftbquests.screen_1": "Экран задач (1x1)",
+  "block.ftbquests.screen_3": "Экран задач (3x3)",
+  "block.ftbquests.screen_5": "Экран задач (5x5)",
+  "block.ftbquests.screen_7": "Экран задач (7x7)",
+  "block.ftbquests.screen.text_shadow": "Рисовать тени текста",
+  "block.ftbquests.screen.no_permission": "У вас нет разрешения на настройку этого!",
+  "block.ftbquests.stage_barrier": "Сценический барьер",
+  "block.ftbquests.barrier.invis_when_open": "Невидимый при открытии",
+  "block.ftbquests.detector": "Квест Детектор",
+  "item.ftbquests.missing_item": "Отсутствует предмет",
+  "item.ftbquests.task_screen_configurator": "Конфигуратор экрана задач",
+  "item.ftbquests.task_screen_configurator.tooltip": "Подкрадитесь + щелкните правой кнопкой мыши блок экрана задач, чтобы привязать его.",
+  "item.ftbquests.barrier.invis_when_open": "Невидим после открытия: %s",
+  "item.ftbquests.barrier.object.quest_barrier": "Выбранный квест: %s",
+  "item.ftbquests.barrier.object.stage_barrier": "Выбранный этап: %s",
+  "item.ftbquests.barrier.rightclick": "Нажмите правой кнопкой, чтобы настроить\nНажмите средней кнопкой, чтобы взять копию вместе с настройками",
+  "item.ftbquests.barrier.skin": "Внешний вид: %s",
+  "item.ftbquests.lootcrate.missing": "ОШИБКА: неизвестный ящик с добычей «%s»!"
+}

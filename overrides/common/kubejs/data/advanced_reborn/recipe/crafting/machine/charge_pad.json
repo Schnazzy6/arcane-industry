@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "PRP",
+    "PCP"
+  ],
+  "key": {
+    "R": {
+      "item": "techreborn:red_cell_battery"
+    },
+    "C": {
+      "item": "techreborn:insulated_copper_cable"
+    },
+    "I": {
+      "item": "techreborn:insulated_hv_cable"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "advanced_reborn:charge_pad"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ]
+}

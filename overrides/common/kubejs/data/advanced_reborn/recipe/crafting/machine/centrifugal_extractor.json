@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "RMR",
+    "RFR"
+  ],
+  "key": {
+    "R": {
+      "item": "techreborn:cell",
+      "nbt": {
+        "fluid": "techreborn:electrolyzed_water"
+      }
+    },
+    "M": {
+      "item": "techreborn:extractor"
+    },
+    "F": {
+      "item": "techreborn:advanced_machine_frame"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "advanced_reborn:centrifugal_extractor"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# AE2 item types per standard ME cell; keeps the default byte capacity.
+maxItemTypesPerCell = 256

@@ -1,0 +1,29 @@
+{
+  "type": "apotheosis:affix_loot_entry",
+  "stack": {
+    "count": 1,
+    "id": "goety:hungry_dagger"
+  },
+  "weights": {
+    "haven": {
+      "weight": 6,
+      "quality": 0
+    },
+    "frontier": {
+      "weight": 6,
+      "quality": 0
+    },
+    "ascent": {
+      "weight": 2,
+      "quality": 0
+    },
+    "summit": {
+      "weight": 0,
+      "quality": 0
+    },
+    "pinnacle": {
+      "weight": 0,
+      "quality": 0
+    }
+  }
+}

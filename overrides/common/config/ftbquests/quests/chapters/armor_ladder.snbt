@@ -1,0 +1,2471 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor_ladder"
+	group: "6B6FDD4F9A66BB50"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: false
+	icon: {
+		count: 1
+		id: "minecraft:iron_chestplate"
+	}
+	id: "5A521550DD8C8737"
+	images: [
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"Лестница брони"
+			]
+			id: "0147D5021D51A501"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 40.0d
+			x: 15.0d
+			y: -3.0d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:leather_helmet"
+			}
+			id: "559586E10314AE83"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "07FFFAEC16DA2883"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"559586E10314AE83"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:leather_helmet"
+			}
+			id: "121CB644D674DD97"
+			optional: true
+			rewards: [
+				{
+					id: "4E2A08C74778CD9F"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "6E2DC4EC1AF63476"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5A3BC8104CEB8BAE"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(eidolon_repraised:top_hat)item(evilcraft:spectral_glasses)item(immersive_armors:bone_helmet)item(immersive_armors:wooden_helmet)item(minecraft:leather_helmet)item(modern_industrialization:rubber_helmet)item(mowziesmobs:umvuthana_mask_bliss)item(mowziesmobs:umvuthana_mask_faith)item(mowziesmobs:umvuthana_mask_fear)item(mowziesmobs:umvuthana_mask_fury)item(mowziesmobs:umvuthana_mask_misery)item(mowziesmobs:umvuthana_mask_rage)item(samurai_dynasty:straw_hat))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"121CB644D674DD97"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:silver_helmet"
+			}
+			id: "1A79EBDF2E23C7B1"
+			optional: true
+			rewards: [
+				{
+					id: "01153D09F6D0C65C"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "1416F7C07890BC2D"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "48505FFB925DFA1B"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(eternal_starlight:air_sac_mask)item(techreborn:silver_helmet))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1A79EBDF2E23C7B1"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:chainmail_helmet"
+			}
+			id: "51054B7C76C5871E"
+			optional: true
+			rewards: [
+				{
+					id: "53F037FE64A8AFE5"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "633867E74AD8389A"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "727293870FA2AD14"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:arcanist_hood)item(born_in_chaos_v1:damned_demomans_hat_helmet)item(born_in_chaos_v1:killer_rabbit_ears_helmet)item(eidolon_repraised:silver_helmet)item(eternal_starlight:alchemist_mask)item(eternal_starlight:amaramber_mask)item(forbidden_arcanus:mortem_helmet)item(immersive_armors:robe_helmet)item(irons_spellbooks:tarnished_helmet)item(irons_spellbooks:wandering_magician_helmet)item(malum:soul_hunter_cloak)item(minecraft:chainmail_helmet)item(minecraft:golden_helmet)item(minecraft:iron_helmet)item(minecraft:turtle_helmet)item(mob_grinding_utils:monocle)item(mowziesmobs:geomancer_beads)item(mowziesmobs:sol_visage)item(mowziesmobs:wrought_helmet)item(naturesaura:infused_iron_helmet)item(occultism:otherworld_goggles)item(twilightforest:ironwood_helmet)item(twilightforest:travellers_goggles))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"51054B7C76C5871E"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:ruby_helmet"
+			}
+			id: "68DF8A1411B55AF1"
+			optional: true
+			rewards: [
+				{
+					id: "5F3950BC698F4423"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "1494590AF54D22BC"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1F749517F33B84CD"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:sorcerer_hood)item(betterend:thallasium_helmet)item(eternal_starlight:deepsilver_helmet)item(goety:cursed_knight_helmet)item(samurai_dynasty:light_samurai_helmet)item(samurai_dynasty:steel_helmet)item(samurai_dynasty:steel_ninja_helmet)item(samurai_dynasty:steel_samurai_helmet)item(techreborn:ruby_helmet))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"68DF8A1411B55AF1"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:bronze_helmet"
+			}
+			id: "25778452968DA526"
+			optional: true
+			rewards: [
+				{
+					id: "4E94C592E3474E87"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "43CE3283F6271958"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "63FD36830C58F30A"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemancy:cinder_hood)item(ars_elemancy:lava_hood)item(ars_elemancy:mire_hood)item(ars_elemancy:silt_hood)item(ars_elemancy:tempest_hood)item(ars_elemancy:vapor_hood)item(ars_elemental:air_hood)item(ars_elemental:aqua_hood)item(ars_elemental:earth_hood)item(ars_elemental:fire_hood)item(ars_nouveau:battlemage_hood)item(betternether:cincinnasite_helmet)item(born_in_chaos_v1:missionary_hat_helmet)item(born_in_chaos_v1:spiritual_guide_sombrero_helmet)item(eidolon_repraised:warlock_hat)item(eternal_starlight:aethersent_hood)item(eternal_starlight:glacite_helmet)item(eternal_starlight:thermal_springstone_helmet)item(eternal_starlight:unrealium_helmet)item(goety:black_iron_helmet)item(goety:malefic_helm)item(immersive_armors:prismarine_helmet)item(immersive_armors:slime_helmet)item(immersive_armors:steampunk_helmet)item(immersive_armors:warrior_helmet)item(immersive_armors:wither_helmet)item(irons_spellbooks:archevoker_helmet)item(irons_spellbooks:cryomancer_helmet)item(irons_spellbooks:cultist_helmet)item(irons_spellbooks:electromancer_helmet)item(irons_spellbooks:plagued_helmet)item(irons_spellbooks:priest_helmet)item(irons_spellbooks:pumpkin_helmet)item(irons_spellbooks:pyromancer_helmet)item(irons_spellbooks:shadowwalker_helmet)item(irons_spellbooks:wizard_hat)item(irons_spellbooks:wizard_helmet)item(techreborn:bronze_helmet)item(techreborn:peridot_helmet)item(techreborn:sapphire_helmet)item(techreborn:steel_helmet)item(twilightforest:arctic_helmet)item(twilightforest:steeleaf_helmet))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"25778452968DA526"
+			]
+			icon: {
+				count: 1
+				id: "betterend:crystalite_helmet"
+			}
+			id: "07F5714E85CF8050"
+			optional: true
+			rewards: [
+				{
+					id: "299538FD54A11A93"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "5CF2F4343C27B02F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "0431E270177B6432"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:crystalite_helmet)item(betterend:terminite_helmet)item(born_in_chaos_v1:spiny_shell_armor_helmet)item(goety:cursed_paladin_helmet)item(hexerei:mushroom_witch_hat)item(hexerei:witch_helmet)item(twilightforest:knightmetal_helmet))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"07F5714E85CF8050"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:diamond_helmet"
+			}
+			id: "2A9215704A919B1A"
+			optional: true
+			rewards: [
+				{
+					id: "60C7B12CD8652FDB"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "211860572D1A25C4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "67077DC4D52F3A85"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemental:air_hat)item(ars_elemental:aqua_hat)item(ars_elemental:earth_hat)item(ars_elemental:fire_hat)item(betternether:nether_ruby_helmet)item(born_in_chaos_v1:lord_pumpkinheads_hat_helmet)item(born_in_chaos_v1:nightmare_mantleofthe_night_helmet)item(goety:dark_helmet)item(immersive_armors:heavy_helmet)item(malum:malignant_stronghold_helmet)item(malum:soul_stained_steel_helmet)item(minecraft:diamond_helmet)item(naturesaura:sky_helmet)item(samurai_dynasty:netherite_ninja_helmet)item(samurai_dynasty:netherite_samurai_helmet)item(twilightforest:phantom_helmet))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2A9215704A919B1A"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:netherite_helmet"
+			}
+			id: "7BF561A157735018"
+			optional: true
+			rewards: [
+				{
+					id: "4DC35D295BDD8FFD"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "18956F4CB2CB9D21"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6327F6912FFE8721"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemancy:cinder_hat)item(ars_elemancy:cinder_helmet)item(ars_elemancy:elemancer_hat)item(ars_elemancy:elemancer_hood)item(ars_elemancy:lava_hat)item(ars_elemancy:lava_helmet)item(ars_elemancy:mire_hat)item(ars_elemancy:mire_helmet)item(ars_elemancy:silt_hat)item(ars_elemancy:silt_helmet)item(ars_elemancy:tempest_hat)item(ars_elemancy:tempest_helmet)item(ars_elemancy:vapor_hat)item(ars_elemancy:vapor_helmet)item(betternether:flaming_ruby_helmet)item(cataclysm:monstrous_helm)item(eidolon_repraised:bonelord_helm)item(eternal_starlight:starlit_diamond_helmet)item(immersive_armors:divine_helmet)item(irons_spellbooks:netherite_mage_helmet)item(minecraft:netherite_helmet)item(naturesaura:depth_helmet)item(techreborn:nano_helmet)item(twilightforest:fiery_helmet)item(twilightforest:yeti_helmet))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7BF561A157735018"
+			]
+			icon: {
+				count: 1
+				id: "ars_elemental:air_helmet"
+			}
+			id: "7EC94E0EF73310F0"
+			optional: true
+			rewards: [
+				{
+					id: "38687181AB067C39"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "0AFF161D37216995"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "712FD500ABFE88B2"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemental:air_helmet)item(ars_elemental:aqua_helmet)item(ars_elemental:earth_helmet)item(ars_elemental:fire_helmet)item(born_in_chaos_v1:dark_metal_armor_helmet)item(cataclysm:bone_reptile_helmet)item(extended_industrialization:nano_helmet))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7EC94E0EF73310F0"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:quantum_helmet"
+			}
+			id: "3E29C61952CDBB84"
+			optional: true
+			rewards: [
+				{
+					id: "41CF8DE177BECC5E"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "3C46DCADD984B3AB"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "0C29554E033EFFF0"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemancy:elemancer_helmet)item(betterend:aeternium_helmet)item(extended_industrialization:nano_quantum_helmet)item(forbidden_arcanus:draco_arcanus_helmet)item(modern_industrialization:quantum_helmet)item(techreborn:quantum_helmet))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3E29C61952CDBB84"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:cursium_helmet"
+			}
+			id: "78274665CD7B9216"
+			optional: true
+			rewards: [
+				{
+					id: "11B46B9A84601EA8"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "7AF19F5EEB6E38F1"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6744C34954931393"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cataclysm:cursium_helmet)item(cataclysm:ignitium_helmet)item(forbidden_arcanus:tyr_helmet)item(irons_spellbooks:gold_crown)item(samurai_dynasty:master_samurai_helmet))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"78274665CD7B9216"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:infinity_helmet"
+			}
+			id: "64051F8D4FCE1F9A"
+			optional: true
+			rewards: [
+				{
+					id: "2CAAC0631303621D"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "41B37042B065E05E"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "51C041AFCAD380E9"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(advanced_ae:quantum_helmet)item(avaritia:infinity_helmet))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:leather_chestplate"
+			}
+			id: "472D9296C7D2CF76"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "62B27E8269D6AB81"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"472D9296C7D2CF76"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:leather_chestplate"
+			}
+			id: "6B4FEB3CA857F159"
+			optional: true
+			rewards: [
+				{
+					id: "086672A3C859EE2A"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "4296810BA42CD367"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "2AD2884C9AD66373"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(immersive_armors:bone_chestplate)item(immersive_armors:robe_chestplate)item(immersive_armors:wooden_chestplate)item(minecraft:leather_chestplate)item(samurai_dynasty:kimono)item(techreborn:cloaking_device))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6B4FEB3CA857F159"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:chainmail_chestplate"
+			}
+			id: "1F1341670BA12160"
+			optional: true
+			rewards: [
+				{
+					id: "66E7FB855426CE2D"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "412136F2B1B6358A"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4E0A7F83BB054AC6"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(eternal_starlight:amaramber_chestplate)item(immersive_armors:slime_chestplate)item(malum:soul_hunter_robe)item(minecraft:chainmail_chestplate)item(minecraft:golden_chestplate)item(techreborn:silver_chestplate)item(twilightforest:travellers_gloves)item(twilightforest:travellers_vest))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1F1341670BA12160"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_chestplate"
+			}
+			id: "13D1CF7DA4779AFB"
+			optional: true
+			rewards: [
+				{
+					id: "03CE16C62E63D4EE"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "00C29B34FE506FDD"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "3999A10E2BE42CB2"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:arcanist_robes)item(eidolon_repraised:silver_chestplate)item(eternal_starlight:alchemist_robe)item(irons_spellbooks:wandering_magician_chestplate)item(minecraft:iron_chestplate)item(mutantmonsters:mutant_skeleton_chestplate)item(naturesaura:infused_iron_chest)item(techreborn:bronze_chestplate))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"13D1CF7DA4779AFB"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:ruby_chestplate"
+			}
+			id: "405E042BA000ABFB"
+			optional: true
+			rewards: [
+				{
+					id: "6EC5FB4AA71809E1"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "7A262D2A2F6EDC94"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "0C92E9DB1529DA20"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemental:air_tunic)item(ars_elemental:aqua_tunic)item(ars_elemental:earth_tunic)item(ars_elemental:fire_tunic)item(ars_nouveau:sorcerer_robes)item(betterend:elytra_crystalite)item(betterend:thallasium_chestplate)item(betternether:cincinnasite_chestplate)item(eidolon_repraised:warlock_cloak)item(eternal_starlight:aethersent_cape)item(eternal_starlight:deepsilver_chestplate)item(eternal_starlight:glacite_chestplate)item(eternal_starlight:thermal_springstone_chestplate)item(forbidden_arcanus:mortem_chestplate)item(goety:cursed_knight_chestplate)item(immersive_armors:steampunk_chestplate)item(immersive_armors:warrior_chestplate)item(mowziesmobs:geomancer_robe)item(samurai_dynasty:light_samurai_chestplate)item(samurai_dynasty:steel_chestplate)item(samurai_dynasty:steel_ninja_chestplate)item(samurai_dynasty:steel_samurai_chestplate)item(techreborn:ruby_chestplate)item(techreborn:sapphire_chestplate)item(techreborn:steel_chestplate)item(twilightforest:ironwood_chestplate)item(twilightforest:naga_chestplate))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"405E042BA000ABFB"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:diamond_chestplate"
+			}
+			id: "079B531D2B4FEF96"
+			optional: true
+			rewards: [
+				{
+					id: "452040B28D90478B"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "011FCCBB1FDC0589"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "2D4E880FEE3B1DC3"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemancy:cinder_robes)item(ars_elemancy:cinder_tunic)item(ars_elemancy:lava_robes)item(ars_elemancy:lava_tunic)item(ars_elemancy:mire_robes)item(ars_elemancy:mire_tunic)item(ars_elemancy:silt_robes)item(ars_elemancy:silt_tunic)item(ars_elemancy:tempest_robes)item(ars_elemancy:tempest_tunic)item(ars_elemancy:vapor_robes)item(ars_elemancy:vapor_tunic)item(ars_elemental:air_robes)item(ars_elemental:aqua_robes)item(ars_elemental:earth_robes)item(ars_elemental:fire_robes)item(ars_nouveau:battlemage_robes)item(betterend:crystalite_chestplate)item(betterend:terminite_chestplate)item(betternether:nether_ruby_chestplate)item(born_in_chaos_v1:nightmare_mantleofthe_night_chestplate)item(born_in_chaos_v1:spiny_shell_armor_chestplate)item(eternal_starlight:unrealium_chestplate)item(goety:black_iron_chestplate)item(goety:cursed_paladin_chestplate)item(goety:dark_chestplate)item(hexerei:witch_chestplate)item(immersive_armors:prismarine_chestplate)item(immersive_armors:wither_chestplate)item(irons_spellbooks:archevoker_chestplate)item(irons_spellbooks:cryomancer_chestplate)item(irons_spellbooks:cultist_chestplate)item(irons_spellbooks:electromancer_chestplate)item(irons_spellbooks:infernal_sorcerer_chestplate)item(irons_spellbooks:plagued_chestplate)item(irons_spellbooks:priest_chestplate)item(irons_spellbooks:pumpkin_chestplate)item(irons_spellbooks:pyromancer_chestplate)item(irons_spellbooks:shadowwalker_chestplate)item(irons_spellbooks:wizard_chestplate)item(malum:malignant_stronghold_chestplate)item(malum:soul_stained_steel_chestplate)item(minecraft:diamond_chestplate)item(naturesaura:sky_chest)item(techreborn:peridot_chestplate)item(twilightforest:arctic_chestplate)item(twilightforest:knightmetal_chestplate)item(twilightforest:steeleaf_chestplate))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"079B531D2B4FEF96"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "061062C8FD823494"
+			optional: true
+			rewards: [
+				{
+					id: "0E9508252FC59FB8"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "44C5D6AA85DD5526"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "658F2EA3581D4E37"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:elytra_armored)item(betternether:flaming_ruby_chestplate)item(cataclysm:bloom_stone_pauldrons)item(eidolon_repraised:bonelord_chestplate)item(eternal_starlight:starlit_diamond_chestplate)item(immersive_armors:heavy_chestplate)item(irons_spellbooks:netherite_mage_chestplate)item(minecraft:netherite_chestplate)item(naturesaura:depth_chest)item(samurai_dynasty:netherite_ninja_chestplate)item(samurai_dynasty:netherite_samurai_chestplate)item(twilightforest:fiery_chestplate)item(twilightforest:phantom_chestplate)item(twilightforest:yeti_chestplate))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"061062C8FD823494"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:bone_reptile_chestplate"
+			}
+			id: "0FFC50AD96EE0C43"
+			optional: true
+			rewards: [
+				{
+					id: "5EA91543C30B158C"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "410782451F320461"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7BD23B4B6584CCF9"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cataclysm:bone_reptile_chestplate)item(irons_spellbooks:paladin_chestplate))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0FFC50AD96EE0C43"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:nano_chestplate"
+			}
+			id: "7496EF243D341BDE"
+			optional: true
+			rewards: [
+				{
+					id: "1A48790C97728A9F"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "5B9CE54D3B02322D"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "361C8B24BE2DA643"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemancy:cinder_chestplate)item(ars_elemancy:elemancer_chestplate)item(ars_elemancy:elemancer_robes)item(ars_elemancy:elemancer_tunic)item(ars_elemancy:lava_chestplate)item(ars_elemancy:mire_chestplate)item(ars_elemancy:silt_chestplate)item(ars_elemancy:tempest_chestplate)item(ars_elemancy:vapor_chestplate)item(ars_elemental:air_chestplate)item(ars_elemental:aqua_chestplate)item(ars_elemental:earth_chestplate)item(ars_elemental:fire_chestplate)item(betterend:aeternium_chestplate)item(born_in_chaos_v1:dark_metal_armor_chestplate)item(cataclysm:ignitium_chestplate)item(cataclysm:ignitium_elytra_chestplate)item(extended_industrialization:nano_chestplate)item(immersive_armors:divine_chestplate)item(samurai_dynasty:master_samurai_chestplate)item(techreborn:nano_chestplate))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7496EF243D341BDE"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:cursium_chestplate"
+			}
+			id: "78F4E02635162256"
+			optional: true
+			rewards: [
+				{
+					id: "4EF309C815B02FBF"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "522A4C5B53661DA6"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "195EDA6B71B3A528"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cataclysm:cursium_chestplate)item(forbidden_arcanus:draco_arcanus_chestplate)item(forbidden_arcanus:tyr_chestplate))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"78F4E02635162256"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:quantum_chestplate"
+			}
+			id: "4672FC7F26313CB0"
+			optional: true
+			rewards: [
+				{
+					id: "03CE3F46BEB65940"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "6C5840659A1562E4"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "0046793413FB3159"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(advanced_ae:quantum_chestplate)item(extended_industrialization:nano_gravichestplate)item(extended_industrialization:nano_quantum_chestplate)item(modern_industrialization:gravichestplate)item(modern_industrialization:quantum_chestplate)item(techreborn:quantum_chestplate))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4672FC7F26313CB0"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:infinity_chestplate"
+			}
+			id: "6C6657C42D2A007D"
+			optional: true
+			rewards: [
+				{
+					id: "231BCE42C7E3E47E"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "1A304706B4E799A6"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1C90CDB6DB204BA7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:infinity_chestplate))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:leather_leggings"
+			}
+			id: "1A25A51F96328268"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6BA3A11E2935D786"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1A25A51F96328268"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:leather_leggings"
+			}
+			id: "638A7A1D9B683BF8"
+			optional: true
+			rewards: [
+				{
+					id: "3461605955CFD1CB"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "211696BF47927BE7"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "14D903BD253F96DC"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(immersive_armors:bone_leggings)item(immersive_armors:robe_leggings)item(immersive_armors:wooden_leggings)item(minecraft:leather_leggings))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"638A7A1D9B683BF8"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:golden_leggings"
+			}
+			id: "3C279787853F79F1"
+			optional: true
+			rewards: [
+				{
+					id: "4454A25612631878"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "3FBC5EC893C2F228"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "2963B0605C27A03F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(malum:soul_hunter_leggings)item(minecraft:golden_leggings)item(samurai_dynasty:ninja_leggings)item(twilightforest:travellers_belt)item(twilightforest:travellers_wings))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3C279787853F79F1"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:chainmail_leggings"
+			}
+			id: "56B05AE457425B70"
+			optional: true
+			rewards: [
+				{
+					id: "7FE6D41D0B913D2F"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "6B502A0C8BC06F1F"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "10B7A324820BBD75"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(eidolon_repraised:silver_leggings)item(immersive_armors:slime_leggings)item(minecraft:chainmail_leggings))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"56B05AE457425B70"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_leggings"
+			}
+			id: "003D1581A2090038"
+			optional: true
+			rewards: [
+				{
+					id: "059EDA1D04750950"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "6F1ABEFEBF471101"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "72E9DAFDAE8A704C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:arcanist_leggings)item(ars_nouveau:sorcerer_leggings)item(betterend:thallasium_leggings)item(eternal_starlight:deepsilver_leggings)item(eternal_starlight:glacite_leggings)item(eternal_starlight:thermal_springstone_leggings)item(forbidden_arcanus:mortem_leggings)item(goety:cursed_knight_leggings)item(immersive_armors:steampunk_leggings)item(irons_spellbooks:wandering_magician_leggings)item(minecraft:iron_leggings)item(mutantmonsters:mutant_skeleton_leggings)item(naturesaura:infused_iron_pants)item(samurai_dynasty:light_samurai_leggings)item(samurai_dynasty:steel_leggings)item(samurai_dynasty:steel_samurai_leggings)item(techreborn:bronze_leggings)item(techreborn:peridot_leggings)item(techreborn:ruby_leggings)item(techreborn:sapphire_leggings)item(techreborn:silver_leggings)item(twilightforest:ironwood_leggings))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"003D1581A2090038"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:steel_leggings"
+			}
+			id: "6C6BFE50D333D015"
+			optional: true
+			rewards: [
+				{
+					id: "5F88E53BF8D35226"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "5944D2E9EF5E8736"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "70A1462D8008BB3E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemancy:cinder_pants)item(ars_elemancy:lava_pants)item(ars_elemancy:mire_pants)item(ars_elemancy:silt_pants)item(ars_elemancy:tempest_pants)item(ars_elemancy:vapor_pants)item(ars_elemental:air_pants)item(ars_elemental:aqua_pants)item(ars_elemental:earth_pants)item(ars_elemental:fire_pants)item(ars_nouveau:battlemage_leggings)item(betterend:crystalite_leggings)item(betterend:terminite_leggings)item(betternether:cincinnasite_leggings)item(betternether:nether_ruby_leggings)item(born_in_chaos_v1:nightmare_mantleofthe_night_leggings)item(eternal_starlight:aethersent_bottoms)item(eternal_starlight:unrealium_leggings)item(goety:black_iron_leggings)item(goety:cursed_paladin_leggings)item(immersive_armors:prismarine_leggings)item(immersive_armors:warrior_leggings)item(immersive_armors:wither_leggings)item(irons_spellbooks:archevoker_leggings)item(irons_spellbooks:cryomancer_leggings)item(irons_spellbooks:cultist_leggings)item(irons_spellbooks:electromancer_leggings)item(irons_spellbooks:plagued_leggings)item(irons_spellbooks:priest_leggings)item(irons_spellbooks:pumpkin_leggings)item(irons_spellbooks:pyromancer_leggings)item(irons_spellbooks:shadowwalker_leggings)item(irons_spellbooks:wizard_leggings)item(mowziesmobs:geomancer_belt)item(techreborn:steel_leggings)item(twilightforest:arctic_leggings)item(twilightforest:knightmetal_leggings)item(twilightforest:naga_leggings)item(twilightforest:steeleaf_leggings))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"6C6BFE50D333D015"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:diamond_leggings"
+			}
+			id: "253DF76DF807F519"
+			optional: true
+			rewards: [
+				{
+					id: "76A643726F0CD18D"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "463AB11AFB3247DC"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4D7B1ADE671E164E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemancy:cinder_leggings)item(ars_elemancy:lava_leggings)item(ars_elemancy:mire_leggings)item(ars_elemancy:silt_leggings)item(ars_elemancy:tempest_leggings)item(ars_elemancy:vapor_leggings)item(ars_elemental:air_leggings)item(ars_elemental:aqua_leggings)item(ars_elemental:earth_leggings)item(ars_elemental:fire_leggings)item(betternether:flaming_ruby_leggings)item(eidolon_repraised:bonelord_greaves)item(goety:dark_leggings)item(malum:malignant_stronghold_leggings)item(malum:soul_stained_steel_leggings)item(minecraft:diamond_leggings)item(naturesaura:sky_pants)item(twilightforest:fiery_leggings))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"253DF76DF807F519"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:netherite_leggings"
+			}
+			id: "6A2E9220035E4A38"
+			optional: true
+			rewards: [
+				{
+					id: "32EC4DB61EEB1E52"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "02BACAAC19A01BC2"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4B6D9FF19A19117B"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(eternal_starlight:starlit_diamond_leggings)item(immersive_armors:heavy_leggings)item(irons_spellbooks:netherite_mage_leggings)item(minecraft:netherite_leggings)item(naturesaura:depth_pants)item(samurai_dynasty:netherite_samurai_leggings)item(twilightforest:yeti_leggings))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"6A2E9220035E4A38"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:nano_leggings"
+			}
+			id: "2F9BC99631C3CBA6"
+			optional: true
+			rewards: [
+				{
+					id: "0D52594F9B70F2E8"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "49CC30DC9C5EECA4"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5C56747F9CA351AE"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemancy:cinder_leggings_heavy)item(ars_elemancy:elemancer_leggings)item(ars_elemancy:elemancer_leggings_heavy)item(ars_elemancy:elemancer_pants)item(ars_elemancy:lava_leggings_heavy)item(ars_elemancy:mire_leggings_heavy)item(ars_elemancy:silt_leggings_heavy)item(ars_elemancy:tempest_leggings_heavy)item(ars_elemancy:vapor_leggings_heavy)item(ars_elemental:air_leggings_heavy)item(ars_elemental:aqua_leggings_heavy)item(ars_elemental:earth_leggings_heavy)item(ars_elemental:fire_leggings_heavy)item(betterend:aeternium_leggings)item(extended_industrialization:nano_leggings)item(immersive_armors:divine_leggings)item(samurai_dynasty:master_samurai_leggings)item(techreborn:nano_leggings))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2F9BC99631C3CBA6"
+			]
+			icon: {
+				count: 1
+				id: "born_in_chaos_v1:dark_metal_armor_leggings"
+			}
+			id: "4EEFF504757EB7E6"
+			optional: true
+			rewards: [
+				{
+					id: "3C5A9F47E20A9761"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "3D53127B1BDE5218"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "489BCB1B73F487F4"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(born_in_chaos_v1:dark_metal_armor_leggings)item(cataclysm:cursium_leggings)item(cataclysm:ignitium_leggings)item(forbidden_arcanus:draco_arcanus_leggings)item(forbidden_arcanus:tyr_leggings))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4EEFF504757EB7E6"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:quantum_leggings"
+			}
+			id: "11C786E4EA137BF9"
+			optional: true
+			rewards: [
+				{
+					id: "0F90D64C7C8419BC"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "78306A712ACB58F3"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4090670900FECFFF"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(extended_industrialization:nano_quantum_leggings)item(modern_industrialization:quantum_leggings)item(techreborn:quantum_leggings))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"11C786E4EA137BF9"
+			]
+			icon: {
+				count: 1
+				id: "advanced_ae:quantum_leggings"
+			}
+			id: "02AC1632ECB167AD"
+			optional: true
+			rewards: [
+				{
+					id: "40BB5F4A6081EDC2"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "60B2FABFA3CDB6D4"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "508B3AA6414FB2F3"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(advanced_ae:quantum_leggings))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"02AC1632ECB167AD"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:infinity_pants"
+			}
+			id: "6E5214899DF2EE56"
+			optional: true
+			rewards: [
+				{
+					id: "7881E1A9AD3F789E"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "04E4CC0736E03340"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "2A9575FFF656DB93"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(avaritia:infinity_pants))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "minecraft:chainmail_boots"
+			}
+			id: "3F97FE002A4FB016"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "627F4138004FDAAC"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3F97FE002A4FB016"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:chainmail_boots"
+			}
+			id: "147DA03C9C716E24"
+			optional: true
+			rewards: [
+				{
+					id: "499572300FD4300E"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "11ACD73653D7EA4E"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "0F7B32A528606FA0"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(immersive_armors:bone_boots)item(immersive_armors:robe_boots)item(immersive_armors:wooden_boots)item(minecraft:chainmail_boots)item(minecraft:golden_boots)item(minecraft:leather_boots)item(modern_industrialization:rubber_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"147DA03C9C716E24"
+			]
+			icon: {
+				count: 1
+				id: "eternal_starlight:air_sac_boots"
+			}
+			id: "26D8C37644591B76"
+			optional: true
+			rewards: [
+				{
+					id: "4128EE019C54B1E0"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "6B81987CF8A5309C"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "6280A5E6F0237D02"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(eternal_starlight:air_sac_boots)item(malum:soul_hunter_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"26D8C37644591B76"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_boots"
+			}
+			id: "0068C0E1A233B3EF"
+			optional: true
+			rewards: [
+				{
+					id: "3E5AF12930D820E1"
+					item: {
+						count: 2
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "4456AE2CCAA2130A"
+					type: "xp"
+					xp: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7FD893683BC12691"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:arcanist_boots)item(eidolon_repraised:silver_boots)item(eidolon_repraised:warlock_boots)item(forbidden_arcanus:mortem_boots)item(immersive_armors:slime_boots)item(irons_spellbooks:wandering_magician_boots)item(minecraft:iron_boots)item(mowziesmobs:geomancer_sandals)item(mutantmonsters:mutant_skeleton_boots)item(naturesaura:infused_iron_shoes)item(techreborn:bronze_boots)item(techreborn:silver_boots)item(twilightforest:ironwood_boots)item(twilightforest:travellers_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"0068C0E1A233B3EF"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:peridot_boots"
+			}
+			id: "2D4B4F488BD1C175"
+			optional: true
+			rewards: [
+				{
+					id: "508AD2EE4D99BE91"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "1A0F85AD805815B7"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7421CD9F2AE1811A"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:sorcerer_boots)item(betterend:thallasium_boots)item(eternal_starlight:deepsilver_boots)item(eternal_starlight:thermal_springstone_boots)item(goety:cursed_knight_boots)item(immersive_armors:steampunk_boots)item(samurai_dynasty:light_samurai_boots)item(samurai_dynasty:steel_ninja_boots)item(techreborn:peridot_boots)item(techreborn:ruby_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2D4B4F488BD1C175"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:sapphire_boots"
+			}
+			id: "30FD5174712BA4C3"
+			optional: true
+			rewards: [
+				{
+					id: "6DE375E256A9D5B1"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "5DB73D79BA50E20D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "70379375B9273594"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemancy:cinder_shoes)item(ars_elemancy:lava_shoes)item(ars_elemancy:mire_shoes)item(ars_elemancy:silt_shoes)item(ars_elemancy:tempest_shoes)item(ars_elemancy:vapor_shoes)item(ars_elemental:air_shoes)item(ars_elemental:aqua_shoes)item(ars_elemental:earth_shoes)item(ars_elemental:fire_shoes)item(ars_nouveau:battlemage_boots)item(betternether:cincinnasite_boots)item(born_in_chaos_v1:nightmare_mantleofthe_night_boots)item(eternal_starlight:aethersent_boots)item(eternal_starlight:glacite_boots)item(eternal_starlight:unrealium_boots)item(goety:black_iron_boots)item(immersive_armors:prismarine_boots)item(immersive_armors:warrior_boots)item(immersive_armors:wither_boots)item(irons_spellbooks:archevoker_boots)item(irons_spellbooks:cryomancer_boots)item(irons_spellbooks:cultist_boots)item(irons_spellbooks:electromancer_boots)item(irons_spellbooks:plagued_boots)item(irons_spellbooks:priest_boots)item(irons_spellbooks:pumpkin_boots)item(irons_spellbooks:pyromancer_boots)item(irons_spellbooks:shadowwalker_boots)item(irons_spellbooks:speed_boots)item(irons_spellbooks:wizard_boots)item(malum:soul_stained_steel_boots)item(samurai_dynasty:steel_boots)item(samurai_dynasty:steel_samurai_boots)item(techreborn:sapphire_boots)item(techreborn:steel_boots)item(twilightforest:arctic_boots)item(twilightforest:steeleaf_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"30FD5174712BA4C3"
+			]
+			icon: {
+				count: 1
+				id: "betterend:crystalite_boots"
+			}
+			id: "3EE9684952DD8C69"
+			optional: true
+			rewards: [
+				{
+					id: "12CB3B8AFDEFDAB4"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "5D2A338BFADC752D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "08EF3525CE28C2EE"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(betterend:crystalite_boots)item(betterend:terminite_boots)item(goety:cursed_paladin_boots)item(hexerei:witch_boots)item(twilightforest:knightmetal_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3EE9684952DD8C69"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:diamond_boots"
+			}
+			id: "75EE7294550F615F"
+			optional: true
+			rewards: [
+				{
+					id: "7A869AA0B3DAE0A4"
+					item: {
+						count: 2
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "35B4EB01D6AB859D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "75B317934ED7DBAE"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemental:air_boots)item(ars_elemental:aqua_boots)item(ars_elemental:earth_boots)item(ars_elemental:fire_boots)item(betternether:nether_ruby_boots)item(goety:dark_boots)item(immersive_armors:heavy_boots)item(malum:malignant_stronghold_boots)item(minecraft:diamond_boots)item(naturesaura:sky_shoes)item(samurai_dynasty:netherite_ninja_boots)item(samurai_dynasty:netherite_samurai_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"75EE7294550F615F"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:netherite_boots"
+			}
+			id: "2FCCCD76AB3C202B"
+			optional: true
+			rewards: [
+				{
+					id: "156A8F8B67D14032"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "00B782048A550369"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4EE7A5D5EA03A3F7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemancy:cinder_boots)item(ars_elemancy:cinder_boots_heavy)item(ars_elemancy:elemancer_boots)item(ars_elemancy:elemancer_shoes)item(ars_elemancy:lava_boots)item(ars_elemancy:lava_boots_heavy)item(ars_elemancy:mire_boots)item(ars_elemancy:mire_boots_heavy)item(ars_elemancy:silt_boots)item(ars_elemancy:silt_boots_heavy)item(ars_elemancy:tempest_boots)item(ars_elemancy:tempest_boots_heavy)item(ars_elemancy:vapor_boots)item(ars_elemancy:vapor_boots_heavy)item(betternether:flaming_ruby_boots)item(eternal_starlight:starlit_diamond_boots)item(immersive_armors:divine_boots)item(irons_spellbooks:netherite_mage_boots)item(minecraft:netherite_boots)item(naturesaura:depth_shoes)item(techreborn:nano_boots)item(twilightforest:fiery_boots)item(twilightforest:yeti_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2FCCCD76AB3C202B"
+			]
+			icon: {
+				count: 1
+				id: "ars_elemental:air_boots_heavy"
+			}
+			id: "0B960396DA4DE0BE"
+			optional: true
+			rewards: [
+				{
+					id: "67A04A87EA49E0B8"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "30AA12F5A65DE747"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "27D36F2832213104"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemental:air_boots_heavy)item(ars_elemental:aqua_boots_heavy)item(ars_elemental:earth_boots_heavy)item(ars_elemental:fire_boots_heavy)item(born_in_chaos_v1:dark_metal_armor_boots)item(extended_industrialization:nano_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"0B960396DA4DE0BE"
+			]
+			icon: {
+				count: 1
+				id: "techreborn:quantum_boots"
+			}
+			id: "08E54FC9D7AF7BB8"
+			optional: true
+			rewards: [
+				{
+					id: "41E7211FC52F5B51"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "1C699C29343489B4"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "10147D0FBEB16288"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemancy:elemancer_boots_heavy)item(betterend:aeternium_boots)item(extended_industrialization:nano_quantum_boots)item(forbidden_arcanus:draco_arcanus_boots)item(modern_industrialization:quantum_boots)item(techreborn:quantum_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"08E54FC9D7AF7BB8"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:cursium_boots"
+			}
+			id: "21AA9D69CF6BE6F9"
+			optional: true
+			rewards: [
+				{
+					id: "5B7DDE6E8E0F7F32"
+					item: {
+						count: 2
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "5D53A32160046409"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "616CA5470D8228CB"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cataclysm:cursium_boots)item(cataclysm:ignitium_boots)item(forbidden_arcanus:tyr_boots)item(samurai_dynasty:master_samurai_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"21AA9D69CF6BE6F9"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:infinity_boots"
+			}
+			id: "6FA29D64FA09D971"
+			optional: true
+			rewards: [
+				{
+					id: "13402458B7E7019C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "56D7913BD3CD02DF"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "617346DD2C40C078"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(advanced_ae:quantum_boots)item(avaritia:infinity_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"739E89AB6C116A3B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:armor_core_t1"
+			}
+			id: "4FF60E4A45EEE191"
+			optional: true
+			rewards: [
+				{
+					id: "1D4D4A5AF32357C5"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "22BBF32B96F662F5"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "171BFABB4EBC4559"
+					item: {
+						count: 1
+						id: "kubejs:armor_core_t1"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"4FF60E4A45EEE191"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:armor_core_t2"
+			}
+			id: "7E4ECBF05F56A9AB"
+			optional: true
+			rewards: [
+				{
+					id: "52B0249E0806BF6B"
+					item: {
+						count: 2
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+				{
+					id: "23115C81350B2D24"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5A38CFD4017AFDDC"
+					item: {
+						count: 1
+						id: "kubejs:armor_core_t2"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"7E4ECBF05F56A9AB"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:armor_core_t3"
+			}
+			id: "16CEB1BB86A7665A"
+			optional: true
+			rewards: [
+				{
+					id: "0FACABBCA3EAFE7C"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "7DD5F63F94C9A101"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "0204CC996196C8DF"
+					item: {
+						count: 1
+						id: "kubejs:armor_core_t3"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"16CEB1BB86A7665A"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:armor_core_t4"
+			}
+			id: "344FA4BA1082B598"
+			optional: true
+			rewards: [
+				{
+					id: "1398B8BF061F7FD1"
+					item: {
+						count: 2
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+				{
+					id: "018631381E200254"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "2FC033889698DC3E"
+					item: {
+						count: 1
+						id: "kubejs:armor_core_t4"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"344FA4BA1082B598"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:armor_core_t5"
+			}
+			id: "7D330B46B020F1E7"
+			optional: true
+			rewards: [
+				{
+					id: "3CC0729F26E3A768"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "318E635A252800D3"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5AC7DEDBE66B1743"
+					item: {
+						count: 1
+						id: "kubejs:armor_core_t5"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"7D330B46B020F1E7"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:armor_core_t6"
+			}
+			id: "52584F91CB385F87"
+			optional: true
+			rewards: [
+				{
+					id: "642A7358757FD7A0"
+					item: {
+						count: 2
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+				{
+					id: "663230B996DC486A"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1C9445CD34CDB108"
+					item: {
+						count: 1
+						id: "kubejs:armor_core_t6"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"52584F91CB385F87"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:armor_core_t7"
+			}
+			id: "7E6D2DBAC099F054"
+			optional: true
+			rewards: [
+				{
+					id: "36F68B3047F9A07F"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "653C2557FF3C720D"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "13C6343D4F1CD6F2"
+					item: {
+						count: 1
+						id: "kubejs:armor_core_t7"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"7E6D2DBAC099F054"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:armor_core_t8"
+			}
+			id: "009F9215A15E0FE1"
+			optional: true
+			rewards: [
+				{
+					id: "44D6CDFBAD97C698"
+					item: {
+						count: 2
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+				{
+					id: "718FA5D76116E5A8"
+					type: "xp"
+					xp: 8
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "621F7B9994EE668C"
+					item: {
+						count: 1
+						id: "kubejs:armor_core_t8"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 20.0d
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:bosses",
+      "required": false
+    },
+    {
+      "id": "#goety:bosses",
+      "required": false
+    },
+    {
+      "id": "#twilightforest:bosses",
+      "required": false
+    },
+    {
+      "id": "minecraft:ender_dragon",
+      "required": false
+    },
+    {
+      "id": "minecraft:wither",
+      "required": false
+    }
+  ]
+}

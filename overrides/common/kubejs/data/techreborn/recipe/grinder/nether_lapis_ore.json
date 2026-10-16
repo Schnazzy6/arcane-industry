@@ -1,0 +1,16 @@
+{
+  "type": "techreborn:grinder",
+  "power": 4,
+  "time": 200,
+  "ingredients": [
+    {
+      "item": "betternether:nether_lapis_ore"
+    }
+  ],
+  "outputs": [
+    {
+      "count": 5,
+      "id": "betternether:lapis_pile"
+    }
+  ]
+}

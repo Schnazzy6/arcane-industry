@@ -1,0 +1,180 @@
+{
+	"entries": [
+		{
+			"id": "betterend:crystalite_boots",
+			"out": "betterend:crystalite_boots"
+		},
+		{
+			"id": "ars_nouveau:enchanters_shield",
+			"out": "ars_nouveau:enchanters_shield"
+		},
+		{
+			"id": "betterend:terminite_hoe",
+			"out": "betterend:terminite_hoe"
+		},
+		{
+			"id": "betterend:aeternium_pickaxe",
+			"out": "betterend:aeternium_pickaxe"
+		},
+		{
+			"id": "simplyswords:runic_greataxe",
+			"out": "simplyswords:runic_greataxe"
+		},
+		{
+			"id": "cataclysm:weapon_infusion/void_forge",
+			"out": "cataclysm:void_forge"
+		},
+		{
+			"id": "simplyswords:runic_katana",
+			"out": "simplyswords:runic_katana"
+		},
+		{
+			"id": "simplyswords:runic_rapier",
+			"out": "simplyswords:runic_rapier"
+		},
+		{
+			"id": "simplyswords:runic_twinblade",
+			"out": "simplyswords:runic_twinblade"
+		},
+		{
+			"id": "cataclysm:weapon_infusion/brontes",
+			"out": "cataclysm:brontes"
+		},
+		{
+			"id": "betterend:thallasium_pickaxe",
+			"out": "betterend:thallasium_pickaxe"
+		},
+		{
+			"id": "betterend:aeternium_shovel",
+			"out": "betterend:aeternium_shovel"
+		},
+		{
+			"id": "simplyswords:runic_warglaive",
+			"out": "simplyswords:runic_warglaive"
+		},
+		{
+			"id": "simplyswords:runic_glaive",
+			"out": "simplyswords:runic_glaive"
+		},
+		{
+			"id": "simplyswords:runic_longsword",
+			"out": "simplyswords:runic_longsword"
+		},
+		{
+			"id": "simplyswords:runic_halberd",
+			"out": "simplyswords:runic_halberd"
+		},
+		{
+			"id": "simplyswords:runic_chakram",
+			"out": "simplyswords:runic_chakram"
+		},
+		{
+			"id": "better_batpack:crafting/batpack64",
+			"out": "better_batpack:batpack64"
+		},
+		{
+			"id": "better_batpack:crafting/batpack16",
+			"out": "better_batpack:batpack16"
+		},
+		{
+			"id": "betterend:aeternium_hammer",
+			"out": "betterend:aeternium_hammer"
+		},
+		{
+			"id": "simplyswords:runic_cutlass",
+			"out": "simplyswords:runic_cutlass"
+		},
+		{
+			"id": "simplyswords:runic_claymore",
+			"out": "simplyswords:runic_claymore"
+		},
+		{
+			"id": "betterend:crystalite_helmet",
+			"out": "betterend:crystalite_helmet"
+		},
+		{
+			"id": "betterend:crystalite_leggings",
+			"out": "betterend:crystalite_leggings"
+		},
+		{
+			"id": "betterend:terminite_pickaxe",
+			"out": "betterend:terminite_pickaxe"
+		},
+		{
+			"id": "kubejs:progression/tr_machine_rock_cutter",
+			"out": "techreborn:rock_cutter"
+		},
+		{
+			"id": "betterend:terminite_hammer",
+			"out": "betterend:terminite_hammer"
+		},
+		{
+			"id": "simplyswords:runic_scythe",
+			"out": "simplyswords:runic_scythe"
+		},
+		{
+			"id": "betterend:thallasium_shovel",
+			"out": "betterend:thallasium_shovel"
+		},
+		{
+			"id": "betterend:terminite_shovel",
+			"out": "betterend:terminite_shovel"
+		},
+		{
+			"id": "better_batpack:crafting/batpack128",
+			"out": "better_batpack:batpack128"
+		},
+		{
+			"id": "simplyswords:runic_greathammer",
+			"out": "simplyswords:runic_greathammer"
+		},
+		{
+			"id": "simplymore:matterbane_clean",
+			"out": "simplymore:matterbane"
+		},
+		{
+			"id": "betterend:crystalite_chestplate",
+			"out": "betterend:crystalite_chestplate"
+		},
+		{
+			"id": "twilightforest:stale_bread",
+			"out": "twilightforest:stale_bread"
+		},
+		{
+			"id": "simplyswords:runic_sai",
+			"out": "simplyswords:runic_sai"
+		},
+		{
+			"id": "eidolon_repraised:rituals/brazier_craft_sapping_sword",
+			"out": "eidolon_repraised:sapping_sword"
+		},
+		{
+			"id": "betterend:aeternium_hoe",
+			"out": "betterend:aeternium_hoe"
+		},
+		{
+			"id": "simplyswords:runic_spear",
+			"out": "simplyswords:runic_spear"
+		},
+		{
+			"id": "betterend:aeternium_axe",
+			"out": "betterend:aeternium_axe"
+		},
+		{
+			"id": "betterend:thallasium_hammer",
+			"out": "betterend:thallasium_hammer"
+		},
+		{
+			"id": "betterend:thallasium_axe",
+			"out": "betterend:thallasium_axe"
+		},
+		{
+			"id": "betterend:terminite_axe",
+			"out": "betterend:terminite_axe"
+		},
+		{
+			"id": "betterend:thallasium_hoe",
+			"out": "betterend:thallasium_hoe"
+		}
+	]
+}

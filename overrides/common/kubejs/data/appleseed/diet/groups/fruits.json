@@ -1,0 +1,15 @@
+{
+  "icon": "minecraft:apple",
+  "color": "#9e2a2b",
+  "order": 1,
+  "default_value": 0.5,
+  "gain_multiplier": 1.0,
+  "decay_multiplier": 1.0,
+  "beneficial": true,
+  "ignore_saturation": false,
+  "translation_key": "diet.group.fruits",
+  "effects": [
+    "71-80:attribute(minecraft:generic.attack_speed,0.05)",
+    "81-100:attribute(minecraft:generic.attack_speed,0.1)"
+  ]
+}

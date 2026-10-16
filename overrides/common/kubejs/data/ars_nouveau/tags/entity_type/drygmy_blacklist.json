@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#arcaneindustry:progression_bosses",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_golem",
+      "required": false
+    }
+  ]
+}

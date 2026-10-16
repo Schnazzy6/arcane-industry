@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "A A",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:ingots/tin"
+    }
+  },
+  "result": {
+    "id": "advanced_reborn:empty_can",
+    "count": 8
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:glowstone"
+    },
+    "B": {
+      "item": "minecraft:white_stained_glass_pane"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "advanced_reborn:light"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "item": "undergarden:utherium_crystal",
+    "count": 2
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 12
+    },
+    {
+      "type": "infernal",
+      "count": 12
+    }
+  ],
+  "regex": {
+    "itemIdRegex": "utherium_.+",
+    "modIdRegex": "undergarden"
+  },
+  "validItems": []
+}

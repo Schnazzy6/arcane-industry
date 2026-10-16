@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mythicbotany"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 1,
+  "repairMaterial": {
+    "item": "mythicbotany:alfsteel_ingot",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 64
+    }
+  ],
+  "regex": {
+    "itemIdRegex": "alfsteel_.+",
+    "modIdRegex": "mythicbotany"
+  },
+  "validItems": []
+}

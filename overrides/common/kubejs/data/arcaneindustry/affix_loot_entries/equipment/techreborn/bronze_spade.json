@@ -1,0 +1,29 @@
+{
+  "type": "apotheosis:affix_loot_entry",
+  "stack": {
+    "count": 1,
+    "id": "techreborn:bronze_spade"
+  },
+  "weights": {
+    "haven": {
+      "weight": 0,
+      "quality": 0
+    },
+    "frontier": {
+      "weight": 2,
+      "quality": 0
+    },
+    "ascent": {
+      "weight": 6,
+      "quality": 0
+    },
+    "summit": {
+      "weight": 6,
+      "quality": 0
+    },
+    "pinnacle": {
+      "weight": 2,
+      "quality": 0
+    }
+  }
+}

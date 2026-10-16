@@ -1,0 +1,12 @@
+{
+  "type": "apotheosis:gems",
+  "conditions": [],
+  "entries": [
+    {
+      "chance": 0.32,
+      "pattern": {
+        "path_regex": ".*(chests|structures|treasure|dungeon).*"
+      }
+    }
+  ]
+}

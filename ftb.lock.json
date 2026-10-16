@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "ftb-library",
+    "version": "2101.1.37",
+    "filename": "ftb-library-neoforge-2101.1.37.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/2101.1.37/ftb-library-neoforge-2101.1.37.jar",
+    "sha1": "b6e503587afcd678ec257e4abdc6362ff18c2fef",
+    "sha512": "36f7e2fd41de638b044ad2b391f69f276ab28df3d86cf9d83638a2e0432ef151e1737ce60d671901d0a3b49424c9ba1a09c0293fc0c6637871020b46feae9159",
+    "client": true,
+    "server": true,
+    "source": "https://www.feed-the-beast.com/",
+    "category": "team-and-quests"
+  },
+  {
+    "slug": "ftb-teams",
+    "version": "2101.1.11",
+    "filename": "ftb-teams-neoforge-2101.1.11.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-neoforge/2101.1.11/ftb-teams-neoforge-2101.1.11.jar",
+    "sha1": "62b65f752d0326edd13244e58d5f2aec035da4e9",
+    "sha512": "21c9350c6c7ec54ee54b74f2bdc0a44f91005bedda3caf27d673b2f2bcad1dbef5aec970201ec8e959db2a1743ceb2e24ae99a9e36744dce740a0ab1dad01c52",
+    "client": true,
+    "server": true,
+    "source": "https://www.feed-the-beast.com/",
+    "category": "team-and-quests"
+  },
+  {
+    "slug": "ftb-quests",
+    "version": "2101.1.36",
+    "filename": "ftb-quests-neoforge-2101.1.36.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-quests-neoforge/2101.1.36/ftb-quests-neoforge-2101.1.36.jar",
+    "sha1": "b2ede29b98a3022c22065fbe9b1761e385a28683",
+    "sha512": "35298874f77fc15d1b66478092ec447db73ddaf699431e1529e41a5b4c421abf9cddc0d491385e45862eec816ade0bfbb92f267a035bfe2587b2b82683b61ad1",
+    "client": true,
+    "server": true,
+    "source": "https://www.feed-the-beast.com/",
+    "category": "team-and-quests"
+  },
+  {
+    "slug": "ftb-chunks",
+    "version": "2101.1.22",
+    "filename": "ftb-chunks-neoforge-2101.1.22.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-neoforge/2101.1.22/ftb-chunks-neoforge-2101.1.22.jar",
+    "sha1": "a53f1bb7965c6954a348d4f321f03d3971ad503f",
+    "sha512": "6589c6f9efb86b0f50963143a9c3c5647aeded698825189494455013441bae7973c1b83f95fce35d3f0b5239a8afd153c8b55ce4a3a6b21fd5d44ae47cecb2d8",
+    "client": true,
+    "server": true,
+    "source": "https://www.feed-the-beast.com/",
+    "category": "team-and-quests"
+  },
+  {
+    "slug": "ftb-ultimine",
+    "version": "2101.1.15",
+    "filename": "ftb-ultimine-neoforge-2101.1.15.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ultimine-neoforge/2101.1.15/ftb-ultimine-neoforge-2101.1.15.jar",
+    "sha1": "c96a7cc0b52bf919660ea61c1536cebd9d5773b3",
+    "sha512": "5938cf3f58b210769539de86e97769f84fe72d60eec6a6d13ecf9d26da5d24c9863c98b70ae688eea9433aef52d0226fd2c9b6f5196012a3a2cba0792e6e3985",
+    "client": true,
+    "server": true,
+    "source": "https://www.feed-the-beast.com/",
+    "category": "team-and-quests"
+  },
+  {
+    "slug": "ftb-xmod-compat",
+    "version": "21.1.11",
+    "filename": "ftb-xmod-compat-neoforge-21.1.11.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-xmod-compat-neoforge/21.1.11/ftb-xmod-compat-neoforge-21.1.11.jar",
+    "sha1": "06061863f24e1c0d9b2bb2646e96e07cbf0029f5",
+    "sha512": "2042fe6a2bc52f45e4ab05246582992469d91f836cfc4778289d69d9d22b1179f738d4a503c7c1f2dcac40d39dda1fe04e3ac36250f9bd6e7a2229fd54f8f3cc",
+    "client": true,
+    "server": true,
+    "source": "https://www.feed-the-beast.com/",
+    "category": "team-and-quests"
+  }
+]

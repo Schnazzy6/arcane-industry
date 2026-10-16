@@ -1,0 +1,10 @@
+{
+  "block.apothic_enchanting.apothic_enchanting_table": "Апотический стол зачарования",
+  "block.apothic_enchanting.apothic_enchanting_table.desc": "Косметический вариант Стола зачарования.",
+  "block.apothic_enchanting.raven_enchanting_table": "Чарующий стол ворона",
+  "block.apothic_enchanting.raven_enchanting_table.desc": "Позволяет вручную настраивать основные характеристики зачарования.",
+  "block.apothic_enchanting.basic_bookshelf": "Базовая книжная полка",
+  "item.apothic_enchanting.music_disc_eterna": "Музыкальный диск",
+  "item.apothic_enchanting.music_disc_quanta": "Музыкальный диск",
+  "item.apothic_enchanting.music_disc_arcana": "Музыкальный диск"
+}

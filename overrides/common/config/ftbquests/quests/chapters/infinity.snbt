@@ -1,0 +1,604 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "infinity"
+	group: "2DCF10F76EBF2A74"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: false
+	icon: {
+		count: 1
+		id: "avaritia:infinity_ingot"
+	}
+	id: "6B5BEC687296F63F"
+	images: [
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"Глава 6. Бесконечность"
+			]
+			id: "056D9188170D2B26"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.0d
+			x: 8.0d
+			y: -5.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"76BE02281D4CF6B8"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:infinity_stabilizer"
+			}
+			id: "552BA9D7EF7DCBB1"
+			rewards: [
+				{
+					id: "73ECE582DCE82A1A"
+					item: {
+						count: 2
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "26A9CE2E3273D984"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "2EC68D750783E435"
+					type: "xp"
+					xp: 18
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "5506B9F7D03ACB73"
+					item: {
+						count: 1
+						id: "kubejs:infinity_stabilizer"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"552BA9D7EF7DCBB1"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:crystal_matrix_ingot"
+			}
+			id: "700A57FCFBE9BADC"
+			rewards: [
+				{
+					id: "6B35F7E2D2726CF7"
+					item: {
+						count: 2
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2500F2701E802A19"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "54B3C06B9768BADA"
+					item: {
+						count: 1
+						id: "avaritia:crystal_matrix_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"700A57FCFBE9BADC"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:neutron_collector"
+			}
+			id: "796C4EBAAAC42BEC"
+			rewards: [
+				{
+					id: "1324B3D48A05960F"
+					item: {
+						count: 16
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "444D3565F98E3A14"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "53297486A207519E"
+					item: {
+						count: 1
+						id: "avaritia:neutron_collector"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"796C4EBAAAC42BEC"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:neutron_pile"
+			}
+			id: "7317854B1E195078"
+			rewards: [
+				{
+					id: "557A83BE2E4EB41E"
+					item: {
+						count: 8
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4173709AF099C678"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "481B90D14EEE9913"
+					item: {
+						count: 1
+						id: "avaritia:neutron_pile"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7317854B1E195078"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:neutron_ingot"
+			}
+			id: "503547AA534B7E19"
+			rewards: [
+				{
+					id: "00C30DFA60D53B39"
+					item: {
+						count: 8
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "7C82A4DBC92DBC51"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "23D0F51E44EC4E56"
+					item: {
+						count: 1
+						id: "avaritia:neutron_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"552BA9D7EF7DCBB1"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:singularity"
+			}
+			id: "4F326E3BBD2DF6B8"
+			rewards: [
+				{
+					id: "56657D0148898F14"
+					item: {
+						count: 2
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3A816EDDE87774B8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "135718D83BA52EDF"
+					item: {
+						count: 1
+						id: "avaritia:singularity"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F326E3BBD2DF6B8"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:endest_pearl"
+			}
+			id: "77706AA1DA9EA695"
+			optional: true
+			rewards: [
+				{
+					id: "68D7EB311F1997FD"
+					item: {
+						count: 2
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "6A3558D22125D7A3"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1693D81B20AE60A2"
+					item: {
+						count: 1
+						id: "avaritia:endest_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "13E556A88F5F35ED"
+					item: {
+						count: 1
+						id: "avaritia:cosmic_meatballs"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "5534A65AC1964E4B"
+					item: {
+						count: 1
+						id: "avaritia:ultimate_stew"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"503547AA534B7E19"
+				"4F326E3BBD2DF6B8"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "5C9B7ECA47134CAA"
+			rewards: [
+				{
+					id: "707E2DCD0E9F985C"
+					item: {
+						count: 8
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4349EB2F036B9C4E"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "5EC0C9D1AA36A783"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "52A1549C96E75A8E"
+					item: {
+						count: 1
+						id: "avaritia:infinity_catalyst"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5C9B7ECA47134CAA"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:infinity_ingot"
+			}
+			id: "21AF6BEADDD9C4BD"
+			rewards: [
+				{
+					id: "1C4B192FC47396C1"
+					item: {
+						count: 16
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "014975439115FEF8"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "0006163384C03239"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "1070552955DCD83A"
+					item: {
+						count: 1
+						id: "avaritia:infinity_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"21AF6BEADDD9C4BD"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:armor_core_t8"
+			}
+			id: "399D4C005F6363C1"
+			rewards: [ ]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "79E3A661AB9B8BB0"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"399D4C005F6363C1"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:infinity_helmet"
+			}
+			id: "29AAF7AAA0131F50"
+			rewards: [
+				{
+					id: "298DAC3DA606BD56"
+					item: {
+						count: 16
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "72AA4D632E08635F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2D169C74AF9B7E5E"
+					item: {
+						count: 1
+						id: "avaritia:infinity_helmet"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "56003ADB1FBEED2D"
+					item: {
+						count: 1
+						id: "avaritia:infinity_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "5D17ABED6C423924"
+					item: {
+						count: 1
+						id: "avaritia:infinity_pants"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2052987FD7DF467D"
+					item: {
+						count: 1
+						id: "avaritia:infinity_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"21AF6BEADDD9C4BD"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "avaritia:infinity_sword"
+			}
+			id: "44AEACA68CD878EF"
+			optional: true
+			rewards: [
+				{
+					id: "28B1E3CA959830DB"
+					item: {
+						count: 2
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "568F869FB1A03BC3"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "717B4F65E59614B5"
+					item: {
+						count: 1
+						id: "avaritia:infinity_sword"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"44AEACA68CD878EF"
+			]
+			icon: {
+				count: 1
+				id: "avaritia:infinity_pickaxe"
+			}
+			id: "75FFA4CE76A89765"
+			optional: true
+			rewards: [
+				{
+					id: "052F8DAFBB5688F6"
+					item: {
+						count: 2
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "50C83F1CAA8AD576"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "39F32F2492E2116F"
+					item: {
+						count: 1
+						id: "avaritia:infinity_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+	]
+}

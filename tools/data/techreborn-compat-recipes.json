@@ -1,0 +1,59 @@
+[
+  {
+    "id": "techreborn:grinder/nether_ruby_ore",
+    "json": {
+      "type": "techreborn:grinder",
+      "power": 4,
+      "time": 200,
+      "ingredients": [
+        {
+          "item": "betternether:nether_ruby_ore"
+        }
+      ],
+      "outputs": [
+        {
+          "count": 2,
+          "id": "betternether:nether_ruby"
+        }
+      ]
+    }
+  },
+  {
+    "id": "techreborn:grinder/nether_lapis_ore",
+    "json": {
+      "type": "techreborn:grinder",
+      "power": 4,
+      "time": 200,
+      "ingredients": [
+        {
+          "item": "betternether:nether_lapis_ore"
+        }
+      ],
+      "outputs": [
+        {
+          "count": 5,
+          "id": "betternether:lapis_pile"
+        }
+      ]
+    }
+  },
+  {
+    "id": "techreborn:grinder/cincinnasite_ore",
+    "json": {
+      "type": "techreborn:grinder",
+      "power": 4,
+      "time": 200,
+      "ingredients": [
+        {
+          "item": "betternether:cincinnasite_ore"
+        }
+      ],
+      "outputs": [
+        {
+          "count": 2,
+          "id": "betternether:cincinnasite"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "item.cataclysm.brontes": "Бронтес",
+  "item.cataclysm.brontes.desc": "Ты можешь бросить это",
+  "item.cataclysm.brontes.desc2": "(А еще это кирка)",
+  "item.cataclysm.onyx_spawn_egg": "Ониксовое яйцо призыва",
+  "block.cataclysm.obsidian_fence": "Обсидиановый забор",
+  "block.cataclysm.purpur_tiles": "Пурпурная плитка",
+  "block.cataclysm.purpur_tile_slab": "Пурпурная плитка",
+  "block.cataclysm.purpur_tile_pillar": "Пурпурный плиточный столб",
+  "block.cataclysm.purpur_tile_stairs": "Пурпурная плиточная лестница",
+  "block.cataclysm.purpur_tile_wall": "Пурпурная плиточная стена",
+  "block.cataclysm.void_purpur_tiles": "Плитки Пустоты Пурпура",
+  "block.cataclysm.obsidian_pillar": "Обсидиановый столб",
+  "block.cataclysm.polished_obsidian_slab": "Полированная обсидиановая плита",
+  "block.cataclysm.polished_obsidian_stairs": "Полированная обсидиановая лестница",
+  "block.cataclysm.polished_obsidian_wall": "Полированная обсидиановая стена",
+  "block.cataclysm.chorus_trapdoor": "Хор Люк",
+  "item.cataclysm.shift_desc": "Удерживайте [SHIFT] для получения подробной информации."
+}

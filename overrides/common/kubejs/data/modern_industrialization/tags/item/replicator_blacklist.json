@@ -1,0 +1,4361 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "advanced_ae:adv_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:adv_pattern_provider_part",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:adv_pattern_provider_upgrade",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:flight_card",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:hp_buffer_card",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_boots",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_chestplate",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_helmet",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_leggings",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_storage_component",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_structure",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_unit",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_upgrade_base",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:reaction_chamber",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:regeneration_card",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:small_adv_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:small_adv_pattern_provider_part",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:strength_card",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:canning_machine",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:centrifugal_extractor",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:charge_pad",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:charge_pad_2",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:charge_pad_3",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:charge_pad_4",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:charge_pad_final",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:enchantment_extractor",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:farming_machine",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:freq_trans",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:induction_furnace",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:logging_machine",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_10",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_2",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_3",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_4",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_5",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_6",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_7",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_8",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_generator_9",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_solar_panel",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_solar_panel_2",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_solar_panel_3",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:ray_solar_panel_4",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:renaming_machine",
+      "required": false
+    },
+    {
+      "id": "advanced_reborn:rotary_grinder",
+      "required": false
+    },
+    {
+      "id": "ae2:64k_crafting_storage",
+      "required": false
+    },
+    {
+      "id": "ae2:annihilation_core",
+      "required": false
+    },
+    {
+      "id": "ae2:cable_interface",
+      "required": false
+    },
+    {
+      "id": "ae2:cable_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "ae2:calculation_processor",
+      "required": false
+    },
+    {
+      "id": "ae2:cell_component_16k",
+      "required": false
+    },
+    {
+      "id": "ae2:cell_component_256k",
+      "required": false
+    },
+    {
+      "id": "ae2:chest",
+      "required": false
+    },
+    {
+      "id": "ae2:controller",
+      "required": false
+    },
+    {
+      "id": "ae2:crafting_unit",
+      "required": false
+    },
+    {
+      "id": "ae2:creative_energy_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:creative_storage_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:drive",
+      "required": false
+    },
+    {
+      "id": "ae2:engineering_processor",
+      "required": false
+    },
+    {
+      "id": "ae2:formation_core",
+      "required": false
+    },
+    {
+      "id": "ae2:interface",
+      "required": false
+    },
+    {
+      "id": "ae2:logic_processor",
+      "required": false
+    },
+    {
+      "id": "ae2:molecular_assembler",
+      "required": false
+    },
+    {
+      "id": "ae2:pattern_provider",
+      "required": false
+    },
+    {
+      "id": "ae2:quantum_link",
+      "required": false
+    },
+    {
+      "id": "ae2:quantum_ring",
+      "required": false
+    },
+    {
+      "id": "ae2:spatial_io_port",
+      "required": false
+    },
+    {
+      "id": "ae2:spatial_pylon",
+      "required": false
+    },
+    {
+      "id": "ae2:wireless_access_point",
+      "required": false
+    },
+    {
+      "id": "ae2:wireless_crafting_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2peat:pattern_encoding_access_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2wtlib:quantum_bridge_card",
+      "required": false
+    },
+    {
+      "id": "ae2wtlib:wireless_pattern_access_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2wtlib:wireless_pattern_encoding_terminal",
+      "required": false
+    },
+    {
+      "id": "apotheosis:ascent_spawner_upgrade_rune",
+      "required": false
+    },
+    {
+      "id": "apotheosis:augmenting_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:frontier_spawner_upgrade_rune",
+      "required": false
+    },
+    {
+      "id": "apotheosis:gem_cutting_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:ignore_players_spawner_rune",
+      "required": false
+    },
+    {
+      "id": "apotheosis:no_ai_spawner_rune",
+      "required": false
+    },
+    {
+      "id": "apotheosis:pinnacle_spawner_upgrade_rune",
+      "required": false
+    },
+    {
+      "id": "apotheosis:reforging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:salvaging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_enhancement",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_rebirth",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_socketing",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_withdrawal",
+      "required": false
+    },
+    {
+      "id": "apotheosis:simple_reforging_table",
+      "required": false
+    },
+    {
+      "id": "apotheosis:summit_spawner_upgrade_rune",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:apothic_enchanting_table",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:blazing_hellshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:crystal_seashelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:draconic_endshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:echoing_deepshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:endshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:geode_shelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:glowing_hellshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:heart_seashelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:hellshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:library",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:pearl_endshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:seashelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:soul_touched_deepshelf",
+      "required": false
+    },
+    {
+      "id": "apothic_enchanting:treasure_shelf",
+      "required": false
+    },
+    {
+      "id": "appflux:core_16k",
+      "required": false
+    },
+    {
+      "id": "appflux:core_16m",
+      "required": false
+    },
+    {
+      "id": "appflux:core_1k",
+      "required": false
+    },
+    {
+      "id": "appflux:core_256k",
+      "required": false
+    },
+    {
+      "id": "appflux:core_64m",
+      "required": false
+    },
+    {
+      "id": "appflux:flux_accessor",
+      "required": false
+    },
+    {
+      "id": "appflux:induction_card",
+      "required": false
+    },
+    {
+      "id": "appflux:part_flux_accessor",
+      "required": false
+    },
+    {
+      "id": "ars_additions:advanced_dominion_wand",
+      "required": false
+    },
+    {
+      "id": "ars_additions:handy_haversack",
+      "required": false
+    },
+    {
+      "id": "ars_additions:wayfinder",
+      "required": false
+    },
+    {
+      "id": "ars_additions:xp_jar",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:cinder_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:cinder_boots_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:cinder_chestplate",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:cinder_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:cinder_helmet",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:cinder_hood",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:cinder_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:cinder_leggings_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:cinder_pants",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:cinder_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:cinder_shoes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:cinder_tunic",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:elemancer_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:elemancer_boots_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:elemancer_chestplate",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:elemancer_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:elemancer_helmet",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:elemancer_hood",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:elemancer_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:elemancer_leggings_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:elemancer_pants",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:elemancer_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:elemancer_shoes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:elemancer_tunic",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:lava_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:lava_boots_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:lava_chestplate",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:lava_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:lava_helmet",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:lava_hood",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:lava_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:lava_leggings_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:lava_pants",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:lava_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:lava_shoes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:lava_tunic",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:mire_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:mire_boots_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:mire_chestplate",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:mire_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:mire_helmet",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:mire_hood",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:mire_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:mire_leggings_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:mire_pants",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:mire_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:mire_shoes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:mire_tunic",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:silt_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:silt_boots_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:silt_chestplate",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:silt_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:silt_helmet",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:silt_hood",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:silt_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:silt_leggings_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:silt_pants",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:silt_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:silt_shoes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:silt_tunic",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:tempest_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:tempest_boots_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:tempest_chestplate",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:tempest_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:tempest_helmet",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:tempest_hood",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:tempest_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:tempest_leggings_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:tempest_pants",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:tempest_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:tempest_shoes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:tempest_tunic",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:vapor_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:vapor_boots_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:vapor_chestplate",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:vapor_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:vapor_helmet",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:vapor_hood",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:vapor_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:vapor_leggings_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:vapor_pants",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:vapor_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:vapor_shoes",
+      "required": false
+    },
+    {
+      "id": "ars_elemancy:vapor_tunic",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:advanced_prism",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_boots_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_chestplate",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_helmet",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_hood",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_leggings_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_pants",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_shoes",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_tunic",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_boots_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_chestplate",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_helmet",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_hood",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_leggings_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_pants",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_shoes",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_tunic",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_boots_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_chestplate",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_helmet",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_hood",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_leggings_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_pants",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_shoes",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_tunic",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_boots_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_chestplate",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_helmet",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_hood",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_leggings_heavy",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_pants",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_shoes",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_tunic",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:ritual_tesla_coil",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:alchemical_sourcelink",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:apprentice_spell_book",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:arcanist_boots",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:arcanist_hood",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:arcanist_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:arcanist_robes",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:archmage_spell_book",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:basic_spell_turret",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:battlemage_boots",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:battlemage_hood",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:battlemage_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:battlemage_robes",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:creative_source_jar",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:creative_spell_book",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:drygmy_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:enchanting_apparatus",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:mob_jar",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:mycelial_sourcelink",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:relay",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:repository_controller",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:ritual_brazier",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:ritual_conjure_island_desert",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:ritual_conjure_island_plains",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:ritual_containment",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:ritual_disintegration",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:ritual_flight",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:rotating_spell_turret",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:sorcerer_boots",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:sorcerer_hood",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:sorcerer_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:sorcerer_robes",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:spell_prism",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:starbuncle_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:vitalic_sourcelink",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:void_prism",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:volcanic_sourcelink",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:whirlisprig_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:wixie_charm",
+      "required": false
+    },
+    {
+      "id": "ars_ocultas:altar",
+      "required": false
+    },
+    {
+      "id": "arseng:cable_source_acceptor",
+      "required": false
+    },
+    {
+      "id": "arseng:source_acceptor",
+      "required": false
+    },
+    {
+      "id": "avaritia:crystal_matrix_ingot",
+      "required": false
+    },
+    {
+      "id": "avaritia:extreme_crafting_table",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_axe",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_boots",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_bow",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_catalyst",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_chestplate",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_crossbow",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_helmet",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_hoe",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_ingot",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_pants",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_pickaxe",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_shovel",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_sword",
+      "required": false
+    },
+    {
+      "id": "avaritia:infinity_totem",
+      "required": false
+    },
+    {
+      "id": "avaritia:neutron_collector",
+      "required": false
+    },
+    {
+      "id": "avaritia:neutron_compressor",
+      "required": false
+    },
+    {
+      "id": "betterend:aeternium_axe",
+      "required": false
+    },
+    {
+      "id": "betterend:aeternium_boots",
+      "required": false
+    },
+    {
+      "id": "betterend:aeternium_chestplate",
+      "required": false
+    },
+    {
+      "id": "betterend:aeternium_hammer",
+      "required": false
+    },
+    {
+      "id": "betterend:aeternium_helmet",
+      "required": false
+    },
+    {
+      "id": "betterend:aeternium_hoe",
+      "required": false
+    },
+    {
+      "id": "betterend:aeternium_leggings",
+      "required": false
+    },
+    {
+      "id": "betterend:aeternium_pickaxe",
+      "required": false
+    },
+    {
+      "id": "betterend:aeternium_shovel",
+      "required": false
+    },
+    {
+      "id": "betterend:aeternium_sword",
+      "required": false
+    },
+    {
+      "id": "betterend:crystalite_boots",
+      "required": false
+    },
+    {
+      "id": "betterend:crystalite_chestplate",
+      "required": false
+    },
+    {
+      "id": "betterend:crystalite_helmet",
+      "required": false
+    },
+    {
+      "id": "betterend:crystalite_leggings",
+      "required": false
+    },
+    {
+      "id": "betterend:diamond_hammer",
+      "required": false
+    },
+    {
+      "id": "betterend:elytra_armored",
+      "required": false
+    },
+    {
+      "id": "betterend:elytra_crystalite",
+      "required": false
+    },
+    {
+      "id": "betterend:golden_hammer",
+      "required": false
+    },
+    {
+      "id": "betterend:iron_hammer",
+      "required": false
+    },
+    {
+      "id": "betterend:netherite_hammer",
+      "required": false
+    },
+    {
+      "id": "betterend:terminite_axe",
+      "required": false
+    },
+    {
+      "id": "betterend:terminite_boots",
+      "required": false
+    },
+    {
+      "id": "betterend:terminite_chestplate",
+      "required": false
+    },
+    {
+      "id": "betterend:terminite_hammer",
+      "required": false
+    },
+    {
+      "id": "betterend:terminite_helmet",
+      "required": false
+    },
+    {
+      "id": "betterend:terminite_hoe",
+      "required": false
+    },
+    {
+      "id": "betterend:terminite_leggings",
+      "required": false
+    },
+    {
+      "id": "betterend:terminite_pickaxe",
+      "required": false
+    },
+    {
+      "id": "betterend:terminite_shovel",
+      "required": false
+    },
+    {
+      "id": "betterend:terminite_sword",
+      "required": false
+    },
+    {
+      "id": "betterend:thallasium_axe",
+      "required": false
+    },
+    {
+      "id": "betterend:thallasium_boots",
+      "required": false
+    },
+    {
+      "id": "betterend:thallasium_chestplate",
+      "required": false
+    },
+    {
+      "id": "betterend:thallasium_hammer",
+      "required": false
+    },
+    {
+      "id": "betterend:thallasium_helmet",
+      "required": false
+    },
+    {
+      "id": "betterend:thallasium_hoe",
+      "required": false
+    },
+    {
+      "id": "betterend:thallasium_leggings",
+      "required": false
+    },
+    {
+      "id": "betterend:thallasium_pickaxe",
+      "required": false
+    },
+    {
+      "id": "betterend:thallasium_shovel",
+      "required": false
+    },
+    {
+      "id": "betterend:thallasium_sword",
+      "required": false
+    },
+    {
+      "id": "betternether:cincinnasite_axe",
+      "required": false
+    },
+    {
+      "id": "betternether:cincinnasite_boots",
+      "required": false
+    },
+    {
+      "id": "betternether:cincinnasite_chestplate",
+      "required": false
+    },
+    {
+      "id": "betternether:cincinnasite_helmet",
+      "required": false
+    },
+    {
+      "id": "betternether:cincinnasite_hoe",
+      "required": false
+    },
+    {
+      "id": "betternether:cincinnasite_leggings",
+      "required": false
+    },
+    {
+      "id": "betternether:cincinnasite_pickaxe",
+      "required": false
+    },
+    {
+      "id": "betternether:cincinnasite_shovel",
+      "required": false
+    },
+    {
+      "id": "betternether:cincinnasite_sword",
+      "required": false
+    },
+    {
+      "id": "betternether:flaming_ruby_axe",
+      "required": false
+    },
+    {
+      "id": "betternether:flaming_ruby_boots",
+      "required": false
+    },
+    {
+      "id": "betternether:flaming_ruby_chestplate",
+      "required": false
+    },
+    {
+      "id": "betternether:flaming_ruby_helmet",
+      "required": false
+    },
+    {
+      "id": "betternether:flaming_ruby_hoe",
+      "required": false
+    },
+    {
+      "id": "betternether:flaming_ruby_leggings",
+      "required": false
+    },
+    {
+      "id": "betternether:flaming_ruby_pickaxe",
+      "required": false
+    },
+    {
+      "id": "betternether:flaming_ruby_shovel",
+      "required": false
+    },
+    {
+      "id": "betternether:flaming_ruby_sword",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_ruby_axe",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_ruby_boots",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_ruby_chestplate",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_ruby_helmet",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_ruby_hoe",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_ruby_leggings",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_ruby_pickaxe",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_ruby_shovel",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_ruby_sword",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:damned_demomans_hat_helmet",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_metal_armor_boots",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_metal_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_metal_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_metal_armor_leggings",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:killer_rabbit_ears_helmet",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:lord_pumpkinheads_hat_helmet",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:missionary_hat_helmet",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_mantleofthe_night_boots",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_mantleofthe_night_helmet",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_mantleofthe_night_leggings",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:spiny_shell_armor_chestplate",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:spiny_shell_armor_helmet",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:spiritual_guide_sombrero_helmet",
+      "required": false
+    },
+    {
+      "id": "buildinggadgets2:gadget_building",
+      "required": false
+    },
+    {
+      "id": "buildinggadgets2:gadget_copy_paste",
+      "required": false
+    },
+    {
+      "id": "buildinggadgets2:gadget_cut_paste",
+      "required": false
+    },
+    {
+      "id": "buildinggadgets2:gadget_destruction",
+      "required": false
+    },
+    {
+      "id": "buildinggadgets2:gadget_exchanging",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ancient_spear",
+      "required": false
+    },
+    {
+      "id": "cataclysm:azure_sea_shield",
+      "required": false
+    },
+    {
+      "id": "cataclysm:bloom_stone_pauldrons",
+      "required": false
+    },
+    {
+      "id": "cataclysm:bone_reptile_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm:bone_reptile_helmet",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursed_bow",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursium_boots",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursium_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursium_helmet",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursium_leggings",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_boots",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_elytra_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_helmet",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_leggings",
+      "required": false
+    },
+    {
+      "id": "cataclysm:laser_gatling",
+      "required": false
+    },
+    {
+      "id": "cataclysm:monstrous_helm",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:bonelord_chestplate",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:bonelord_greaves",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:bonelord_helm",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:brazier",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:crucible",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:lesser_soul_gem",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:necrotic_focus",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:research_table",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:scriptorium",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:silver_boots",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:silver_chestplate",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:silver_helmet",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:silver_leggings",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:soul_enchanter",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:warlock_boots",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:warlock_cloak",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:warlock_hat",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:wooden_altar",
+      "required": false
+    },
+    {
+      "id": "eidolon_repraised:worktable",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:aethersent_boots",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:aethersent_bottoms",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:aethersent_cape",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:aethersent_hood",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:air_sac_boots",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:air_sac_mask",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:alchemist_mask",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:alchemist_robe",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:amaramber_chestplate",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:amaramber_mask",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:deepsilver_boots",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:deepsilver_chestplate",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:deepsilver_helmet",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:deepsilver_leggings",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_boots",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_chestplate",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_helmet",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_leggings",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:starlit_diamond_boots",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:starlit_diamond_chestplate",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:starlit_diamond_helmet",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:starlit_diamond_leggings",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_boots",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_chestplate",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_helmet",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_leggings",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:unrealium_boots",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:unrealium_chestplate",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:unrealium_helmet",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:unrealium_leggings",
+      "required": false
+    },
+    {
+      "id": "evilcraft:blood_chest",
+      "required": false
+    },
+    {
+      "id": "evilcraft:blood_infuser",
+      "required": false
+    },
+    {
+      "id": "evilcraft:colossal_blood_chest",
+      "required": false
+    },
+    {
+      "id": "evilcraft:creative_blood_drop",
+      "required": false
+    },
+    {
+      "id": "evilcraft:exalted_crafter",
+      "required": false
+    },
+    {
+      "id": "evilcraft:promise_tier_1",
+      "required": false
+    },
+    {
+      "id": "evilcraft:promise_tier_2",
+      "required": false
+    },
+    {
+      "id": "evilcraft:promise_tier_3",
+      "required": false
+    },
+    {
+      "id": "evilcraft:purifier",
+      "required": false
+    },
+    {
+      "id": "evilcraft:sanguinary_environmental_accumulator",
+      "required": false
+    },
+    {
+      "id": "evilcraft:sanguinary_pedestal_0",
+      "required": false
+    },
+    {
+      "id": "evilcraft:spirit_furnace",
+      "required": false
+    },
+    {
+      "id": "evilcraft:spirit_reanimator",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_beacon",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_brewery",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_chainsaw",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_composter",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_farmer",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_honey_extractor",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:electric_mining_drill",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:ev_tesla_receiver_hatch",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:hv_solar_panel",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:hv_tesla_receiver_hatch",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:large_electric_furnace",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:large_electric_macerator",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:lethal_tesla_coil",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:machine_chainer_relay",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:nano_boots",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:nano_chestplate",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:nano_gravichestplate",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:nano_helmet",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:nano_leggings",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:nano_quantum_boots",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:nano_quantum_chestplate",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:nano_quantum_helmet",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:nano_quantum_leggings",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:processing_array",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:steam_chainsaw",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:steam_farmer",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:superconductor_tesla_receiver_hatch",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:tesla_coil",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:tesla_handheld_receiver",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:tesla_receiver",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:tesla_tower",
+      "required": false
+    },
+    {
+      "id": "extended_industrialization:ultimate_laser_drill",
+      "required": false
+    },
+    {
+      "id": "extendedae:assembler_matrix_frame",
+      "required": false
+    },
+    {
+      "id": "extendedae:assembler_matrix_glass",
+      "required": false
+    },
+    {
+      "id": "extendedae:assembler_matrix_wall",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_interface",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_interface_part",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_pattern_provider_part",
+      "required": false
+    },
+    {
+      "id": "extendedae:interface_upgrade",
+      "required": false
+    },
+    {
+      "id": "extendedae:machine_frame",
+      "required": false
+    },
+    {
+      "id": "extendedae:pattern_provider_upgrade",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:boss_catcher",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:clibano_core",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:draco_arcanus_boots",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:draco_arcanus_chestplate",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:draco_arcanus_helmet",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:draco_arcanus_leggings",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:eternal_stella",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:mortem_chestplate",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:mortem_leggings",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:mundabitur_dust",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:quantum_catcher",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:quantum_core",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:quantum_injector",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:sea_prism",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:smelter_prism",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:soul_binding_crystal",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:soul_extractor",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:terrastomp_prism",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:tyr_boots",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:tyr_chestplate",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:tyr_helmet",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:tyr_leggings",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:whirlwind_prism",
+      "required": false
+    },
+    {
+      "id": "goety:animator",
+      "required": false
+    },
+    {
+      "id": "goety:arca",
+      "required": false
+    },
+    {
+      "id": "goety:black_iron_boots",
+      "required": false
+    },
+    {
+      "id": "goety:black_iron_chestplate",
+      "required": false
+    },
+    {
+      "id": "goety:black_iron_helmet",
+      "required": false
+    },
+    {
+      "id": "goety:black_iron_leggings",
+      "required": false
+    },
+    {
+      "id": "goety:blackguard_focus",
+      "required": false
+    },
+    {
+      "id": "goety:blizzard_focus",
+      "required": false
+    },
+    {
+      "id": "goety:cursed_knight_boots",
+      "required": false
+    },
+    {
+      "id": "goety:cursed_knight_chestplate",
+      "required": false
+    },
+    {
+      "id": "goety:cursed_knight_helmet",
+      "required": false
+    },
+    {
+      "id": "goety:cursed_knight_leggings",
+      "required": false
+    },
+    {
+      "id": "goety:cursed_paladin_boots",
+      "required": false
+    },
+    {
+      "id": "goety:cursed_paladin_chestplate",
+      "required": false
+    },
+    {
+      "id": "goety:cursed_paladin_helmet",
+      "required": false
+    },
+    {
+      "id": "goety:cursed_paladin_leggings",
+      "required": false
+    },
+    {
+      "id": "goety:dark_altar",
+      "required": false
+    },
+    {
+      "id": "goety:dark_boots",
+      "required": false
+    },
+    {
+      "id": "goety:dark_chestplate",
+      "required": false
+    },
+    {
+      "id": "goety:dark_helmet",
+      "required": false
+    },
+    {
+      "id": "goety:dark_leggings",
+      "required": false
+    },
+    {
+      "id": "goety:malefic_helm",
+      "required": false
+    },
+    {
+      "id": "goety:nether_staff",
+      "required": false
+    },
+    {
+      "id": "goety:sonic_boom_focus",
+      "required": false
+    },
+    {
+      "id": "goety:soul_absorber",
+      "required": false
+    },
+    {
+      "id": "goety:soul_healer",
+      "required": false
+    },
+    {
+      "id": "goety:soul_mender",
+      "required": false
+    },
+    {
+      "id": "goety:thunderstorm_focus",
+      "required": false
+    },
+    {
+      "id": "goety:vanguard_focus",
+      "required": false
+    },
+    {
+      "id": "goety:vexing_focus",
+      "required": false
+    },
+    {
+      "id": "goety:void_flash_focus",
+      "required": false
+    },
+    {
+      "id": "goety:void_staff",
+      "required": false
+    },
+    {
+      "id": "goety:wither_skull_focus",
+      "required": false
+    },
+    {
+      "id": "hexerei:book_of_shadows_altar",
+      "required": false
+    },
+    {
+      "id": "hexerei:creative_waxing_kit",
+      "required": false
+    },
+    {
+      "id": "hexerei:mixing_cauldron",
+      "required": false
+    },
+    {
+      "id": "hexerei:mushroom_witch_hat",
+      "required": false
+    },
+    {
+      "id": "hexerei:willow_altar",
+      "required": false
+    },
+    {
+      "id": "hexerei:witch_boots",
+      "required": false
+    },
+    {
+      "id": "hexerei:witch_chestplate",
+      "required": false
+    },
+    {
+      "id": "hexerei:witch_hazel_altar",
+      "required": false
+    },
+    {
+      "id": "hexerei:witch_helmet",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:bone_boots",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:bone_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:bone_helmet",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:bone_leggings",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:divine_boots",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:divine_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:divine_helmet",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:divine_leggings",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:heavy_boots",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:heavy_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:heavy_helmet",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:heavy_leggings",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:prismarine_boots",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:prismarine_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:prismarine_helmet",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:prismarine_leggings",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:robe_boots",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:robe_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:robe_helmet",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:robe_leggings",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:slime_boots",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:slime_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:slime_helmet",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:slime_leggings",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:steampunk_boots",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:steampunk_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:steampunk_helmet",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:steampunk_leggings",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:warrior_boots",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:warrior_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:warrior_helmet",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:warrior_leggings",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:wither_boots",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:wither_chestplate",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:wither_helmet",
+      "required": false
+    },
+    {
+      "id": "immersive_armors:wither_leggings",
+      "required": false
+    },
+    {
+      "id": "industrialization_overdrive:multi_processing_array",
+      "required": false
+    },
+    {
+      "id": "industrialization_overdrive:pyrolyse_oven",
+      "required": false
+    },
+    {
+      "id": "industrialization_overdrive:terminal",
+      "required": false
+    },
+    {
+      "id": "industrialization_overdrive:upgrade_stacker",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:affinity_ring",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:arcane_anvil",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:archevoker_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:archevoker_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:archevoker_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:archevoker_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cast_time_ring",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:concentration_amulet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cooldown_ring",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:copper_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cryomancer_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cryomancer_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cryomancer_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cryomancer_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cultist_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cultist_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cultist_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cultist_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cursed_doll_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:diamond_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:dragonskin_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:druidic_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:electromancer_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:electromancer_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:electromancer_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:electromancer_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:gold_crown",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:gold_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_conjurers_talisman",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ice_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:infernal_sorcerer_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:inscription_table",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:iron_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:lesser_spell_slot_upgrade",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mana_ring",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_mage_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_mage_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_mage_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_mage_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_spell_book",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:paladin_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:plagued_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:plagued_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:plagued_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:plagued_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:priest_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:priest_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:priest_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:priest_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pumpkin_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pumpkin_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pumpkin_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pumpkin_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:scroll_forge",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shadowwalker_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shadowwalker_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shadowwalker_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shadowwalker_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shriving_stone",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:speed_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:tarnished_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wandering_magician_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wandering_magician_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wandering_magician_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wandering_magician_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wizard_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wizard_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wizard_hat",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wizard_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wizard_leggings",
+      "required": false
+    },
+    {
+      "id": "kubejs:alchemical_catalyst",
+      "required": false
+    },
+    {
+      "id": "kubejs:arcane_resin",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t1",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t2",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t3",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t4",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t5",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t6",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t7",
+      "required": false
+    },
+    {
+      "id": "kubejs:armor_core_t8",
+      "required": false
+    },
+    {
+      "id": "kubejs:boss_seal",
+      "required": false
+    },
+    {
+      "id": "kubejs:convergence_core",
+      "required": false
+    },
+    {
+      "id": "kubejs:electrical_focus",
+      "required": false
+    },
+    {
+      "id": "kubejs:elemental_insulator",
+      "required": false
+    },
+    {
+      "id": "kubejs:enchantment_lattice",
+      "required": false
+    },
+    {
+      "id": "kubejs:engineering_matrix",
+      "required": false
+    },
+    {
+      "id": "kubejs:expedition_emblem",
+      "required": false
+    },
+    {
+      "id": "kubejs:industrial_focus",
+      "required": false
+    },
+    {
+      "id": "kubejs:infinity_stabilizer",
+      "required": false
+    },
+    {
+      "id": "kubejs:provision_bundle",
+      "required": false
+    },
+    {
+      "id": "kubejs:quantum_quarry_drill",
+      "required": false
+    },
+    {
+      "id": "kubejs:reborn_interface",
+      "required": false
+    },
+    {
+      "id": "kubejs:relic_research",
+      "required": false
+    },
+    {
+      "id": "kubejs:ritual_frame",
+      "required": false
+    },
+    {
+      "id": "kubejs:ritual_mount",
+      "required": false
+    },
+    {
+      "id": "kubejs:seal_elements",
+      "required": false
+    },
+    {
+      "id": "kubejs:seal_life",
+      "required": false
+    },
+    {
+      "id": "kubejs:seal_mind",
+      "required": false
+    },
+    {
+      "id": "kubejs:seal_soul",
+      "required": false
+    },
+    {
+      "id": "kubejs:soul_stabilizer",
+      "required": false
+    },
+    {
+      "id": "malum:malignant_stronghold_boots",
+      "required": false
+    },
+    {
+      "id": "malum:malignant_stronghold_chestplate",
+      "required": false
+    },
+    {
+      "id": "malum:malignant_stronghold_helmet",
+      "required": false
+    },
+    {
+      "id": "malum:malignant_stronghold_leggings",
+      "required": false
+    },
+    {
+      "id": "malum:soul_hunter_boots",
+      "required": false
+    },
+    {
+      "id": "malum:soul_hunter_cloak",
+      "required": false
+    },
+    {
+      "id": "malum:soul_hunter_leggings",
+      "required": false
+    },
+    {
+      "id": "malum:soul_hunter_robe",
+      "required": false
+    },
+    {
+      "id": "malum:soul_stained_steel_axe",
+      "required": false
+    },
+    {
+      "id": "malum:soul_stained_steel_boots",
+      "required": false
+    },
+    {
+      "id": "malum:soul_stained_steel_chestplate",
+      "required": false
+    },
+    {
+      "id": "malum:soul_stained_steel_helmet",
+      "required": false
+    },
+    {
+      "id": "malum:soul_stained_steel_hoe",
+      "required": false
+    },
+    {
+      "id": "malum:soul_stained_steel_knife",
+      "required": false
+    },
+    {
+      "id": "malum:soul_stained_steel_leggings",
+      "required": false
+    },
+    {
+      "id": "malum:soul_stained_steel_pickaxe",
+      "required": false
+    },
+    {
+      "id": "malum:soul_stained_steel_shovel",
+      "required": false
+    },
+    {
+      "id": "malum:soul_stained_steel_sword",
+      "required": false
+    },
+    {
+      "id": "malum:spirit_altar",
+      "required": false
+    },
+    {
+      "id": "malum:spirit_catalyzer",
+      "required": false
+    },
+    {
+      "id": "malum:spirit_crucible",
+      "required": false
+    },
+    {
+      "id": "megacells:cable_mega_interface",
+      "required": false
+    },
+    {
+      "id": "megacells:cable_mega_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "megacells:cell_component_16m",
+      "required": false
+    },
+    {
+      "id": "megacells:cell_component_1m",
+      "required": false
+    },
+    {
+      "id": "megacells:cell_component_64m",
+      "required": false
+    },
+    {
+      "id": "megacells:mega_crafting_unit",
+      "required": false
+    },
+    {
+      "id": "megacells:mega_energy_cell",
+      "required": false
+    },
+    {
+      "id": "megacells:mega_interface",
+      "required": false
+    },
+    {
+      "id": "megacells:mega_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "minecraft:chainmail_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:chainmail_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:chainmail_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:chainmail_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:turtle_helmet",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:absorption_hopper",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:entity_spawner",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:fan",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:gm_chicken_feed_cursed",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:monocle",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:nutritious_chicken_feed",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:saw",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:analog_circuit_board",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:creative_barrel",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:creative_storage_unit",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:creative_tank",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:digital_circuit_board",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:gravichestplate",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:processing_unit_board",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:quantum_boots",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:quantum_chestplate",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:quantum_circuit_board",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:quantum_helmet",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:quantum_leggings",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:quantum_sword",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:quantum_upgrade",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:replicator",
+      "required": false
+    },
+    {
+      "id": "modularrouters:activator_module",
+      "required": false
+    },
+    {
+      "id": "modularrouters:creative_module",
+      "required": false
+    },
+    {
+      "id": "modularrouters:modular_router",
+      "required": false
+    },
+    {
+      "id": "modularrouters:player_module",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:geomancer_beads",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:geomancer_belt",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:geomancer_robe",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:geomancer_sandals",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:sol_visage",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:wrought_helmet",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_boots",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_chestplate",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_leggings",
+      "required": false
+    },
+    {
+      "id": "naturesaura:animal_generator",
+      "required": false
+    },
+    {
+      "id": "naturesaura:animal_spawner",
+      "required": false
+    },
+    {
+      "id": "naturesaura:auto_crafter",
+      "required": false
+    },
+    {
+      "id": "naturesaura:chunk_loader",
+      "required": false
+    },
+    {
+      "id": "naturesaura:depth_chest",
+      "required": false
+    },
+    {
+      "id": "naturesaura:depth_helmet",
+      "required": false
+    },
+    {
+      "id": "naturesaura:depth_pants",
+      "required": false
+    },
+    {
+      "id": "naturesaura:depth_shoes",
+      "required": false
+    },
+    {
+      "id": "naturesaura:ender_access",
+      "required": false
+    },
+    {
+      "id": "naturesaura:flower_generator",
+      "required": false
+    },
+    {
+      "id": "naturesaura:generator_limit_remover",
+      "required": false
+    },
+    {
+      "id": "naturesaura:infused_iron_chest",
+      "required": false
+    },
+    {
+      "id": "naturesaura:infused_iron_helmet",
+      "required": false
+    },
+    {
+      "id": "naturesaura:infused_iron_pants",
+      "required": false
+    },
+    {
+      "id": "naturesaura:infused_iron_shoes",
+      "required": false
+    },
+    {
+      "id": "naturesaura:item_distributor",
+      "required": false
+    },
+    {
+      "id": "naturesaura:nature_altar",
+      "required": false
+    },
+    {
+      "id": "naturesaura:oak_generator",
+      "required": false
+    },
+    {
+      "id": "naturesaura:offering_table",
+      "required": false
+    },
+    {
+      "id": "naturesaura:placer",
+      "required": false
+    },
+    {
+      "id": "naturesaura:potion_generator",
+      "required": false
+    },
+    {
+      "id": "naturesaura:powder_placer",
+      "required": false
+    },
+    {
+      "id": "naturesaura:rf_converter",
+      "required": false
+    },
+    {
+      "id": "naturesaura:sky_chest",
+      "required": false
+    },
+    {
+      "id": "naturesaura:sky_helmet",
+      "required": false
+    },
+    {
+      "id": "naturesaura:sky_pants",
+      "required": false
+    },
+    {
+      "id": "naturesaura:sky_shoes",
+      "required": false
+    },
+    {
+      "id": "naturesaura:time_changer",
+      "required": false
+    },
+    {
+      "id": "naturesaura:weather_changer",
+      "required": false
+    },
+    {
+      "id": "occultism:book_of_calling_djinni_manage_machine",
+      "required": false
+    },
+    {
+      "id": "occultism:book_of_calling_foliot_cleaner",
+      "required": false
+    },
+    {
+      "id": "occultism:book_of_calling_foliot_farmer",
+      "required": false
+    },
+    {
+      "id": "occultism:book_of_calling_foliot_lumberjack",
+      "required": false
+    },
+    {
+      "id": "occultism:book_of_calling_foliot_transport_items",
+      "required": false
+    },
+    {
+      "id": "occultism:dark_golden_sacrificial_bowl",
+      "required": false
+    },
+    {
+      "id": "occultism:golden_sacrificial_bowl",
+      "required": false
+    },
+    {
+      "id": "occultism:otherworld_goggles",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_controller",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_controller_dark",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_stabilizer_tier0",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_stabilizer_tier0_dark",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_stabilizer_tier1",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_stabilizer_tier2",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_stabilizer_tier3",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:kabutowari_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:kama_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:kamayari_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:katana_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:kunai_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:light_samurai_boots",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:light_samurai_chestplate",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:light_samurai_helmet",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:light_samurai_leggings",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:masakari_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:master_samurai_boots",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:master_samurai_chestplate",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:master_samurai_helmet",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:master_samurai_leggings",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:nagamaki_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:naginata_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:netherite_ninja_boots",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:netherite_ninja_chestplate",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:netherite_ninja_helmet",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:netherite_samurai_boots",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:netherite_samurai_chestplate",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:netherite_samurai_helmet",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:netherite_samurai_leggings",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:ninja_leggings",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:odachi_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:sai_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:shuko_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:steel_boots",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:steel_chestplate",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:steel_helmet",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:steel_leggings",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:steel_ninja_boots",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:steel_ninja_chestplate",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:steel_ninja_helmet",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:steel_samurai_boots",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:steel_samurai_chestplate",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:steel_samurai_helmet",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:steel_samurai_leggings",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:tetsubo_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:tonbukiri_netherite",
+      "required": false
+    },
+    {
+      "id": "samurai_dynasty:wakizashi_netherite",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_chakram",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_claymore",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_cutlass",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_forge",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_glaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_greataxe",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_greathammer",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_halberd",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_katana",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_longsword",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_rapier",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_sai",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_scythe",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_spear",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_twinblade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_warglaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:sword_on_a_stick",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:compacting_drawers_3",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:compacting_half_drawers_3",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:controller",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:controller_io",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:creative_storage_upgrade",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:creative_vending_upgrade",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:diamond_storage_upgrade",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:emerald_storage_upgrade",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:netherite_storage_upgrade",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:remote_group_upgrade",
+      "required": false
+    },
+    {
+      "id": "storagedrawers:remote_upgrade",
+      "required": false
+    },
+    {
+      "id": "techreborn:adjustable_su",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_alloy_ingot",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_alloy_plate",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_circuit",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_machine_casing",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_machine_frame",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_solar_panel",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_storage_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:advanced_tank_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:assembly_machine",
+      "required": false
+    },
+    {
+      "id": "techreborn:basic_machine_casing",
+      "required": false
+    },
+    {
+      "id": "techreborn:basic_machine_frame",
+      "required": false
+    },
+    {
+      "id": "techreborn:basic_solar_panel",
+      "required": false
+    },
+    {
+      "id": "techreborn:basic_storage_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:basic_tank_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:bronze_boots",
+      "required": false
+    },
+    {
+      "id": "techreborn:bronze_chestplate",
+      "required": false
+    },
+    {
+      "id": "techreborn:bronze_helmet",
+      "required": false
+    },
+    {
+      "id": "techreborn:bronze_leggings",
+      "required": false
+    },
+    {
+      "id": "techreborn:charge_o_mat",
+      "required": false
+    },
+    {
+      "id": "techreborn:chemical_reactor",
+      "required": false
+    },
+    {
+      "id": "techreborn:compressor",
+      "required": false
+    },
+    {
+      "id": "techreborn:creative_solar_panel",
+      "required": false
+    },
+    {
+      "id": "techreborn:creative_storage_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:creative_tank_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:crude_storage_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:data_storage_chip",
+      "required": false
+    },
+    {
+      "id": "techreborn:diesel_generator",
+      "required": false
+    },
+    {
+      "id": "techreborn:distillation_tower",
+      "required": false
+    },
+    {
+      "id": "techreborn:electric_furnace",
+      "required": false
+    },
+    {
+      "id": "techreborn:electronic_circuit",
+      "required": false
+    },
+    {
+      "id": "techreborn:extractor",
+      "required": false
+    },
+    {
+      "id": "techreborn:grinder",
+      "required": false
+    },
+    {
+      "id": "techreborn:high_voltage_su",
+      "required": false
+    },
+    {
+      "id": "techreborn:hv_transformer",
+      "required": false
+    },
+    {
+      "id": "techreborn:implosion_compressor",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_blast_furnace",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_centrifuge",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_chainsaw",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_circuit",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_drill",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_electrolyzer",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_grinder",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_jackhammer",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_machine_casing",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_machine_frame",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_sawmill",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_solar_panel",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_storage_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:industrial_tank_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:interdimensional_su",
+      "required": false
+    },
+    {
+      "id": "techreborn:iridium_alloy_ingot",
+      "required": false
+    },
+    {
+      "id": "techreborn:iridium_alloy_plate",
+      "required": false
+    },
+    {
+      "id": "techreborn:iron_alloy_furnace",
+      "required": false
+    },
+    {
+      "id": "techreborn:iron_furnace",
+      "required": false
+    },
+    {
+      "id": "techreborn:lapotronic_orbpack",
+      "required": false
+    },
+    {
+      "id": "techreborn:lapotronic_su",
+      "required": false
+    },
+    {
+      "id": "techreborn:lithium_ion_batpack",
+      "required": false
+    },
+    {
+      "id": "techreborn:low_voltage_su",
+      "required": false
+    },
+    {
+      "id": "techreborn:lv_transformer",
+      "required": false
+    },
+    {
+      "id": "techreborn:matter_fabricator",
+      "required": false
+    },
+    {
+      "id": "techreborn:medium_voltage_su",
+      "required": false
+    },
+    {
+      "id": "techreborn:mv_transformer",
+      "required": false
+    },
+    {
+      "id": "techreborn:nano_boots",
+      "required": false
+    },
+    {
+      "id": "techreborn:nano_chestplate",
+      "required": false
+    },
+    {
+      "id": "techreborn:nano_helmet",
+      "required": false
+    },
+    {
+      "id": "techreborn:nano_leggings",
+      "required": false
+    },
+    {
+      "id": "techreborn:nanosaber",
+      "required": false
+    },
+    {
+      "id": "techreborn:omni_tool",
+      "required": false
+    },
+    {
+      "id": "techreborn:peridot_boots",
+      "required": false
+    },
+    {
+      "id": "techreborn:peridot_chestplate",
+      "required": false
+    },
+    {
+      "id": "techreborn:peridot_helmet",
+      "required": false
+    },
+    {
+      "id": "techreborn:peridot_leggings",
+      "required": false
+    },
+    {
+      "id": "techreborn:plasma_generator",
+      "required": false
+    },
+    {
+      "id": "techreborn:pump",
+      "required": false
+    },
+    {
+      "id": "techreborn:quantum_boots",
+      "required": false
+    },
+    {
+      "id": "techreborn:quantum_chestplate",
+      "required": false
+    },
+    {
+      "id": "techreborn:quantum_helmet",
+      "required": false
+    },
+    {
+      "id": "techreborn:quantum_leggings",
+      "required": false
+    },
+    {
+      "id": "techreborn:quantum_solar_panel",
+      "required": false
+    },
+    {
+      "id": "techreborn:quantum_storage_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:quantum_tank_unit",
+      "required": false
+    },
+    {
+      "id": "techreborn:recycler",
+      "required": false
+    },
+    {
+      "id": "techreborn:rock_cutter",
+      "required": false
+    },
+    {
+      "id": "techreborn:rolling_machine",
+      "required": false
+    },
+    {
+      "id": "techreborn:ruby_boots",
+      "required": false
+    },
+    {
+      "id": "techreborn:ruby_chestplate",
+      "required": false
+    },
+    {
+      "id": "techreborn:ruby_helmet",
+      "required": false
+    },
+    {
+      "id": "techreborn:ruby_leggings",
+      "required": false
+    },
+    {
+      "id": "techreborn:sapphire_boots",
+      "required": false
+    },
+    {
+      "id": "techreborn:sapphire_chestplate",
+      "required": false
+    },
+    {
+      "id": "techreborn:sapphire_helmet",
+      "required": false
+    },
+    {
+      "id": "techreborn:sapphire_leggings",
+      "required": false
+    },
+    {
+      "id": "techreborn:scrapboxinator",
+      "required": false
+    },
+    {
+      "id": "techreborn:semi_fluid_generator",
+      "required": false
+    },
+    {
+      "id": "techreborn:silver_boots",
+      "required": false
+    },
+    {
+      "id": "techreborn:silver_chestplate",
+      "required": false
+    },
+    {
+      "id": "techreborn:silver_helmet",
+      "required": false
+    },
+    {
+      "id": "techreborn:silver_leggings",
+      "required": false
+    },
+    {
+      "id": "techreborn:solid_canning_machine",
+      "required": false
+    },
+    {
+      "id": "techreborn:solid_fuel_generator",
+      "required": false
+    },
+    {
+      "id": "techreborn:steel_boots",
+      "required": false
+    },
+    {
+      "id": "techreborn:steel_chestplate",
+      "required": false
+    },
+    {
+      "id": "techreborn:steel_helmet",
+      "required": false
+    },
+    {
+      "id": "techreborn:steel_leggings",
+      "required": false
+    },
+    {
+      "id": "techreborn:thermal_generator",
+      "required": false
+    },
+    {
+      "id": "techreborn:ultimate_solar_panel",
+      "required": false
+    },
+    {
+      "id": "techreborn:vacuum_freezer",
+      "required": false
+    },
+    {
+      "id": "techreborn:water_mill",
+      "required": false
+    },
+    {
+      "id": "techreborn:wind_mill",
+      "required": false
+    },
+    {
+      "id": "techreborn:wire_mill",
+      "required": false
+    },
+    {
+      "id": "theurgy:calcination_oven",
+      "required": false
+    },
+    {
+      "id": "theurgy:digestion_vat",
+      "required": false
+    },
+    {
+      "id": "theurgy:distiller",
+      "required": false
+    },
+    {
+      "id": "theurgy:fermentation_vat",
+      "required": false
+    },
+    {
+      "id": "theurgy:incubator",
+      "required": false
+    },
+    {
+      "id": "theurgy:incubator_mercury_vessel",
+      "required": false
+    },
+    {
+      "id": "theurgy:incubator_salt_vessel",
+      "required": false
+    },
+    {
+      "id": "theurgy:incubator_sulfur_vessel",
+      "required": false
+    },
+    {
+      "id": "theurgy:liquefaction_cauldron",
+      "required": false
+    },
+    {
+      "id": "theurgy:mercurial_wand",
+      "required": false
+    },
+    {
+      "id": "theurgy:mercury_catalyst",
+      "required": false
+    },
+    {
+      "id": "theurgy:reformation_result_pedestal",
+      "required": false
+    },
+    {
+      "id": "theurgy:reformation_source_pedestal",
+      "required": false
+    },
+    {
+      "id": "theurgy:reformation_target_pedestal",
+      "required": false
+    },
+    {
+      "id": "theurgy:sulfuric_flux_emitter",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:naga_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:naga_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:phantom_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:phantom_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:travellers_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:travellers_goggles",
+      "required": false
+    },
+    {
+      "id": "twilightforest:uncrafting_table",
+      "required": false
+    },
+    {
+      "id": "twilightforest:yeti_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:yeti_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:yeti_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:yeti_leggings",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:arboreous_greenhouse",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:cryogenic_precipitator",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:demon_core",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:dragon_egg_energy_siphon",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:flight_pylon",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:nuclear_rod_irradiator",
+      "required": false
+    },
+    {
+      "id": "yet_another_industrialization:pulse_detonation_generator",
+      "required": false
+    }
+  ]
+}

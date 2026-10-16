@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "value": {
+        "tag": "neoforge:ingots/electrum",
+        "type": "neoforge:tag_empty"
+      },
+      "type": "neoforge:not"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "itemIdRegex": "electrum_.+",
+  "modIdRegex": ".+",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "tag": "neoforge:ingots/electrum",
+    "count": 2
+  },
+  "spirits": [
+    {
+      "type": "earthen",
+      "count": 16
+    },
+    {
+      "type": "infernal",
+      "count": 4
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    }
+  ],
+  "validItems": []
+}

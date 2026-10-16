@@ -1,0 +1,23 @@
+{
+  "item.cataclysm.brontes": "Бронт",
+  "item.cataclysm.onyx_spawn_egg": "Яйцо призыва оникса",
+  "block.cataclysm.obsidian_fence": "Обсидиановый забор",
+  "block.cataclysm.purpur_tiles": "Пурпуровая плитка",
+  "block.cataclysm.purpur_tile_slab": "Плита из пурпуровой плитки",
+  "block.cataclysm.purpur_tile_pillar": "Колонна из пурпуровой плитки",
+  "block.cataclysm.purpur_tile_stairs": "Ступеньки из пурпуровой плитки",
+  "block.cataclysm.purpur_tile_wall": "Стена из пурпуровой плитки",
+  "block.cataclysm.void_purpur_tiles": "Пурпуровая плитка Пустоты",
+  "block.cataclysm.obsidian_pillar": "Обсидиановая колонна",
+  "block.cataclysm.polished_obsidian_slab": "Плита из полированного обсидиана",
+  "block.cataclysm.polished_obsidian_stairs": "Ступеньки из полированного обсидиана",
+  "block.cataclysm.polished_obsidian_wall": "Стена из полированного обсидиана",
+  "block.cataclysm.chorus_trapdoor": "Люк из хоруса",
+  "entity.cataclysm.old_netherite_monstrosity": "Древнее незеритовое чудовище",
+  "entity.cataclysm.onyx": "Оникс",
+  "effect.cataclysm.lightning_hex": "Проклятие молний",
+  "effect.cataclysm.over_gravity": "Сверхтяжесть",
+  "effect.cataclysm.dragon_wound": "Драконья рана",
+  "attribute.cataclysm.additional_critical_damage": "% критического урона",
+  "attribute.cataclysm.nature_heal": "% природного лечения"
+}

@@ -1,0 +1,4741 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power"
+	group: "2DCF10F76EBF2A74"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: false
+	icon: {
+		count: 1
+		id: "modern_industrialization:analog_circuit"
+	}
+	id: "1C6E26542D7508E5"
+	images: [
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 9.5d
+			id: "028411834AADBA0F"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 8.0d
+			y: 4.4d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"01  Резина и изоляция"
+			]
+			id: "5903B1F030745957"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 9.5d
+			id: "064A91D73B7C172E"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 31.0d
+			y: 4.4d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"02  Электроника LV"
+			]
+			id: "6002B2133983BBBF"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 31.0d
+			y: 0.0d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "0F59DF3B8AF7240E"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 8.0d
+			y: 14.65d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 6705976
+			height: 0.85d
+			hover: [
+				"03  Батареи и корпуса"
+			]
+			id: "504994A0CA633074"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "75069B7356E12EFE"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 31.0d
+			y: 14.65d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 6705976
+			height: 0.85d
+			hover: [
+				"04  Приводы и сборка"
+			]
+			id: "2DB95FE54D2190E0"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 31.0d
+			y: 12.0d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "1CF25D2A50289160"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 8.0d
+			y: 23.15d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 4416335
+			height: 0.85d
+			hover: [
+				"05  Энергия завода"
+			]
+			id: "31E37D0A87EBC9B2"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 8.0d
+			y: 20.5d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "06FF875F4C76C3E9"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 31.0d
+			y: 23.15d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 4416335
+			height: 0.85d
+			hover: [
+				"06  Электрический парк"
+			]
+			id: "6679B85E4B2A3114"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 31.0d
+			y: 20.5d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "6B7E675E4B424621"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 8.0d
+			y: 31.65d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 6443128
+			height: 0.85d
+			hover: [
+				"07  Магия и сплавы"
+			]
+			id: "0AF70CB9CCD8EA3C"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 8.0d
+			y: 29.0d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "19DD5E678C554E48"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 31.0d
+			y: 31.65d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 6443128
+			height: 0.85d
+			hover: [
+				"08  Доменная печь"
+			]
+			id: "63142292EC57B86F"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 31.0d
+			y: 29.0d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 9.5d
+			id: "1987D6494443297D"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 8.0d
+			y: 41.9d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"09  Оловянные детали LV"
+			]
+			id: "79210E9AF6077B0D"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 8.0d
+			y: 37.5d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 9.5d
+			id: "5BD0ABDEFEAE5A78"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 31.0d
+			y: 41.9d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"10  Инваровая механика"
+			]
+			id: "0D18E7395E3FD53F"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 31.0d
+			y: 37.5d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "59A28897E8C9D5E7"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 8.0d
+			y: 52.15d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 6705976
+			height: 0.85d
+			hover: [
+				"11  Режущий узел"
+			]
+			id: "6EA4FF9662561902"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 8.0d
+			y: 49.5d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "280DE84F34F22D63"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 31.0d
+			y: 52.15d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 6705976
+			height: 0.85d
+			hover: [
+				"12  Провода разных металлов"
+			]
+			id: "51720218113B0624"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 31.0d
+			y: 49.5d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "4DB1A0506E4D53DE"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 8.0d
+			y: 60.65d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 4416335
+			height: 0.85d
+			hover: [
+				"13  Полный парк электрических машин"
+			]
+			id: "7061B1EDEDCA5B30"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 8.0d
+			y: 58.0d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "2509A365597529FF"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 31.0d
+			y: 60.65d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 4416335
+			height: 0.85d
+			hover: [
+				"14  Электрические дополнения"
+			]
+			id: "5D394B9D45E5323B"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 31.0d
+			y: 58.0d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "7922D0E20D5C0615"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 8.0d
+			y: 69.15d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 6443128
+			height: 0.85d
+			hover: [
+				"15  Припой и серийная сборка"
+			]
+			id: "6AD7F34232527D3B"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 8.0d
+			y: 66.5d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "5776A949764D938D"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 31.0d
+			y: 69.15d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 6443128
+			height: 0.85d
+			hover: [
+				"16  Управление энергией"
+			]
+			id: "440B16A95B13E61E"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 31.0d
+			y: 66.5d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "2F951C68853E4C95"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 8.0d
+			y: 77.65d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"17  Подготовка сетей MV"
+			]
+			id: "17F230E11E1FFB23"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 8.0d
+			y: 75.0d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "6CAF20E78C908B5F"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 31.0d
+			y: 77.65d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 3562616
+			height: 0.85d
+			hover: [
+				"18  Люки стальных многоблоков"
+			]
+			id: "2FBD0B714600E271"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 31.0d
+			y: 75.0d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "60E68BD7A47DD262"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 8.0d
+			y: 86.15d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 6705976
+			height: 0.85d
+			hover: [
+				"19  Солнце как дополнительная энергия"
+			]
+			id: "270529EBA7402CE3"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 8.0d
+			y: 83.5d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "27CEE7145E61B51C"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 31.0d
+			y: 86.15d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 6705976
+			height: 0.85d
+			hover: [
+				"20  Мельхиор для доменной печи"
+			]
+			id: "53EBF659E9B8C38A"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 31.0d
+			y: 83.5d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "0D3F7D2B2AB2F89B"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 8.0d
+			y: 94.65d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 4416335
+			height: 0.85d
+			hover: [
+				"21  Заготовки батарей"
+			]
+			id: "17EA1BB62794F496"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 8.0d
+			y: 92.0d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 1516337
+			height: 6.0d
+			id: "341579A7CD168E74"
+			image: "#FFFFFF"
+			order: -100
+			position_locked: true
+			width: 20.5d
+			x: 31.0d
+			y: 94.65d
+		}
+		{
+			alpha: 245
+			click_action: ""
+			color: 4416335
+			height: 0.85d
+			hover: [
+				"22  Настройка и обслуживание"
+			]
+			id: "435B71B2CB8297D7"
+			image: "#FFFFFF"
+			order: -90
+			position_locked: true
+			text_h_align: "center"
+			text_inset: 10
+			text_on_image: true
+			text_shadow: true
+			text_v_align: "center"
+			width: 20.5d
+			x: 31.0d
+			y: 92.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3F7946C05957A8F9"
+			]
+			hide_dependency_lines: true
+			id: "4F67E7C915392D7E"
+			rewards: [ ]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "00AE9A9C672337C2"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F67E7C915392D7E"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:raw_synthetic_oil_bucket"
+			}
+			id: "567A0BFC4C81B1AB"
+			rewards: [
+				{
+					id: "1EC812CA333A48BB"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "624E29F1BB320ADD"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0FC9B7A96572E23F"
+					item: {
+						count: 1
+						id: "modern_industrialization:raw_synthetic_oil_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"567A0BFC4C81B1AB"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:synthetic_oil_bucket"
+			}
+			id: "6D5A23E04A8AC143"
+			rewards: [
+				{
+					id: "444848022397FB46"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "02CE18661CEB6689"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0B0EDF6AE0CB501F"
+					item: {
+						count: 1
+						id: "modern_industrialization:synthetic_oil_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6D5A23E04A8AC143"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:rubber_sheet"
+			}
+			id: "7BE9F40DE554360A"
+			rewards: [
+				{
+					id: "1FF03720579FB45F"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "5C7B9B04911CD7E2"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "60ED82A5659EAF2E"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 32L
+					id: "07BA79590BDF26F0"
+					item: {
+						count: 1
+						id: "modern_industrialization:rubber_sheet"
+					}
+					type: "item"
+				}
+			]
+			x: 12.8d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7BE9F40DE554360A"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:paper"
+			}
+			id: "239B14E35FDE19D3"
+			optional: true
+			rewards: [
+				{
+					id: "4F05D967B32C525D"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "07632194FC7FDB21"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 32L
+					id: "62C4317F1BB4128C"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			x: 9.600000000000001d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F67E7C915392D7E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_wire"
+			}
+			id: "2FD4ACEFE2942063"
+			rewards: [
+				{
+					id: "75BAD43597B72684"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "20A1D3AF3DB99109"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "13316A96340C2AF4"
+					item: {
+						count: 1
+						id: "modern_industrialization:copper_wire"
+					}
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "5FD53C9BA3A83CAD"
+					item: {
+						count: 1
+						id: "modern_industrialization:tin_wire"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2FD4ACEFE2942063"
+				"7BE9F40DE554360A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:tin_cable"
+			}
+			id: "672009BE0D43C6F6"
+			rewards: [
+				{
+					id: "44E96CF2A5F6EB34"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "6F8159ECC04EB2A1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "488B61533C803A05"
+					item: {
+						count: 1
+						id: "modern_industrialization:tin_cable"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2FD4ACEFE2942063"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:resistor"
+			}
+			id: "45A81D8F2F316C10"
+			rewards: [
+				{
+					id: "000C13DDBE284776"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4C86418B59646761"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "7B7471DEAD408473"
+					item: {
+						count: 1
+						id: "modern_industrialization:resistor"
+					}
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"45A81D8F2F316C10"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:capacitor"
+			}
+			id: "0C44C84C56EF28C4"
+			rewards: [
+				{
+					id: "3029E0DDFE3B4EE0"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "0971E1AC0CA58B92"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "38E656C8E00132A3"
+					item: {
+						count: 1
+						id: "modern_industrialization:capacitor"
+					}
+					type: "item"
+				}
+			]
+			x: 26.2d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0C44C84C56EF28C4"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:inductor"
+			}
+			id: "270671220AD1E473"
+			rewards: [
+				{
+					id: "2A0ECEC98A2BE4C7"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2D6DC498DE376CFB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "0CB6FB38F030CBA8"
+					item: {
+						count: 1
+						id: "modern_industrialization:inductor"
+					}
+					type: "item"
+				}
+			]
+			x: 29.4d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"672009BE0D43C6F6"
+				"6791D4B8B7203240"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:analog_circuit_board"
+			}
+			id: "22117D8437C1A8FC"
+			rewards: [
+				{
+					id: "381798688C25E603"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "41F69E3EA9E8A5C1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7D6A69C55AD71DE1"
+					item: {
+						count: 1
+						id: "modern_industrialization:analog_circuit_board"
+					}
+					type: "item"
+				}
+			]
+			x: 32.6d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"22117D8437C1A8FC"
+				"270671220AD1E473"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:analog_circuit"
+			}
+			id: "6B02F1926E737FF1"
+			rewards: [
+				{
+					id: "020C321FA3FE6EEF"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "7410850A9429F057"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "3A60656F3ABDFD11"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "30A32282E35EB78D"
+					item: {
+						count: 1
+						id: "modern_industrialization:analog_circuit"
+					}
+					type: "item"
+				}
+			]
+			x: 35.8d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7BE9F40DE554360A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:lead_dust"
+			}
+			id: "4830717F88B3CD1B"
+			rewards: [
+				{
+					id: "518CD74C1EAAFF73"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1E79FF88AE599F21"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "6BF890DE5B439547"
+					item: {
+						count: 1
+						id: "modern_industrialization:lead_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7E6C3D053388B537"
+					item: {
+						count: 1
+						id: "modern_industrialization:antimony_dust"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"4830717F88B3CD1B"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:battery_alloy_plate"
+			}
+			id: "210625ECF98DC30F"
+			rewards: [
+				{
+					id: "29BB76B112863C2C"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "0D9C23D622FCB8DC"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "35F8D42DEBD9E3F4"
+					item: {
+						count: 1
+						id: "modern_industrialization:battery_alloy_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"210625ECF98DC30F"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:redstone_battery"
+			}
+			id: "5D43B215612D1CD8"
+			rewards: [
+				{
+					id: "6CE96EE39BD11EF9"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "3A7EB671E46778CA"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "35EA92EEA7BD1A73"
+					item: {
+						count: 1
+						id: "modern_industrialization:redstone_battery"
+					}
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"270671220AD1E473"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_rod_magnetic"
+			}
+			id: "446DB3AB61915AD6"
+			rewards: [
+				{
+					id: "3964F90114ADD6FA"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "71DDDEBD7335DB10"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "696B17883075B039"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_rod_magnetic"
+					}
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"446DB3AB61915AD6"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:motor"
+			}
+			id: "24288ECF770CB671"
+			rewards: [
+				{
+					id: "57D11A6D7A3B392B"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "372C3A49FD708130"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3E06AE8EF1952ED9"
+					item: {
+						count: 1
+						id: "modern_industrialization:motor"
+					}
+					type: "item"
+				}
+			]
+			x: 26.2d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"24288ECF770CB671"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:piston"
+			}
+			id: "5D79CDCF9579E1BE"
+			rewards: [
+				{
+					id: "6E5FF4295D844608"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "73686A842A37B59A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "1D56766437C70768"
+					item: {
+						count: 1
+						id: "modern_industrialization:piston"
+					}
+					type: "item"
+				}
+			]
+			x: 29.4d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"24288ECF770CB671"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:conveyor"
+			}
+			id: "34D5B08C59B63A56"
+			rewards: [
+				{
+					id: "091FA8AACB772602"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "6D162F9760D6C4A3"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "59F11FAA4CE0911E"
+					item: {
+						count: 1
+						id: "modern_industrialization:conveyor"
+					}
+					type: "item"
+				}
+			]
+			x: 32.6d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"5D79CDCF9579E1BE"
+				"34D5B08C59B63A56"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:robot_arm"
+			}
+			id: "2311FE438B5E96DA"
+			rewards: [
+				{
+					id: "115460D4A6A11E55"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1807349E03592160"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "57EE1AAB19959115"
+					item: {
+						count: 1
+						id: "modern_industrialization:robot_arm"
+					}
+					type: "item"
+				}
+			]
+			x: 35.8d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"6B02F1926E737FF1"
+				"5D43B215612D1CD8"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:basic_machine_hull"
+			}
+			id: "5C5F6E4FE4DE4218"
+			rewards: [
+				{
+					id: "3202E543AE15FD6E"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "323730AF04F33DA1"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "2221794F7B36EF08"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "2079C0422AB1177A"
+					item: {
+						count: 1
+						id: "modern_industrialization:basic_machine_hull"
+					}
+					type: "item"
+				}
+			]
+			x: 9.600000000000001d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"5C5F6E4FE4DE4218"
+				"24288ECF770CB671"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:lv_steam_turbine"
+			}
+			id: "5668810059F4FC31"
+			rewards: [
+				{
+					id: "4E1ED74C6B74EF07"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "31703D29B04565C9"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "3D3240C000CD1A3C"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "12A47E4B1725E458"
+					item: {
+						count: 1
+						id: "modern_industrialization:lv_steam_turbine"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"5668810059F4FC31"
+			]
+			id: "508BC008827EB1FA"
+			rewards: [ ]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "62887D94F0D6B240"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"508BC008827EB1FA"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:lv_storage_unit"
+			}
+			id: "73AA4BD699442D66"
+			optional: true
+			rewards: [
+				{
+					id: "6027115BF1C217DB"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "3B14D72EA32F9C27"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "414EA12588256D58"
+					item: {
+						count: 1
+						id: "modern_industrialization:lv_storage_unit"
+					}
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"5668810059F4FC31"
+				"2311FE438B5E96DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:assembler"
+			}
+			id: "23825C07601E4DD7"
+			rewards: [
+				{
+					id: "2143360F36757B54"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1DD90BE7D43CB7B2"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "2EF172140B8E134B"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "7A5971A5F6F53120"
+					item: {
+						count: 1
+						id: "modern_industrialization:assembler"
+					}
+					type: "item"
+				}
+			]
+			x: 39.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"23825C07601E4DD7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:electric_macerator"
+			}
+			id: "07865EBAEBE2E451"
+			rewards: [
+				{
+					id: "6DF0B735517F50ED"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "65F8D66DA6348D56"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1234A6B2B985DC80"
+					item: {
+						count: 1
+						id: "modern_industrialization:electric_macerator"
+					}
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"23825C07601E4DD7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:electric_furnace"
+			}
+			id: "0A89099CE31E7786"
+			rewards: [
+				{
+					id: "4D650355671BEC2C"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "6E5898864C41BFA1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1703BAC460F38B17"
+					item: {
+						count: 1
+						id: "modern_industrialization:electric_furnace"
+					}
+					type: "item"
+				}
+			]
+			x: 26.2d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"07865EBAEBE2E451"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:electric_wiremill"
+			}
+			id: "2E13B17C8C4E226E"
+			rewards: [
+				{
+					id: "3E9813A626D1B777"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1BB1FA31CEEE1530"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0EA308D84956BD44"
+					item: {
+						count: 1
+						id: "modern_industrialization:electric_wiremill"
+					}
+					type: "item"
+				}
+			]
+			x: 29.4d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"0A89099CE31E7786"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:electric_mixer"
+			}
+			id: "1EC5B3C37C3B484E"
+			rewards: [
+				{
+					id: "259900B17EACDAAF"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "7675175973E728E1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "29328590E4514835"
+					item: {
+						count: 1
+						id: "modern_industrialization:electric_mixer"
+					}
+					type: "item"
+				}
+			]
+			x: 32.6d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"23825C07601E4DD7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:polarizer"
+			}
+			id: "6783CF77651388AB"
+			optional: true
+			rewards: [
+				{
+					id: "58FD5C3F4008F220"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "25D48D9D03825733"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1E0DDF9D52EA9476"
+					item: {
+						count: 1
+						id: "modern_industrialization:polarizer"
+					}
+					type: "item"
+				}
+			]
+			x: 9.600000000000001d
+			y: 31.0d
+		}
+		{
+			dependencies: [
+				"2E13B17C8C4E226E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:lubricant_bucket"
+			}
+			id: "532F69DF071C2FE1"
+			rewards: [ ]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0341A734FA83E291"
+					type: "checkmark"
+				}
+			]
+			x: 35.8d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"1EC5B3C37C3B484E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:configurable_chest"
+			}
+			id: "7B812FC79B936420"
+			optional: true
+			rewards: [
+				{
+					id: "0A4C78A60BBA263B"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "6E6926FED390C175"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "789EF7AA1B4EA23F"
+					item: {
+						count: 1
+						id: "modern_industrialization:configurable_chest"
+					}
+					type: "item"
+				}
+			]
+			x: 39.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"23825C07601E4DD7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:lv_diesel_generator"
+			}
+			id: "3A5D57148CA2EA91"
+			optional: true
+			rewards: [
+				{
+					id: "5BE8C627386067EF"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "465A64DEA07A16BF"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4E9C4C26FB627999"
+					item: {
+						count: 1
+						id: "modern_industrialization:lv_diesel_generator"
+					}
+					type: "item"
+				}
+			]
+			x: 9.600000000000001d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"23825C07601E4DD7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "kubejs:electrical_focus"
+			}
+			id: "2C8661F504703B4B"
+			rewards: [
+				{
+					id: "38A128B1C5628D93"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3F646955CAE20174"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "40C1E9C2E87B04C7"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "7085BDCDC180C56A"
+					item: {
+						count: 1
+						id: "kubejs:electrical_focus"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 31.0d
+		}
+		{
+			dependencies: [
+				"2C8661F504703B4B"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_ingot"
+			}
+			id: "1A3F165CB4B4623A"
+			rewards: [
+				{
+					id: "7C8FF13F071848A8"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "1004F1A51DCC7C3C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "7F05F2FB52000497"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: 31.0d
+		}
+		{
+			dependencies: [
+				"2C8661F504703B4B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:cupronickel_ingot"
+			}
+			id: "1F3F26DCEB8BADBE"
+			rewards: [
+				{
+					id: "38FCDB73F8395A29"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "309D74B5535278A8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "5D54E90FEFF3946D"
+					item: {
+						count: 1
+						id: "modern_industrialization:cupronickel_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 31.0d
+		}
+		{
+			dependencies: [
+				"1A3F165CB4B4623A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:heatproof_machine_casing"
+			}
+			id: "1CCBDA2F43C02784"
+			rewards: [
+				{
+					id: "464F52060A4DFB77"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "7EDD079DDC73C422"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "7F75E61F7224B451"
+					item: {
+						count: 1
+						id: "modern_industrialization:heatproof_machine_casing"
+					}
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 31.0d
+		}
+		{
+			dependencies: [
+				"1F3F26DCEB8BADBE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:cupronickel_coil"
+			}
+			id: "1CEDD07747FC4BF6"
+			rewards: [
+				{
+					id: "263F36F29F8C654B"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "75D1D2047DD47D8C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "12A0D415D830A5F4"
+					item: {
+						count: 1
+						id: "modern_industrialization:cupronickel_coil"
+					}
+					type: "item"
+				}
+			]
+			x: 26.2d
+			y: 31.0d
+		}
+		{
+			dependencies: [
+				"1CCBDA2F43C02784"
+				"1CEDD07747FC4BF6"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:electric_blast_furnace"
+			}
+			id: "744DCCFC40160583"
+			rewards: [
+				{
+					id: "5422636D9276BEA6"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1BC5377FB251EA65"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "2F59C02618EF706C"
+					type: "xp"
+					xp: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "47545B0724F6E574"
+					item: {
+						count: 1
+						id: "modern_industrialization:electric_blast_furnace"
+					}
+					type: "item"
+				}
+			]
+			x: 29.4d
+			y: 31.0d
+		}
+		{
+			dependencies: [
+				"744DCCFC40160583"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:lv_energy_input_hatch"
+			}
+			id: "0C121E6446BAAF4B"
+			rewards: [
+				{
+					id: "6CF6A40AB2ECC4E8"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "0FF5E317157F5B25"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "53354932F0BDAA5D"
+					item: {
+						count: 1
+						id: "modern_industrialization:lv_energy_input_hatch"
+					}
+					type: "item"
+				}
+			]
+			x: 32.6d
+			y: 31.0d
+		}
+		{
+			dependencies: [
+				"23825C07601E4DD7"
+				"744DCCFC40160583"
+			]
+			hide_dependency_lines: true
+			id: "4486B20E8A124B9C"
+			rewards: [
+				{
+					id: "405AB6698B1BD736"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "0A1AA9CAD5AA61EE"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "6502C3283A5E2226"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "335A726DCBA4076C"
+					table_id: 7026873816082525755L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2AD370A0E0C3AEF5"
+					type: "checkmark"
+				}
+			]
+			x: 35.8d
+			y: 31.0d
+		}
+		{
+			dependencies: [
+				"2FD4ACEFE2942063"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:tin_plate"
+			}
+			id: "5E122FCFDCBA1931"
+			optional: true
+			rewards: [
+				{
+					id: "764D7ED5883E4653"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "5B61396BB6FE85CE"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "62BB265201616AC1"
+					item: {
+						count: 1
+						id: "modern_industrialization:tin_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"5E122FCFDCBA1931"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:tin_curved_plate"
+			}
+			id: "0CB4FF8F1379F650"
+			optional: true
+			rewards: [
+				{
+					id: "7B36B92F1AE3D8D5"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "5B8E65EC63A319DD"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "5CE079499CD93AAD"
+					item: {
+						count: 1
+						id: "modern_industrialization:tin_curved_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"0CB4FF8F1379F650"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:tin_rod"
+			}
+			id: "11DBD3095AFE3339"
+			optional: true
+			rewards: [
+				{
+					id: "1242EFF8A19FCCFB"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "1B0E1D448CF0EBD5"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "4928C1EB98BC916A"
+					item: {
+						count: 1
+						id: "modern_industrialization:tin_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"11DBD3095AFE3339"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:tin_bolt"
+			}
+			id: "41AE9C949540A58D"
+			optional: true
+			rewards: [
+				{
+					id: "32A70DA3A2953CCE"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "370938E7CFC0997B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "70C8C4720BA3F4DC"
+					item: {
+						count: 1
+						id: "modern_industrialization:tin_bolt"
+					}
+					type: "item"
+				}
+			]
+			x: 9.600000000000001d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"41AE9C949540A58D"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:tin_ring"
+			}
+			id: "560899956274E56D"
+			optional: true
+			rewards: [
+				{
+					id: "227C1B351237D04B"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "53A59F9DC221D67F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 2L
+					id: "2DBAFC0D26C91D37"
+					item: {
+						count: 1
+						id: "modern_industrialization:tin_ring"
+					}
+					type: "item"
+				}
+			]
+			x: 12.8d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"560899956274E56D"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:tin_gear"
+			}
+			id: "328ADF50A2D34F18"
+			optional: true
+			rewards: [
+				{
+					id: "0AE3A20DCF465742"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3584AA1E1F1E6EAE"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 2L
+					id: "7CE5E41746E97327"
+					item: {
+						count: 1
+						id: "modern_industrialization:tin_gear"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"328ADF50A2D34F18"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:tin_rotor"
+			}
+			id: "4921EA6CAFB2A396"
+			optional: true
+			rewards: [
+				{
+					id: "59189CE598E38C88"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "0162093341E54A7C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 2L
+					id: "7BDC3EF85720B4C1"
+					item: {
+						count: 1
+						id: "modern_industrialization:tin_rotor"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 43.0d
+		}
+		{
+			dependencies: [
+				"1A3F165CB4B4623A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_plate"
+			}
+			id: "7FC0E3D9D8B9BFBE"
+			optional: true
+			rewards: [
+				{
+					id: "5F16F6F50619D834"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "1C2D3C3CF0946656"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "681D771FF8E3831A"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"7FC0E3D9D8B9BFBE"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_rod"
+			}
+			id: "6C63F9E83A264373"
+			optional: true
+			rewards: [
+				{
+					id: "0BD39932EB143FB3"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "79E4942C57956882"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "1ADA87604106468C"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 26.2d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"6C63F9E83A264373"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_bolt"
+			}
+			id: "3A9789E83AFA0F71"
+			optional: true
+			rewards: [
+				{
+					id: "28565164E3F0CB12"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "0D8B37606B705BE9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "7DD12A28E259A2F9"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_bolt"
+					}
+					type: "item"
+				}
+			]
+			x: 29.4d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"3A9789E83AFA0F71"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_ring"
+			}
+			id: "2247A1A2640DE4C6"
+			optional: true
+			rewards: [
+				{
+					id: "173561A0C7BB6897"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "38C8A9959BDFB423"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 2L
+					id: "44FB18E855DD9EDC"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_ring"
+					}
+					type: "item"
+				}
+			]
+			x: 32.6d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"2247A1A2640DE4C6"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_gear"
+			}
+			id: "2BB07F3F91ABD502"
+			optional: true
+			rewards: [
+				{
+					id: "3F2AB82E8EC91B36"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "7951A1239F787010"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 2L
+					id: "3E07935D31EE37CC"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_gear"
+					}
+					type: "item"
+				}
+			]
+			x: 35.8d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"1A3F165CB4B4623A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_rotary_blade"
+			}
+			id: "2B66562A2EEC029E"
+			optional: true
+			rewards: [
+				{
+					id: "77875AE727AEBDBE"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "1D780E0F758468EF"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "593AA1DCC4D61B20"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_rotary_blade"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 51.5d
+		}
+		{
+			dependencies: [
+				"2FD4ACEFE2942063"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_fine_wire"
+			}
+			id: "11523CDA4FB00CBD"
+			optional: true
+			rewards: [
+				{
+					id: "5FF8EC9A70CED545"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "1F04BBDB6C296B7F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 16L
+					id: "4857005351B37895"
+					item: {
+						count: 1
+						id: "modern_industrialization:copper_fine_wire"
+					}
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 51.5d
+		}
+		{
+			dependencies: [
+				"11523CDA4FB00CBD"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:silver_wire"
+			}
+			id: "2231BB265B6299DB"
+			optional: true
+			rewards: [
+				{
+					id: "5E9DF2AAFB059DB4"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2D7B3B3862FDDFE3"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "25D12487D7202FF8"
+					item: {
+						count: 1
+						id: "modern_industrialization:silver_wire"
+					}
+					type: "item"
+				}
+			]
+			x: 26.2d
+			y: 51.5d
+		}
+		{
+			dependencies: [
+				"2231BB265B6299DB"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_cable"
+			}
+			id: "76DDBA3CD4BB31DF"
+			optional: true
+			rewards: [
+				{
+					id: "612EE2C829FD68DC"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "171B6484F281CBC8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "71BDB31DC93340A5"
+					item: {
+						count: 1
+						id: "modern_industrialization:copper_cable"
+					}
+					type: "item"
+				}
+			]
+			x: 29.4d
+			y: 51.5d
+		}
+		{
+			dependencies: [
+				"76DDBA3CD4BB31DF"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:silver_cable"
+			}
+			id: "0A677F069AE0648F"
+			optional: true
+			rewards: [
+				{
+					id: "3AC6EEB6EBE6ACC7"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "72A2FD6EE5FDB04E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "65960880A051B625"
+					item: {
+						count: 1
+						id: "modern_industrialization:silver_cable"
+					}
+					type: "item"
+				}
+			]
+			x: 32.6d
+			y: 51.5d
+		}
+		{
+			dependencies: [
+				"23825C07601E4DD7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:electric_compressor"
+			}
+			id: "0DBF4468CA8970B7"
+			optional: true
+			rewards: [
+				{
+					id: "372214D1A7766090"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "60A91928B43CB04A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "07A2A0AA972595E8"
+					item: {
+						count: 1
+						id: "modern_industrialization:electric_compressor"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 60.0d
+		}
+		{
+			dependencies: [
+				"0DBF4468CA8970B7"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:electric_cutting_machine"
+			}
+			id: "3A0ED87819DEBD67"
+			optional: true
+			rewards: [
+				{
+					id: "2E4B6628C926CDCD"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "502B0F4A34CD7B67"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "025B6D8A1D85B874"
+					item: {
+						count: 1
+						id: "modern_industrialization:electric_cutting_machine"
+					}
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: 60.0d
+		}
+		{
+			dependencies: [
+				"3A0ED87819DEBD67"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:electric_packer"
+			}
+			id: "720B235D3B2D6D2D"
+			optional: true
+			rewards: [
+				{
+					id: "3A94E3CA2749055C"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4E7873DDF8884110"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "41C587038CD88CD0"
+					item: {
+						count: 1
+						id: "modern_industrialization:electric_packer"
+					}
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 60.0d
+		}
+		{
+			dependencies: [
+				"720B235D3B2D6D2D"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:electric_unpacker"
+			}
+			id: "4267ED3DA2A16C64"
+			optional: true
+			rewards: [
+				{
+					id: "636C10DE8DAACDDD"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "70FA4997CC9404F5"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7C17FF0234A423D8"
+					item: {
+						count: 1
+						id: "modern_industrialization:electric_unpacker"
+					}
+					type: "item"
+				}
+			]
+			x: 9.600000000000001d
+			y: 60.0d
+		}
+		{
+			dependencies: [
+				"4267ED3DA2A16C64"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:electric_water_pump"
+			}
+			id: "43FD1D2B66765754"
+			optional: true
+			rewards: [
+				{
+					id: "7ECB9B8A6701E823"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4114A7E9537EDC5A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7F0DC0D7D44B733E"
+					item: {
+						count: 1
+						id: "modern_industrialization:electric_water_pump"
+					}
+					type: "item"
+				}
+			]
+			x: 12.8d
+			y: 60.0d
+		}
+		{
+			dependencies: [
+				"43FD1D2B66765754"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:pump"
+			}
+			id: "3F24B4C401E20D0E"
+			optional: true
+			rewards: [
+				{
+					id: "189DB9DE39C901DA"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "0DD18EACA857C1A8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 2L
+					id: "498B6E9F4ED50A3C"
+					item: {
+						count: 1
+						id: "modern_industrialization:pump"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 60.0d
+		}
+		{
+			dependencies: [
+				"23825C07601E4DD7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "extended_industrialization:electric_bending_machine"
+			}
+			id: "1528F15196ED0EE1"
+			optional: true
+			rewards: [
+				{
+					id: "59E8722D564FBC90"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "27A29FCEF803B717"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "48693E47F6AE93FE"
+					item: {
+						count: 1
+						id: "extended_industrialization:electric_bending_machine"
+					}
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 60.0d
+		}
+		{
+			dependencies: [
+				"1528F15196ED0EE1"
+			]
+			icon: {
+				count: 1
+				id: "extended_industrialization:electric_alloy_smelter"
+			}
+			id: "2ECEE7AD4A2E8C92"
+			optional: true
+			rewards: [
+				{
+					id: "07412CC2ECC5350C"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "5EC5605DAA7C746B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "45FE5B6E79849892"
+					item: {
+						count: 1
+						id: "extended_industrialization:electric_alloy_smelter"
+					}
+					type: "item"
+				}
+			]
+			x: 26.2d
+			y: 60.0d
+		}
+		{
+			dependencies: [
+				"2ECEE7AD4A2E8C92"
+			]
+			icon: {
+				count: 1
+				id: "extended_industrialization:electric_canning_machine"
+			}
+			id: "1D17636A3D011A48"
+			optional: true
+			rewards: [
+				{
+					id: "5C1ADF443A85B227"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "043D2D2D6684608B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "71E9C0DA72D71607"
+					item: {
+						count: 1
+						id: "extended_industrialization:electric_canning_machine"
+					}
+					type: "item"
+				}
+			]
+			x: 29.4d
+			y: 60.0d
+		}
+		{
+			dependencies: [
+				"1D17636A3D011A48"
+			]
+			icon: {
+				count: 1
+				id: "extended_industrialization:electric_waste_collector"
+			}
+			id: "3DCAD3F3AACA11DA"
+			optional: true
+			rewards: [
+				{
+					id: "7EFFB6ABA3A37B4A"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2583B5F42B32B7D4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "75DC4ED76AA848E6"
+					item: {
+						count: 1
+						id: "extended_industrialization:electric_waste_collector"
+					}
+					type: "item"
+				}
+			]
+			x: 32.6d
+			y: 60.0d
+		}
+		{
+			dependencies: [
+				"3DCAD3F3AACA11DA"
+			]
+			icon: {
+				count: 1
+				id: "extended_industrialization:large_configurable_chest"
+			}
+			id: "3AA2730E07CC5B2D"
+			optional: true
+			rewards: [
+				{
+					id: "2C8AD94D575C6BED"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4BA4769C42D1B480"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5DDFE1F5911702A0"
+					item: {
+						count: 1
+						id: "extended_industrialization:large_configurable_chest"
+					}
+					type: "item"
+				}
+			]
+			x: 35.8d
+			y: 60.0d
+		}
+		{
+			dependencies: [
+				"23825C07601E4DD7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:soldering_alloy_dust"
+			}
+			id: "27F6B38B22FC91F8"
+			optional: true
+			rewards: [
+				{
+					id: "3C20E3A6811C6C60"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "46DA01161F954D45"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "75F51D87912E1BE2"
+					item: {
+						count: 1
+						id: "modern_industrialization:soldering_alloy_dust"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 68.5d
+		}
+		{
+			dependencies: [
+				"27F6B38B22FC91F8"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:soldering_alloy_bucket"
+			}
+			id: "1A26325012A96B5B"
+			optional: true
+			rewards: [
+				{
+					id: "635D02A2AF596D06"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "1F4CD07E8CEE12CD"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "732A42C181E14309"
+					item: {
+						count: 1
+						id: "modern_industrialization:soldering_alloy_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: 68.5d
+		}
+		{
+			dependencies: [
+				"1A26325012A96B5B"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_gear"
+			}
+			id: "19C3BE9D113E2DBA"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5A1B6F7EED76C19A"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 68.5d
+		}
+		{
+			dependencies: [
+				"5C5F6E4FE4DE4218"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:portable_storage_unit"
+			}
+			id: "28C93EBEFFECBC69"
+			optional: true
+			rewards: [
+				{
+					id: "2E9739C1C8EC0343"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3E3025928BD7FB6E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "3F429DAD7623F2F3"
+					item: {
+						count: 1
+						id: "modern_industrialization:portable_storage_unit"
+					}
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 68.5d
+		}
+		{
+			dependencies: [
+				"28C93EBEFFECBC69"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:redstone_control_module"
+			}
+			id: "6A2EBAA09FD77BE8"
+			optional: true
+			rewards: [
+				{
+					id: "41A0E7E6DE76BA93"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "651B11F51C90D3F5"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "366B1AD1103244BB"
+					item: {
+						count: 1
+						id: "modern_industrialization:redstone_control_module"
+					}
+					type: "item"
+				}
+			]
+			x: 26.2d
+			y: 68.5d
+		}
+		{
+			dependencies: [
+				"6A2EBAA09FD77BE8"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:lv_energy_output_hatch"
+			}
+			id: "01945515E2025747"
+			optional: true
+			rewards: [
+				{
+					id: "06E1F5350831E0F4"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "7923A95B1B5E5DEC"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5245C90E60C21DD5"
+					item: {
+						count: 1
+						id: "modern_industrialization:lv_energy_output_hatch"
+					}
+					type: "item"
+				}
+			]
+			x: 29.4d
+			y: 68.5d
+		}
+		{
+			dependencies: [
+				"1F3F26DCEB8BADBE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:electrum_ingot"
+			}
+			id: "7815AA9FB8A7B3FE"
+			optional: true
+			rewards: [ ]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1BE852DE10133628"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 77.0d
+		}
+		{
+			dependencies: [
+				"7815AA9FB8A7B3FE"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:electrum_plate"
+			}
+			id: "5435179D97C604DC"
+			optional: true
+			rewards: [
+				{
+					id: "0A89A26639725F0F"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "509072C3C5DC523F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "6AA37A007142C284"
+					item: {
+						count: 1
+						id: "modern_industrialization:electrum_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: 77.0d
+		}
+		{
+			dependencies: [
+				"5435179D97C604DC"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:electrum_wire"
+			}
+			id: "10DA7D523B3C0964"
+			optional: true
+			rewards: [
+				{
+					id: "3F2ED474CEF0C239"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2413670EDB016E64"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "7AAEC3C134AA2567"
+					item: {
+						count: 1
+						id: "modern_industrialization:electrum_wire"
+					}
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 77.0d
+		}
+		{
+			dependencies: [
+				"10DA7D523B3C0964"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:electrum_cable"
+			}
+			id: "218F0CD67AAEFE05"
+			optional: true
+			rewards: [
+				{
+					id: "359B55060D92F3E0"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "552D5F311EF2C6FF"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "097328D21DC78021"
+					item: {
+						count: 1
+						id: "modern_industrialization:electrum_cable"
+					}
+					type: "item"
+				}
+			]
+			x: 9.600000000000001d
+			y: 77.0d
+		}
+		{
+			dependencies: [
+				"218F0CD67AAEFE05"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:lv_mv_transformer"
+			}
+			id: "742C7551645D2EFB"
+			optional: true
+			rewards: [
+				{
+					id: "672F7339B73EF209"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "33A5E81B58396114"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "305BFEAA866A29F5"
+					item: {
+						count: 1
+						id: "modern_industrialization:lv_mv_transformer"
+					}
+					type: "item"
+				}
+			]
+			x: 12.8d
+			y: 77.0d
+		}
+		{
+			dependencies: [
+				"742C7551645D2EFB"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:mv_lv_transformer"
+			}
+			id: "53DEE10307F9C055"
+			optional: true
+			rewards: [
+				{
+					id: "355A9A8D2A33199D"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "6DD3389B2A01B0D7"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "0A0A54CD44BA1C51"
+					item: {
+						count: 1
+						id: "modern_industrialization:mv_lv_transformer"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 77.0d
+		}
+		{
+			dependencies: [
+				"42675C9BB372D117"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_item_input_hatch"
+			}
+			id: "356F536A7C8ED510"
+			optional: true
+			rewards: [
+				{
+					id: "0E0A2282149E6488"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "6BF403E3BDB29924"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "27D7B3CEA012E1E1"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_item_input_hatch"
+					}
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 77.0d
+		}
+		{
+			dependencies: [
+				"356F536A7C8ED510"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_item_output_hatch"
+			}
+			id: "3BE33606B01E47B4"
+			optional: true
+			rewards: [
+				{
+					id: "1ADE8350318A442D"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3CCD5A6DCFC397A6"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7DE7A48114F74FFF"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_item_output_hatch"
+					}
+					type: "item"
+				}
+			]
+			x: 26.2d
+			y: 77.0d
+		}
+		{
+			dependencies: [
+				"3BE33606B01E47B4"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_fluid_input_hatch"
+			}
+			id: "43541218F4A02104"
+			optional: true
+			rewards: [
+				{
+					id: "3717784F645CB9BE"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "76F41A68C1AF43AB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "1EB581E82F77153E"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_fluid_input_hatch"
+					}
+					type: "item"
+				}
+			]
+			x: 29.4d
+			y: 77.0d
+		}
+		{
+			dependencies: [
+				"43541218F4A02104"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_fluid_output_hatch"
+			}
+			id: "654E069E93504A51"
+			optional: true
+			rewards: [
+				{
+					id: "6BE3EBE97A9E772F"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4808D2F4FE99C31E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "7E6AD18C4A27AB62"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_fluid_output_hatch"
+					}
+					type: "item"
+				}
+			]
+			x: 32.6d
+			y: 77.0d
+		}
+		{
+			dependencies: [
+				"654E069E93504A51"
+			]
+			icon: {
+				count: 1
+				id: "yet_another_industrialization:steel_mixed_input_hatch"
+			}
+			id: "78FB007D475188A5"
+			optional: true
+			rewards: [
+				{
+					id: "00E62983F4825204"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "0AF2C87B509109A4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "0CE988DFFCC6013D"
+					item: {
+						count: 1
+						id: "yet_another_industrialization:steel_mixed_input_hatch"
+					}
+					type: "item"
+				}
+			]
+			x: 35.8d
+			y: 77.0d
+		}
+		{
+			dependencies: [
+				"78FB007D475188A5"
+			]
+			icon: {
+				count: 1
+				id: "yet_another_industrialization:steel_mixed_output_hatch"
+			}
+			id: "6DF1E3048A9699B0"
+			optional: true
+			rewards: [
+				{
+					id: "00EA3CA289898C5E"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "33D042C3E06067CE"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "77CAAB4F33651D55"
+					item: {
+						count: 1
+						id: "yet_another_industrialization:steel_mixed_output_hatch"
+					}
+					type: "item"
+				}
+			]
+			x: 39.0d
+			y: 77.0d
+		}
+		{
+			dependencies: [
+				"23825C07601E4DD7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "extended_industrialization:bronze_solar_boiler"
+			}
+			id: "01E9323596758C34"
+			optional: true
+			rewards: [
+				{
+					id: "721EC563BE26537C"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "5DB6DF647F230563"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "63134C6438EFA59E"
+					item: {
+						count: 1
+						id: "extended_industrialization:bronze_solar_boiler"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 85.5d
+		}
+		{
+			dependencies: [
+				"01E9323596758C34"
+			]
+			icon: {
+				count: 1
+				id: "extended_industrialization:steel_solar_boiler"
+			}
+			id: "021A24DA6303DF2E"
+			optional: true
+			rewards: [
+				{
+					id: "0D0194DB0B8E128C"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3E292CCFDE9C106C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "5EA6DAA583A2702B"
+					item: {
+						count: 1
+						id: "extended_industrialization:steel_solar_boiler"
+					}
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: 85.5d
+		}
+		{
+			dependencies: [
+				"021A24DA6303DF2E"
+			]
+			icon: {
+				count: 1
+				id: "extended_industrialization:lv_photovoltaic_cell"
+			}
+			id: "447D0A396DBE28FE"
+			optional: true
+			rewards: [
+				{
+					id: "09663B44A596C851"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "6FFEAB98E3C0324A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "63278DD74BECC5A8"
+					item: {
+						count: 1
+						id: "extended_industrialization:lv_photovoltaic_cell"
+					}
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 85.5d
+		}
+		{
+			dependencies: [
+				"447D0A396DBE28FE"
+			]
+			icon: {
+				count: 1
+				id: "extended_industrialization:lv_solar_panel"
+			}
+			id: "16754021B55FD457"
+			optional: true
+			rewards: [
+				{
+					id: "6C53E2E02C8D5028"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "0B7A3B213B37AC62"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "0337F2F3BD485519"
+					item: {
+						count: 1
+						id: "extended_industrialization:lv_solar_panel"
+					}
+					type: "item"
+				}
+			]
+			x: 9.600000000000001d
+			y: 85.5d
+		}
+		{
+			dependencies: [
+				"1F3F26DCEB8BADBE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:cupronickel_plate"
+			}
+			id: "570799ECFD4B3190"
+			optional: true
+			rewards: [
+				{
+					id: "500843BC676FF90A"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "439E1EBF2F6ED209"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "5D4A3EAF3A7C8F2A"
+					item: {
+						count: 1
+						id: "modern_industrialization:cupronickel_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 85.5d
+		}
+		{
+			dependencies: [
+				"570799ECFD4B3190"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:cupronickel_wire"
+			}
+			id: "16C6E35844E387B3"
+			optional: true
+			rewards: [
+				{
+					id: "429335C8D1532F7A"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "0C8E73C42C3E741F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "7F89859C102B74BE"
+					item: {
+						count: 1
+						id: "modern_industrialization:cupronickel_wire"
+					}
+					type: "item"
+				}
+			]
+			x: 26.2d
+			y: 85.5d
+		}
+		{
+			dependencies: [
+				"16C6E35844E387B3"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:cupronickel_wire_magnetic"
+			}
+			id: "087B24820E3F93FF"
+			optional: true
+			rewards: [
+				{
+					id: "595100550AC7AC88"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "56DC1E348CA8D929"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "7567362C7471F33E"
+					item: {
+						count: 1
+						id: "modern_industrialization:cupronickel_wire_magnetic"
+					}
+					type: "item"
+				}
+			]
+			x: 29.4d
+			y: 85.5d
+		}
+		{
+			dependencies: [
+				"087B24820E3F93FF"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:cupronickel_cable"
+			}
+			id: "07F7EAE113C8C1B5"
+			optional: true
+			rewards: [
+				{
+					id: "690F74CA62A5278C"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "6E4DE27DD6BF273E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "199862CEF7DDA205"
+					item: {
+						count: 1
+						id: "modern_industrialization:cupronickel_cable"
+					}
+					type: "item"
+				}
+			]
+			x: 32.6d
+			y: 85.5d
+		}
+		{
+			dependencies: [
+				"5D43B215612D1CD8"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:battery_alloy_dust"
+			}
+			id: "69B67BC970B64D1A"
+			optional: true
+			rewards: [
+				{
+					id: "0C4552FE27DFA823"
+					item: {
+						count: 2
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3E7F9E3B9C0779B5"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "630157CF63ACB789"
+					item: {
+						count: 1
+						id: "modern_industrialization:battery_alloy_dust"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 94.0d
+		}
+		{
+			dependencies: [
+				"69B67BC970B64D1A"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:battery_alloy_ingot"
+			}
+			id: "77E72F747E6234C7"
+			optional: true
+			rewards: [
+				{
+					id: "5F2CBD9F0F090D6E"
+					item: {
+						count: 4
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "07246813D03A8AE9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "748E97A42CC0B054"
+					item: {
+						count: 1
+						id: "modern_industrialization:battery_alloy_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: 94.0d
+		}
+		{
+			dependencies: [
+				"77E72F747E6234C7"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:battery_alloy_curved_plate"
+			}
+			id: "5BD885441F367D83"
+			optional: true
+			rewards: [
+				{
+					id: "347DF0289973669B"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "75BEB52FE2BB2C93"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "55A5BCF7E3CCC9BC"
+					item: {
+						count: 1
+						id: "modern_industrialization:battery_alloy_curved_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 94.0d
+		}
+		{
+			dependencies: [
+				"22117D8437C1A8FC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				count: 1
+				id: "modern_industrialization:config_card"
+			}
+			id: "47B5D786E1D4E3DC"
+			optional: true
+			rewards: [
+				{
+					id: "701B1A0ED2EBF79C"
+					item: {
+						count: 2
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "78B00C00551D16F7"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "2C4C102263EE9E12"
+					item: {
+						count: 1
+						id: "modern_industrialization:config_card"
+					}
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 94.0d
+		}
+		{
+			dependencies: [
+				"47B5D786E1D4E3DC"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:gold_plate"
+			}
+			id: "45E9B56EA6A4C7D8"
+			optional: true
+			rewards: [
+				{
+					id: "24425096DFF054B8"
+					item: {
+						count: 2
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "1794310C2AD81D79"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "6CFC9F20DE3E2BD1"
+					item: {
+						count: 1
+						id: "modern_industrialization:gold_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 26.2d
+			y: 94.0d
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	hide_tooltip: false
+	id: "56445574A7599DB8"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				count: 4
+				id: "minecraft:iron_ingot"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 12
+				id: "minecraft:coal"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 8
+				id: "minecraft:glass"
+			}
+			weight: 1.0d
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,30 @@
+{
+	hide_tooltip: false
+	id: "618478817917AE3B"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				count: 8
+				id: "minecraft:copper_ingot"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 8
+				id: "minecraft:redstone"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 4
+				id: "minecraft:iron_ingot"
+			}
+			weight: 1.0d
+		}
+	]
+	use_title: true
+}

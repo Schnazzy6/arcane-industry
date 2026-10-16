@@ -1,0 +1,10 @@
+{
+  "item.sophisticatedcore.ender_linker": "Эндер Линкер",
+  "item.sophisticatedcore.ender_linker.tooltip.blank": "Щелкните правой кнопкой мыши совместимое хранилище или создайте его.",
+  "item.sophisticatedcore.ender_linker.tooltip.bound": "Щелкните правой кнопкой мыши или создайте несвязанное совместимое хранилище, чтобы добавить его.",
+  "item.sophisticatedcore.ender_linker.tooltip.linker_pending": "Связан при создании",
+  "item.sophisticatedcore.stack_upgrade_conversion.tooltip": "Щелкните правой кнопкой мыши установленное обновление стека, чтобы преобразовать его.",
+  "item.sophisticatedcore.ender_linker.tooltip.linker_target": "Связан с: %s",
+  "item.sophisticatedcore.storage.tooltip.linked_storage_endpoint": "Конечная точка связанного хранилища: %s",
+  "item.sophisticatedcore.storage.tooltip.linked_storage_group": "Группа связанных хранилищ: %s"
+}

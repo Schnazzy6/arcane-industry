@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CAC",
+    "DBD",
+    "CAC"
+  ],
+  "key": {
+    "A": {
+      "item": "advanced_reborn:ray_solar_panel_4"
+    },
+    "B": {
+      "item": "techreborn:mv_transformer"
+    },
+    "C": {
+      "item": "techreborn:carbon_plate"
+    },
+    "D": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "advanced_reborn:ray_generator_5"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ]
+}

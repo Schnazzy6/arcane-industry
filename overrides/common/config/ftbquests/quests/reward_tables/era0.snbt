@@ -1,0 +1,30 @@
+{
+	hide_tooltip: false
+	id: "403C06E9DBEB06F6"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				count: 4
+				id: "minecraft:bread"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 8
+				id: "minecraft:torch"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 8
+				id: "minecraft:oak_log"
+			}
+			weight: 1.0d
+		}
+	]
+	use_title: true
+}

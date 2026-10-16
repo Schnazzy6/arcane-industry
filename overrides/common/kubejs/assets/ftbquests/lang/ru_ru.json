@@ -1,0 +1,20 @@
+{
+  "block.ftbquests.aux_task_screen": "Экран задания",
+  "block.ftbquests.screen_1": "Экран задания (1x1)",
+  "block.ftbquests.screen_3": "Экран задания (3x3)",
+  "block.ftbquests.screen_5": "Экран задания (5x5)",
+  "block.ftbquests.screen_7": "Экран задания (7x7)",
+  "block.ftbquests.screen.text_shadow": "Тень текста",
+  "block.ftbquests.screen.no_permission": "У вас нет прав на настройку!",
+  "block.ftbquests.stage_barrier": "Барьер этапа",
+  "block.ftbquests.barrier.invis_when_open": "Невидим, когда открыт",
+  "block.ftbquests.detector": "Детектор квестов",
+  "item.ftbquests.missing_item": "Отсутствующий предмет",
+  "item.ftbquests.barrier.rightclick": "ПКМ — настройки\nСКМ — взять копию с настройками",
+  "item.ftbquests.barrier.object.quest_barrier": "Квест: %s",
+  "item.ftbquests.barrier.object.stage_barrier": "Этап: %s",
+  "item.ftbquests.barrier.skin": "Выглядит как: %s",
+  "item.ftbquests.barrier.invis_when_open": "Невидим, когда открыт: %s",
+  "item.ftbquests.lootcrate.missing": "ОШИБКА: неизвестный ящик добычи '%s'!",
+  "item.ftbquests.task_screen_configurator": "Настройщик экрана задания"
+}

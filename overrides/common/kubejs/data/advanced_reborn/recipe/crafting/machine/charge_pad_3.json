@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "FRF",
+    "FCF"
+  ],
+  "key": {
+    "R": {
+      "item": "techreborn:lithium_ion_battery"
+    },
+    "C": {
+      "item": "advanced_reborn:charge_pad_2"
+    },
+    "I": {
+      "item": "techreborn:insulated_hv_cable"
+    },
+    "F": {
+      "item": "techreborn:refined_iron_ingot"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "advanced_reborn:charge_pad_3"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ]
+}

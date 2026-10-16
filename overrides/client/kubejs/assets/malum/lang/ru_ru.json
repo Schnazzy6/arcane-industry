@@ -1,0 +1,20 @@
+{
+  "enchantment.malum.animated": "Оживление",
+  "enchantment.malum.animated.desc": "Повышает скорость атаки.",
+  "enchantment.malum.ascension": "Вознесение",
+  "enchantment.malum.ascension.desc": "Позволяет взлетать с помощью косы и ранить ближайших врагов.",
+  "enchantment.malum.capacitor": "Накопитель",
+  "enchantment.malum.capacitor.desc": "Увеличивает запас зарядов заклинаний посоха.",
+  "enchantment.malum.haunted": "Одержимость",
+  "enchantment.malum.haunted.desc": "Увеличивает магический урон оружия.",
+  "enchantment.malum.rebound": "Возврат",
+  "enchantment.malum.rebound.desc": "Позволяет метать косу.",
+  "enchantment.malum.replenishing": "Восполнение",
+  "enchantment.malum.replenishing.desc": "Удары посохом в ближнем бою восстанавливают заряды заклинаний.",
+  "enchantment.malum.spirit_plunder": "Жатва духов",
+  "enchantment.malum.spirit_plunder.desc": "Даёт больше духов при разрушении души.",
+  "enchantment.malum.weavers_haste": "Поспешность ткача",
+  "enchantment.malum.weavers_haste.desc": "Ускоряет созданные инструментом очаги заклинаний.",
+  "enchantment.malum.weavers_propagation": "Распространение ткача",
+  "enchantment.malum.weavers_propagation.desc": "При разрушении блока инструмент создаёт дополнительные очаги заклинаний."
+}

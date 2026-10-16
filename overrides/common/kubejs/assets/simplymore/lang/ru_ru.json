@@ -1,0 +1,14 @@
+{
+  "effect.simplymore.wounded": "Ранение",
+  "effect.simplymore.stun": "Оглушение",
+  "effect.simplymore.implicit_stun": "Скрытое оглушение",
+  "effect.simplymore.implicit_mining_fatigue": "Скрытая усталость",
+  "effect.simplymore.dazzled": "Ослепление",
+  "item.simplymore.reforming_remnant": "Перековывающийся остаток",
+  "item.simplymore.magmaseep": "Магмосочник",
+  "item.simplymore.magmaseep.ability": "Уникальный эффект: адское пламя",
+  "item.simplymore.ruyi_jingu_bang.overlay": "Размер %s",
+  "item.simplymore.soulfracture": "Душелом",
+  "item.simplymore.moundshifter": "Холмодвиг",
+  "item.simplymore.moundshifter.overlay": "Давление %s"
+}

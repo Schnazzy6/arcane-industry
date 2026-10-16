@@ -1,0 +1,118 @@
+[
+  {
+    "slug": "techreborn",
+    "title": "Tech Reborn",
+    "project_id": "3eMENr4V",
+    "version_id": "CNwZZ4FD",
+    "version": "5.11.19",
+    "filename": "TechReborn-5.11.19.jar",
+    "url": "https://cdn.modrinth.com/data/3eMENr4V/versions/CNwZZ4FD/TechReborn-5.11.19.jar",
+    "sha512": "7afde34c9769c7ccb053e8666833ead92cee615655fa187f5301eceac8b56f4d8602340afd2983c2f403ff6b1105f5bc639163b134e11eb64e25c331a224c7cd",
+    "sha1": "085d5b27d3ea27b3283acec885bbb8a5794fe115",
+    "size": 6437216,
+    "client": true,
+    "server": true,
+    "source": "https://modrinth.com/mod/techreborn",
+    "category": "industry-late",
+    "mod_ids": [
+      "techreborn",
+      "reborncore",
+      "team_reborn_energy"
+    ]
+  },
+  {
+    "slug": "advanced-reborn",
+    "title": "Advanced Reborn",
+    "project_id": "ir8okcEA",
+    "version_id": "kPsGsZkl",
+    "version": "1.3.4-fabric",
+    "filename": "AdvancedReborn-1.21.1-1.3.4.jar",
+    "url": "https://cdn.modrinth.com/data/ir8okcEA/versions/kPsGsZkl/AdvancedReborn-1.21.1-1.3.4.jar",
+    "sha512": "5271734bb643c56bf0ed052da39f8db08b67231b89c746e0a0ef024b0ee6d16df6896539c59909c981321709dde0577bc8697153bc4af7b3f391b355b6fbe539",
+    "sha1": "8b1e0d07b4411a6e892e95fbded4153fe574b83e",
+    "size": 538127,
+    "client": true,
+    "server": true,
+    "source": "https://modrinth.com/mod/advanced-reborn",
+    "category": "industry-late",
+    "mod_ids": [
+      "advanced_reborn"
+    ]
+  },
+  {
+    "slug": "connector",
+    "title": "Sinytra Connector",
+    "project_id": "u58R1TMW",
+    "version_id": "IITF0PRC",
+    "version": "2.0.0-beta.17+1.21.1",
+    "filename": "connector-2.0.0-beta.17+1.21.1-full.jar",
+    "url": "https://cdn.modrinth.com/data/u58R1TMW/versions/IITF0PRC/connector-2.0.0-beta.17%2B1.21.1-full.jar",
+    "sha512": "cb92b662047208792e61191d372d1e255766200406c35769007101f8c578c1018938610c3b90352afd93ec42d7963acf3607e35c50e669df50ac85d7c5529560",
+    "sha1": "15e652d3628b1bcb644b93576fcab154496f770a",
+    "size": 4573244,
+    "client": true,
+    "server": true,
+    "source": "https://modrinth.com/mod/connector",
+    "category": "industry-late",
+    "mod_ids": [
+      "connector"
+    ]
+  },
+  {
+    "slug": "connector-extras",
+    "title": "Connector Extras",
+    "project_id": "FYpiwiBR",
+    "version_id": "dgLCqZyo",
+    "version": "1.12.1+1.21.1",
+    "filename": "ConnectorExtras-1.12.1+1.21.1.jar",
+    "url": "https://cdn.modrinth.com/data/FYpiwiBR/versions/dgLCqZyo/ConnectorExtras-1.12.1%2B1.21.1.jar",
+    "sha512": "ff9fc5d48a81e820c8c26b8a045e0ab7a3b0e9b5eaee7369b2eadb3f93d7eb423255073dfc327d131cb667df93be066560f3704b4cc8a12b07486b98a12bad1d",
+    "sha1": "8ea07df55b26c8343d06df77936505a23e0d2140",
+    "size": 86284,
+    "client": true,
+    "server": true,
+    "source": "https://modrinth.com/mod/connector-extras",
+    "category": "industry-late",
+    "mod_ids": [
+      "connectorextras"
+    ]
+  },
+  {
+    "slug": "forgified-fabric-api",
+    "title": "Forgified Fabric API",
+    "project_id": "Aqlf1Shp",
+    "version_id": "V9WdDUTx",
+    "version": "0.116.15+2.3.5+1.21.1",
+    "filename": "forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar",
+    "url": "https://cdn.modrinth.com/data/Aqlf1Shp/versions/V9WdDUTx/forgified-fabric-api-0.116.15%2B2.3.5%2B1.21.1.jar",
+    "sha512": "2b44ecd839544e3668a02f8de86433d507417d068dcafeee7f698744fc2b12fd888a1bba509da57c8e2884d01dbaf344f49bbac0f22cdae599507356ed0cbe30",
+    "sha1": "1a2c41d2efbe1c60159b90a165557e7c06d03a5c",
+    "size": 5613159,
+    "client": true,
+    "server": true,
+    "source": "https://modrinth.com/mod/forgified-fabric-api",
+    "category": "industry-late",
+    "mod_ids": [
+      "fabric_api"
+    ]
+  },
+  {
+    "slug": "mcpitanlibarch",
+    "title": "MCPitanLib",
+    "project_id": "uNRoUnGT",
+    "version_id": "Ivo3fq78",
+    "version": "4.0.9-fabric-1.21.1",
+    "filename": "mcpitanlib-4.0.9-1.21.1-fabric.jar",
+    "url": "https://cdn.modrinth.com/data/uNRoUnGT/versions/Ivo3fq78/mcpitanlib-4.0.9-1.21.1-fabric.jar",
+    "sha512": "b5e2922b30323c2f6c9d2f81fcf2715b340c399e878dc39cc567b11a2711d0a8771fe3be1e157d777a6e63704be2f6f19dbe711fa1c0a2133807c06234dfb079",
+    "sha1": "e115f8300b5456d7805f343936a84fef5c0bcb6f",
+    "size": 2951462,
+    "client": true,
+    "server": true,
+    "source": "https://modrinth.com/mod/mcpitanlibarch",
+    "category": "industry-late",
+    "mod_ids": [
+      "mcpitanlib"
+    ]
+  }
+]

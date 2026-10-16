@@ -1,0 +1,30 @@
+{
+	hide_tooltip: false
+	id: "4C25600FEAA33A62"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				count: 2
+				id: "minecraft:diamond"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 8
+				id: "minecraft:gold_ingot"
+			}
+			weight: 1.0d
+		}
+		{
+			item: {
+				count: 8
+				id: "minecraft:obsidian"
+			}
+			weight: 1.0d
+		}
+	]
+	use_title: true
+}
